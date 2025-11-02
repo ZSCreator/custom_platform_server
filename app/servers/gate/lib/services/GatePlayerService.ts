@@ -15,7 +15,7 @@ export class GatePlayerService {
     private lineCodeList: string[];
     constructor() {
         this.logger = getLogger("server_out", __filename);
-        this.lineCodeList = ['line_1', 'line_2', 'line_3', 'line_4', 'line_5', 'line_6', 'line_7', 'line_8', 'line_9', 'line_10', 'line_11', 'line_12', 'line_13', 'line_14', 'line_15'];
+        this.lineCodeList = ['line_1'];
     }
 
     public async createPlayer(guestId: string = null, superior: string = null, group_id: string = null, thirdUid: string = null, groupRemark: string = null, language: string = null, lineCode: string = null, shareUid: string = null, rom_type: string = null) {
