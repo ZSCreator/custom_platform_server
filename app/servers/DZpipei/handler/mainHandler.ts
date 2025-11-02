@@ -254,20 +254,12 @@ export class MainHandler {
         return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
       }
 
-      if (option) {
-        // 设置玩家状态为等待准备开始状态
-        playerInfo.setStatus(PlayerStatus.WAIT);
-
-        // 等待玩家准备开始游戏
-        roomInfo.wait(playerInfo);
-      } else {
-        // 设置玩家状态为未准备状态
-        playerInfo.setStatus(PlayerStatus.NONE);
-      }
+      // 玩家准备
+      roomInfo.ready(playerInfo, option);
 
       return { code: 200 };
     } catch (error) {
-      Logger.warn('DZpipei.mainHandler.loaded==>', error);
+      Logger.warn('DZpipei.mainHandler.ready==>', error);
       return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1214) };
     }
   }

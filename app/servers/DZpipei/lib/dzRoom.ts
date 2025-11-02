@@ -261,6 +261,28 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         }
     }
 
+    /** 
+     * 玩家准备
+     */
+    ready(playerInfo: dzPlayer, option: boolean) {
+        if (option) {
+            playerInfo.setStatus(PlayerStatus.WAIT);
+        } else {
+            playerInfo.setStatus(PlayerStatus.NONE);
+        }
+
+        // 通知其他人玩家准备
+        this.channelIsPlayer('dz_onReady', {
+            seat: playerInfo.seat,
+            uid: playerInfo.uid,
+            status: playerInfo.status,
+        });
+
+        if (option) {
+            this.wait(playerInfo);
+        }
+    }
+
     /**等待玩家准备 */
     async wait(playerInfo?: dzPlayer) {
         if (this.status != 'NONE' && this.status != 'INWAIT') {
