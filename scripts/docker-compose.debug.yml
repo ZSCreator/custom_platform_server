@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  game_back_end:
+    image: game_back_end
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3150
+      - 3250
+      - 3251

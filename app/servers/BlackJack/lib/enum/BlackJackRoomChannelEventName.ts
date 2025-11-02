@@ -1,0 +1,17 @@
+export enum BlackJackRoomChannelEventName {
+    PlayerOffLine = "BlackJack_PlayerOffLine",
+    PlayerListWithUpdate = "PlayerListWithUpdate",
+    PlayerLeave = "BlackJack_PlayerLeave",
+    Betting = "BlackJack_Betting",
+    ShowInitPokerList = "BlackJack_ShowInitPoker",
+    ShowDealerPokerList = "BlackJack_ShowDealerPoker",
+    Insurance = "BlackJack_Insurance",
+    Player = "BlackJack_Player",
+    Player_Separate = "BlackJack_Player_Separate",
+    playerPokerList = "BlackJack_Player_PokerList",
+    Dealer = "BlackJack_Dealer",
+    Settlement = "BlackJack_Settlement",
+    SomeOneBeting = "BlackJack_SomePlayerBeting",
+    SomeOneMultiple = "BlackJack_SomePlayerMultiple",
+    SomeOneSeparate = "BlackJack_SomePlayerSultiple",
+}

@@ -1,0 +1,28 @@
+import {GameNidEnum} from "../../../common/constant/game/GameNidEnum";
+import {mappingTheme} from "../../../domain/CommonControl/config/slotsBaseConst";
+import {createRedisConnection} from "../../../services/databaseService";
+import {SlotLimitConfigSubject} from "../../../domain/CommonControl/slotLimitConfigSubject";
+
+/**
+ * 水果机限押配置管理器
+ */
+export class LimitConfigManager extends SlotLimitConfigSubject {
+    private static instance: LimitConfigManager;
+
+    nid: GameNidEnum = GameNidEnum.FruitMachine;
+
+    /**
+     * 初始化
+     */
+    static async init() {
+        this.instance = new LimitConfigManager(mappingTheme[GameNidEnum.FruitMachine], await createRedisConnection());
+        await this.instance.init();
+    }
+
+    /**
+     * 获取配置实例
+     */
+    static getInstance() {
+        return this.instance;
+    }
+}

@@ -1,0 +1,23 @@
+export const winLines = [
+  //最后一位0 左 1右
+  { Line: [2, 2, 2, 2, 2], direction: 0, idx: 1 },
+  { Line: [1, 1, 1, 1, 1], direction: 1, idx: 2 },
+  { Line: [3, 3, 3, 3, 3], direction: 1, idx: 3 },
+  { Line: [1, 2, 3, 2, 1], direction: 0, idx: 4 },
+  { Line: [3, 2, 1, 2, 3], direction: 0, idx: 5 },
+  { Line: [1, 1, 2, 1, 1], direction: 1, idx: 6 },
+  { Line: [3, 3, 2, 3, 3], direction: 1, idx: 7 },
+  { Line: [2, 3, 3, 3, 2], direction: 1, idx: 8 },
+  { Line: [2, 1, 1, 1, 2], direction: 0, idx: 9 },
+  { Line: [1, 1, 2, 3, 3], direction: 0, idx: 10 },
+  { Line: [3, 3, 2, 1, 1], direction: 0, idx: 11 },
+  { Line: [1, 2, 2, 2, 1], direction: 1, idx: 12 },
+  { Line: [3, 2, 2, 2, 3], direction: 1, idx: 13 },
+  { Line: [2, 2, 1, 2, 2], direction: 1, idx: 14 },
+  { Line: [2, 2, 3, 2, 2], direction: 1, idx: 15 },
+  { Line: [2, 1, 2, 1, 2], direction: 0, idx: 16 },
+  { Line: [2, 3, 2, 3, 2], direction: 0, idx: 17 },
+  { Line: [1, 2, 1, 2, 1], direction: 0, idx: 18 },
+  { Line: [3, 2, 3, 2, 3], direction: 0, idx: 19 },
+  { Line: [3, 1, 2, 1, 3], direction: 1, idx: 20 },
+];
