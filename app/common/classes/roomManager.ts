@@ -215,6 +215,7 @@ export default abstract class RoomManager<T extends SystemRoom<PlayerInfo>> {
         }
 
         // if (this.realPlayerFirst) {
+        // 优先匹配真人
         if (true) {
             // 有真人的房间
             const hasRealPlayerRooms = canEntryRooms.filter(room => room.players.find(p => !!p && p.isRobot === RoleEnum.REAL_PLAYER));

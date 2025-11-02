@@ -1,9 +1,10 @@
 import { Application, ChannelService, RemoterClass, BackendSession } from 'pinus';
 import RoomMgr from '../lib/dzRoomMgr';
 import sessionService = require('../../../services/sessionService');
-import PlayerManagerDao from "../../../common/dao/daoManager/Player.manager";
 import { getLogger } from "pinus";
 import *as  DZpipeiConst from '../lib/DZpipeiConst';
+import { PlayerStatus } from '../lib/dzPlayer';
+
 import langsrv = require('../../../services/common/langsrv');
 
 const Logger = getLogger('server_out', __filename);
@@ -33,7 +34,7 @@ export class MainHandler {
       }
       playerInfo.isOnLine = false;
       let offLine = roomInfo.getOffLineData(playerInfo);//获取离线数据
-      roomInfo.wait(playerInfo);
+
       let opts: DZpipeiConst.DZpipei_mainHandler_loaded = {
         code: 200,
         room: roomInfo.strip(),
@@ -236,6 +237,38 @@ export class MainHandler {
     } catch (error) {
       Logger.warn('DZpipei.mainHandler.robotNeed==>', error);
       return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1216) };
+    }
+  }
+
+
+  /**
+   * 玩家准备
+   *@route DZpipei.mainHandler.ready
+   */
+  async ready({ option }: { option: boolean }, session: BackendSession) {
+    const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+    const { err, playerInfo, roomInfo } = check(sceneId, roomId, uid);
+    try {
+      if (err) {
+        Logger.warn(`DZpipei.mainHandler.ready==>err:${err}`);
+        return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+      }
+
+      if (option) {
+        // 设置玩家状态为等待准备开始状态
+        playerInfo.setStatus(PlayerStatus.WAIT);
+
+        // 等待玩家准备开始游戏
+        roomInfo.wait(playerInfo);
+      } else {
+        // 设置玩家状态为未准备状态
+        playerInfo.setStatus(PlayerStatus.NONE);
+      }
+
+      return { code: 200 };
+    } catch (error) {
+      Logger.warn('DZpipei.mainHandler.loaded==>', error);
+      return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1214) };
     }
   }
 

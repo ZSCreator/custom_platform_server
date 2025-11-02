@@ -6,15 +6,29 @@ import { buildRecordResult } from "./util/recordUtil";
 import { getLogger } from 'pinus-logger';
 import createPlayerRecordService, { RecordGeneralManager } from '../../../common/dao/RecordGeneralManager';
 const Logger = getLogger('server_out', __filename);
+
+/**玩家状态 */
+export enum PlayerStatus {
+    NONE = 'NONE',
+    WAIT = 'WAIT',
+    GAME = 'GAME'
+}
+
+/**操作状态 */
+export enum OptionState {
+    PS_NONE = 'PS_NONE',
+    PS_OPER = 'PS_OPER'
+}
+
 /*
  匹配模式 玩家
 */
 export default class dzPlayer extends PlayerInfo {
     /**当前可参与游戏金币 */
     currGold: number;
-    status: 'NONE' | 'WAIT' | 'GAME' = 'NONE';
+    status: PlayerStatus = PlayerStatus.NONE;
     /**操作状态 */
-    state: "PS_NONE" | "PS_OPER" = "PS_NONE"
+    state: OptionState = OptionState.PS_NONE;
     /**牌的类型 默认-1 */
     type: number = -1;
     /**牌类型大小 */
@@ -44,7 +58,8 @@ export default class dzPlayer extends PlayerInfo {
         this.gold = opts.gold;
         this.currGold = opts.gold > opts.currGold ? opts.currGold : opts.gold;
         this.seat = i;
-        this.state = "PS_NONE";
+        this.state = OptionState.PS_NONE;
+        this.status = PlayerStatus.NONE;
     }
 
     /**
@@ -54,7 +69,7 @@ export default class dzPlayer extends PlayerInfo {
      */
     initGame(holds: number[]) {
         this.holds = holds.map(c => c);
-        this.status = 'GAME';
+        this.status = PlayerStatus.GAME;
         this.initControlType();
     }
 
@@ -145,7 +160,7 @@ export default class dzPlayer extends PlayerInfo {
         try {
             this.gameRecordService = createPlayerRecordService();
             const res = await this.gameRecordService
-                .setPlayerBaseInfo(this.uid, false, this.isRobot,this.gold)
+                .setPlayerBaseInfo(this.uid, false, this.isRobot, this.gold)
                 .setGameInfo(roomInfo.nid, roomInfo.sceneId, roomInfo.roomId)
                 .setGameRoundInfo(roomInfo.roundId, roomInfo.realPlayersNumber, 0)
                 .setControlType(this.controlType)
@@ -218,11 +233,11 @@ export default class dzPlayer extends PlayerInfo {
         clearTimeout(roomInfo.Oper_timeout);
         //记录翻牌玩家操作
         roomInfo.recordDrawBefore(this, 0, type);
-        this.state = "PS_NONE";
+        this.state = OptionState.PS_NONE;
         // 通知
         await this.addMilitary(roomInfo);
         this.isFold = true;// 标记弃牌3
-        this.status = "NONE";
+        this.status = PlayerStatus.NONE;
         roomInfo.channelIsPlayer('dz_onOpts', {
             type: 'fold',
             uid: this.uid,
@@ -238,6 +253,11 @@ export default class dzPlayer extends PlayerInfo {
         } else {// 否则如果是当前发话玩家点击弃牌 那么就要让下一个发话
             roomInfo.nextStatus(this);
         }
+    }
+
+    /**设置玩家状态 */
+    setStatus(status: PlayerStatus) {
+        this.status = status;
     }
 }
 

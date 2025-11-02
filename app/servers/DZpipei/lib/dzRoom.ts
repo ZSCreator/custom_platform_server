@@ -1,6 +1,6 @@
 import { pinus } from 'pinus';
 import { getLogger } from 'pinus-logger';
-import dzPlayer from './dzPlayer';
+import dzPlayer, { OptionState, PlayerStatus } from './dzPlayer';
 import { SystemRoom } from '../../../common/pojo/entity/SystemRoom';
 import * as DZpipeiConst from "./DZpipeiConst";
 import { PersonalControlPlayer } from "../../../services/newControl";
@@ -178,16 +178,18 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         this.players.forEach((m, i) => !m && idxs.push(i));
         // 随机一个位置
         const i = idxs[utils.random(0, idxs.length - 1)];
+        // 如果玩家没有携带金币 默认带入筹码
         if (!dbplayer.currGold) {
+
             dbplayer.currGold = this.canCarryGold[0];
-            const ran = utils.random(0, 3);
-            if (ran >= 2) {
-                if (ran == 3) {
-                    dbplayer.currGold = this.canCarryGold[1] / 2;
-                } else {
-                    dbplayer.currGold = Math.floor(utils.random(this.canCarryGold[0], this.canCarryGold[1]) / 100) * 100;
-                }
-            }
+            // const ran = utils.random(0, 3);
+            // if (ran >= 2) {
+            //     if (ran == 3) {
+            //         dbplayer.currGold = this.canCarryGold[1] / 2;
+            //     } else {
+            //         dbplayer.currGold = Math.floor(utils.random(this.canCarryGold[0], this.canCarryGold[1]) / 100) * 100;
+            //     }
+            // }
         }
         this.players[i] = new dzPlayer(i, dbplayer, this);
         this._players = this.players.slice();
@@ -283,8 +285,8 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
 
         clearTimeout(this.waitTimeout);
         this.waitTimeout = setTimeout(() => {
-            // 人数超过2个就强行开始
-            const list = this._players.filter(pl => pl && pl.canUserGold() >= this.canCarryGold[0]);
+            // 人数超过2个就强行开始 且都准备了就强行开始
+            const list = this._players.filter(pl => pl && pl.canUserGold() >= this.canCarryGold[0] && pl.status == PlayerStatus.WAIT);
             if (list.length >= 2) {
                 this.handler_start(list);
             } else {
@@ -299,7 +301,8 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         this.status = 'INGAME';
         this.startTime = Date.now();
         this.gamePlayers = list;
-        this.gamePlayers.forEach(pl => pl && (pl.status = "GAME"));
+        // 设置玩家状态为游戏状态
+        this.gamePlayers.forEach(pl => pl && (pl.status = PlayerStatus.GAME));
         // 洗牌
         this.TheCards = dz_logic.getPai();
         // 调控发牌 给每个人发两张手牌 顺便扣除前注
@@ -365,7 +368,8 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
     /**发话 */
     set_next_doing_seat(doing: number) {
         let playerInfo = this._players[doing];
-        playerInfo.state = "PS_OPER";
+        // 设置玩家操作状态为操作状态
+        playerInfo.state = OptionState.PS_OPER;
         // 记录发话时候的时间
         this.lastFahuaTime = Date.now();
         /**跟注额度 */
@@ -481,8 +485,8 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         playerInfo.execBet(this, currBet);
         //记录翻牌玩家操作
         this.recordDrawBefore(playerInfo, currBet, type);
-
-        playerInfo.state = "PS_NONE";
+        // 操作状态归零
+        playerInfo.state = OptionState.PS_NONE;
         // 通知
         this.channelIsPlayer('dz_onOpts', {
             type: type,
