@@ -1,0 +1,11 @@
+[
+  {
+    "nid": "26",
+    "id": 0,
+    "name": "BingoMoney",
+    "lowBet": 0,
+    "capBet": 0,
+    "allinMaxNum": 0,
+    "entryCond": 500
+  }
+]

@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BonusPoolAbstract = void 0;
+class BonusPoolAbstract {
+}
+exports.BonusPoolAbstract = BonusPoolAbstract;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQm9udXNQb29sQWJzdHJhY3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmljZXMvYm9udXNQb29scy9iZWFuL0JvbnVzUG9vbEFic3RyYWN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQWNBLE1BQXNCLGlCQUFpQjtDQWdDdEM7QUFoQ0QsOENBZ0NDIn0=

@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Multiples = exports.oddsList = exports.baseBetList = exports.gameLevelMappingElementsNum = exports.specialElements = exports.moonElements = exports.ordinaryElements = exports.scatter = exports.detonator = void 0;
+exports.detonator = 'H';
+exports.scatter = 'S';
+exports.ordinaryElements = ['A', 'B', 'C', 'D'];
+exports.moonElements = ['E', 'F', 'H'];
+exports.specialElements = ['H'];
+exports.gameLevelMappingElementsNum = {
+    '1': 4,
+    '2': 5,
+    '3': 6,
+};
+exports.baseBetList = [1, 2, 3, 4, 5];
+exports.oddsList = [10, 100, 200, 500, 1000, 2000];
+exports.Multiples = [
+    { group: 1, weight: 35 },
+    { group: 2, weight: 30 },
+    { group: 3, weight: 30 },
+    { group: 4, weight: 10 },
+    { group: 5, weight: 10 },
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9Nb29uUHJpbmNlc3MvbGliL2NvbnN0YW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQWtCYSxRQUFBLFNBQVMsR0FBRyxHQUFHLENBQUM7QUFNaEIsUUFBQSxPQUFPLEdBQUcsR0FBRyxDQUFDO0FBTWQsUUFBQSxnQkFBZ0IsR0FBRyxDQUFDLEdBQUcsRUFBRSxHQUFHLEVBQUUsR0FBRyxFQUFFLEdBQUcsQ0FBQyxDQUFDO0FBR3hDLFFBQUEsWUFBWSxHQUFHLENBQUMsR0FBRyxFQUFFLEdBQUcsRUFBRSxHQUFHLENBQUMsQ0FBQztBQUcvQixRQUFBLGVBQWUsR0FBRyxDQUFDLEdBQUcsQ0FBQyxDQUFDO0FBR3hCLFFBQUEsMkJBQTJCLEdBQUc7SUFDdkMsR0FBRyxFQUFFLENBQUM7SUFDTixHQUFHLEVBQUUsQ0FBQztJQUNOLEdBQUcsRUFBRSxDQUFDO0NBQ1QsQ0FBQztBQUdXLFFBQUEsV0FBVyxHQUFHLENBQUMsQ0FBQyxFQUFFLENBQUMsRUFBRSxDQUFDLEVBQUUsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFDO0FBRzlCLFFBQUEsUUFBUSxHQUFHLENBQUMsRUFBRSxFQUFFLEdBQUcsRUFBRSxHQUFHLEVBQUUsR0FBRyxFQUFFLElBQUksRUFBRSxJQUFJLENBQUMsQ0FBQztBQUczQyxRQUFBLFNBQVMsR0FBRztJQUNyQixFQUFFLEtBQUssRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLEVBQUUsRUFBRTtJQUN4QixFQUFFLEtBQUssRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLEVBQUUsRUFBRTtJQUN4QixFQUFFLEtBQUssRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLEVBQUUsRUFBRTtJQUN4QixFQUFFLEtBQUssRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLEVBQUUsRUFBRTtJQUN4QixFQUFFLEtBQUssRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLEVBQUUsRUFBRTtDQUMzQixDQUFBIn0=

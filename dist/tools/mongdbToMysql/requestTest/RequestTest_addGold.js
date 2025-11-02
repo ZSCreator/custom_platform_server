@@ -1,0 +1,58 @@
+const payUtilAddGold = require('../../../app/utils/payUtil');
+const encryptionAddGold = require('../../../app/common/encryption');
+const jsonAddGold = require('../requestTest/test.json');
+let SuccessNumAddGold = 0;
+let loseNumAddGold = 0;
+let allTimeAddGold = 0;
+let chaoshiNumAddGold = 0;
+async function cleanAddGold() {
+    let accountData = jsonAddGold;
+    let num = 500;
+    let questList = [];
+    for (let i = 0; i < num; i++) {
+        let item = accountData[i];
+        let timestamp = 1589338001560;
+        let agent = item.agent;
+        let account = item.account;
+        let param = { account: account, orderid: agent + Date.now() + account, money: 1000 };
+        let encrpParam = encryptionAddGold.httpUrlEnCryPtionForParam(param);
+        let key = encryptionAddGold.MD5KEY(agent, timestamp);
+        let body = {
+            agent: agent,
+            param: encrpParam,
+            key: key,
+            timestamp: timestamp,
+        };
+        questList.push(loginAddGold(body));
+    }
+    const startTime = Date.now();
+    await Promise.all(questList);
+    const endTime = Date.now();
+    allTimeAddGold = endTime - startTime;
+    console.warn(`上分总并发请求:${num}, 总耗时：${allTimeAddGold}毫秒, 超时：${chaoshiNumAddGold} ,成功：${SuccessNumAddGold} ,失败：${loseNumAddGold}, 平均耗时：${allTimeAddGold / num}毫秒`);
+    process.exit();
+}
+async function loginAddGold(body) {
+    let httpData = {
+        parameter: body,
+        domainName: "nethttp.suphie.com",
+        port: null,
+        path: "third/addPlayerMoney",
+        isJson: null
+    };
+    const startTime = Date.now();
+    const data = await payUtilAddGold.httpPostSendJson(httpData);
+    const endTime = Date.now();
+    if (endTime - startTime > 6000) {
+        chaoshiNumAddGold = chaoshiNumAddGold + 1;
+    }
+    console.warn(`返回的code:${data.d.code}`);
+    if (data.d.code == 0) {
+        SuccessNumAddGold = SuccessNumAddGold + 1;
+    }
+    else {
+        loseNumAddGold = loseNumAddGold + 1;
+    }
+}
+setTimeout(cleanAddGold, 2000);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmVxdWVzdFRlc3RfYWRkR29sZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Rvb2xzL21vbmdkYlRvTXlzcWwvcmVxdWVzdFRlc3QvUmVxdWVzdFRlc3RfYWRkR29sZC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxNQUFNLGNBQWMsR0FBSSxPQUFPLENBQUMsNEJBQTRCLENBQUMsQ0FBQztBQUM5RCxNQUFNLGlCQUFpQixHQUFJLE9BQU8sQ0FBQyxnQ0FBZ0MsQ0FBQyxDQUFDO0FBQ3JFLE1BQU0sV0FBVyxHQUFHLE9BQU8sQ0FBQywwQkFBMEIsQ0FBQyxDQUFDO0FBQ3hELElBQU0saUJBQWlCLEdBQUcsQ0FBQyxDQUFDO0FBQzVCLElBQU0sY0FBYyxHQUFHLENBQUMsQ0FBQztBQUN6QixJQUFNLGNBQWMsR0FBRyxDQUFDLENBQUM7QUFDekIsSUFBSSxpQkFBaUIsR0FBRyxDQUFDLENBQUM7QUFDMUIsS0FBSyxVQUFVLFlBQVk7SUFFdkIsSUFBSSxXQUFXLEdBQUcsV0FBVyxDQUFDO0lBQzlCLElBQUksR0FBRyxHQUFHLEdBQUcsQ0FBQztJQUNkLElBQUksU0FBUyxHQUFHLEVBQUUsQ0FBQztJQUNuQixLQUFJLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRyxDQUFDLEdBQUcsR0FBRyxFQUFHLENBQUMsRUFBRSxFQUFDO1FBQzFCLElBQUksSUFBSSxHQUFHLFdBQVcsQ0FBQyxDQUFDLENBQUMsQ0FBQztRQUMxQixJQUFJLFNBQVMsR0FBRyxhQUFhLENBQUU7UUFDL0IsSUFBSSxLQUFLLEdBQUcsSUFBSSxDQUFDLEtBQUssQ0FBQztRQUN2QixJQUFJLE9BQU8sR0FBRyxJQUFJLENBQUMsT0FBTyxDQUFDO1FBQzNCLElBQUksS0FBSyxHQUFHLEVBQUUsT0FBTyxFQUFFLE9BQU8sRUFBRSxPQUFPLEVBQUcsS0FBSyxHQUFHLElBQUksQ0FBQyxHQUFHLEVBQUUsR0FBRyxPQUFPLEVBQUcsS0FBSyxFQUFHLElBQUksRUFBRSxDQUFDO1FBQ3hGLElBQUksVUFBVSxHQUFHLGlCQUFpQixDQUFDLHlCQUF5QixDQUFDLEtBQUssQ0FBQyxDQUFDO1FBQ3BFLElBQUksR0FBRyxHQUFHLGlCQUFpQixDQUFDLE1BQU0sQ0FBQyxLQUFLLEVBQUMsU0FBUyxDQUFDLENBQUM7UUFDcEQsSUFBSSxJQUFJLEdBQUc7WUFDUCxLQUFLLEVBQUUsS0FBSztZQUNaLEtBQUssRUFBRSxVQUFVO1lBQ2pCLEdBQUcsRUFBRyxHQUFHO1lBQ1QsU0FBUyxFQUFHLFNBQVM7U0FDeEIsQ0FBQztRQUNGLFNBQVMsQ0FBQyxJQUFJLENBQUMsWUFBWSxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUE7S0FDckM7SUFDRCxNQUFNLFNBQVMsR0FBRyxJQUFJLENBQUMsR0FBRyxFQUFFLENBQUM7SUFDN0IsTUFBTyxPQUFPLENBQUMsR0FBRyxDQUFDLFNBQVMsQ0FBQyxDQUFDO0lBQzlCLE1BQU0sT0FBTyxHQUFJLElBQUksQ0FBQyxHQUFHLEVBQUUsQ0FBQztJQUM1QixjQUFjLEdBQUcsT0FBTyxHQUFHLFNBQVMsQ0FBQztJQUNyQyxPQUFPLENBQUMsSUFBSSxDQUFDLFdBQVcsR0FBRyxTQUFTLGNBQWMsVUFBVSxpQkFBaUIsUUFBUSxpQkFBaUIsUUFBUSxjQUFjLFVBQVUsY0FBYyxHQUFDLEdBQUcsSUFBSSxDQUFDLENBQUE7SUFDN0osT0FBTyxDQUFDLElBQUksRUFBRSxDQUFDO0FBQ25CLENBQUM7QUFLRCxLQUFLLFVBQVcsWUFBWSxDQUFDLElBQVU7SUFDbkMsSUFBSSxRQUFRLEdBQVE7UUFDaEIsU0FBUyxFQUFFLElBQUk7UUFDZixVQUFVLEVBQUUsb0JBQW9CO1FBQ2hDLElBQUksRUFBRSxJQUFJO1FBQ1YsSUFBSSxFQUFFLHNCQUFzQjtRQUM1QixNQUFNLEVBQUUsSUFBSTtLQUNmLENBQUE7SUFDRCxNQUFNLFNBQVMsR0FBRyxJQUFJLENBQUMsR0FBRyxFQUFFLENBQUM7SUFDN0IsTUFBTSxJQUFJLEdBQUcsTUFBTSxjQUFjLENBQUMsZ0JBQWdCLENBQUMsUUFBUSxDQUFDLENBQUM7SUFDN0QsTUFBTSxPQUFPLEdBQUksSUFBSSxDQUFDLEdBQUcsRUFBRSxDQUFDO0lBQzVCLElBQUcsT0FBTyxHQUFHLFNBQVMsR0FBRyxJQUFJLEVBQUM7UUFDMUIsaUJBQWlCLEdBQUcsaUJBQWlCLEdBQUcsQ0FBQyxDQUFDO0tBQzdDO0lBQ0QsT0FBTyxDQUFDLElBQUksQ0FBQyxXQUFXLElBQUksQ0FBQyxDQUFDLENBQUMsSUFBSSxFQUFFLENBQUMsQ0FBQTtJQUN0QyxJQUFHLElBQUksQ0FBQyxDQUFDLENBQUMsSUFBSSxJQUFJLENBQUMsRUFBQztRQUNoQixpQkFBaUIsR0FBRyxpQkFBaUIsR0FBRyxDQUFDLENBQUM7S0FDN0M7U0FBSTtRQUNELGNBQWMsR0FBRyxjQUFjLEdBQUcsQ0FBQyxDQUFDO0tBQ3ZDO0FBQ0wsQ0FBQztBQUNELFVBQVUsQ0FBQyxZQUFZLEVBQUUsSUFBSSxDQUFDLENBQUMifQ==

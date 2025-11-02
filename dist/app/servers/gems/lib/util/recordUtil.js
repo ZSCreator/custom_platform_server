@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.buildRecordResult = void 0;
+const elementConversionConfig = {
+    'A': '1',
+    'K': '2',
+    'Q': '3',
+    'J': '4',
+    'E': '5',
+    'F': '6',
+    'G': '7',
+    'H': '8',
+    'I': '9',
+};
+function buildRecordResult(bet, betLine, winLines) {
+    const linesCount = winLines.length;
+    let lines = winLines.length === 0 ? '' : winLines.reduce(((str, line) => {
+        return str + `${line.money}/${elementConversionConfig[line.type]}/${line.multiple}|`;
+    }), '');
+    if (lines.length)
+        lines = lines.slice(0, lines.length - 1);
+    return `${bet}|${betLine}|${linesCount}|${lines}`;
+}
+exports.buildRecordResult = buildRecordResult;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVjb3JkVXRpbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL2FwcC9zZXJ2ZXJzL2dlbXMvbGliL3V0aWwvcmVjb3JkVXRpbC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFHQSxNQUFNLHVCQUF1QixHQUFHO0lBQzVCLEdBQUcsRUFBRSxHQUFHO0lBQ1IsR0FBRyxFQUFFLEdBQUc7SUFDUixHQUFHLEVBQUUsR0FBRztJQUNSLEdBQUcsRUFBRSxHQUFHO0lBQ1IsR0FBRyxFQUFFLEdBQUc7SUFDUixHQUFHLEVBQUUsR0FBRztJQUNSLEdBQUcsRUFBRSxHQUFHO0lBQ1IsR0FBRyxFQUFFLEdBQUc7SUFDUixHQUFHLEVBQUUsR0FBRztDQUNYLENBQUM7QUFTRixTQUFnQixpQkFBaUIsQ0FBQyxHQUFXLEVBQUUsT0FBZSxFQUFFLFFBQWU7SUFFM0UsTUFBTSxVQUFVLEdBQUcsUUFBUSxDQUFDLE1BQU0sQ0FBQztJQUVuQyxJQUFJLEtBQUssR0FBVyxRQUFRLENBQUMsTUFBTSxLQUFLLENBQUMsQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQyxRQUFRLENBQUMsTUFBTSxDQUFDLENBQUMsQ0FBQyxHQUFHLEVBQUUsSUFBSSxFQUFFLEVBQUU7UUFDNUUsT0FBTyxHQUFHLEdBQUcsR0FBRyxJQUFJLENBQUMsS0FBSyxJQUFJLHVCQUF1QixDQUFDLElBQUksQ0FBQyxJQUFJLENBQUMsSUFBSSxJQUFJLENBQUMsUUFBUSxHQUFHLENBQUM7SUFDekYsQ0FBQyxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUM7SUFFUixJQUFJLEtBQUssQ0FBQyxNQUFNO1FBQUUsS0FBSyxHQUFHLEtBQUssQ0FBQyxLQUFLLENBQUMsQ0FBQyxFQUFFLEtBQUssQ0FBQyxNQUFNLEdBQUcsQ0FBQyxDQUFDLENBQUM7SUFFM0QsT0FBTyxHQUFHLEdBQUcsSUFBSSxPQUFPLElBQUksVUFBVSxJQUFJLEtBQUssRUFBRSxDQUFDO0FBQ3RELENBQUM7QUFYRCw4Q0FXQyJ9

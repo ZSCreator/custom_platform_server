@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.buildRecordResult = void 0;
+const GameUtil_1 = require("../../../../utils/GameUtil");
+function buildRecordResult(roomInfo) {
+    const bankerCards = roomInfo.zhuangResult;
+    const prefix = roomInfo.lotterys.map(p => {
+        return (0, GameUtil_1.conversionCards)(p.cards) + p.cardType.toString(16);
+    }).reduce((a, b) => a + b);
+    const suffix = roomInfo.lotterys.map(p => p.isWin ? '1' : '0').reduce(((a, b) => a + b), '');
+    return `${prefix}${(0, GameUtil_1.conversionCards)(bankerCards.cards) + bankerCards.cardType.toString(16)}${suffix}`;
+}
+exports.buildRecordResult = buildRecordResult;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicm9vbVV0aWwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9iYWlyZW4vbGliL3V0aWwvcm9vbVV0aWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEseURBQTZEO0FBTTdELFNBQWdCLGlCQUFpQixDQUFDLFFBQXdCO0lBQ3RELE1BQU0sV0FBVyxHQUFHLFFBQVEsQ0FBQyxZQUFZLENBQUM7SUFDMUMsTUFBTSxNQUFNLEdBQUcsUUFBUSxDQUFDLFFBQVEsQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLEVBQUU7UUFDckMsT0FBTyxJQUFBLDBCQUFlLEVBQUMsQ0FBQyxDQUFDLEtBQUssQ0FBQyxHQUFHLENBQUMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLEVBQUUsQ0FBQyxDQUFDO0lBQzlELENBQUMsQ0FBQyxDQUFDLE1BQU0sQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQztJQUczQixNQUFNLE1BQU0sR0FBRyxRQUFRLENBQUMsUUFBUSxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsTUFBTSxDQUFDLENBQUMsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxFQUFFLEVBQUUsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUM7SUFRN0YsT0FBTyxHQUFHLE1BQU0sR0FBRyxJQUFBLDBCQUFlLEVBQUMsV0FBVyxDQUFDLEtBQUssQ0FBQyxHQUFHLFdBQVcsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLEVBQUUsQ0FBQyxHQUFHLE1BQU0sRUFBRSxDQUFDO0FBQ3pHLENBQUM7QUFoQkQsOENBZ0JDIn0=

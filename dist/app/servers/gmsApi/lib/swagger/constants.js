@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SWAGGER_API_CURRENT_VERSION = exports.SWAGGER_API_DESCRIPTION = exports.SWAGGER_API_NAME = exports.SWAGGER_API_ROOT = void 0;
+exports.SWAGGER_API_ROOT = 'api/docs';
+exports.SWAGGER_API_NAME = '新后台管理';
+exports.SWAGGER_API_DESCRIPTION = '接口说明';
+exports.SWAGGER_API_CURRENT_VERSION = '1.0';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vYXBwL3NlcnZlcnMvZ21zQXBpL2xpYi9zd2FnZ2VyL2NvbnN0YW50cy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBYSxRQUFBLGdCQUFnQixHQUFHLFVBQVUsQ0FBQztBQUM5QixRQUFBLGdCQUFnQixHQUFHLE9BQU8sQ0FBQztBQUMzQixRQUFBLHVCQUF1QixHQUFHLE1BQU0sQ0FBQztBQUNqQyxRQUFBLDJCQUEyQixHQUFHLEtBQUssQ0FBQyJ9

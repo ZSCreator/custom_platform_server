@@ -1,0 +1,6 @@
+'use strict';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.KICK_PLAYER_NOTICE_ROUTE_CLOSEWEB = exports.KICK_PLAYER_NOTICE_ROUTE = void 0;
+exports.KICK_PLAYER_NOTICE_ROUTE = 'onConnectorKicked';
+exports.KICK_PLAYER_NOTICE_ROUTE_CLOSEWEB = 'onConnectorKickedCloseWeb';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2VydmVyQ29udHJvbENvbnN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vYXBwL3NlcnZlcnMvY29ubmVjdG9yL2xpYi9jb25zdGFudC9zZXJ2ZXJDb250cm9sQ29uc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxDQUFDOzs7QUFNQSxRQUFBLHdCQUF3QixHQUFHLG1CQUFtQixDQUFDO0FBRS9DLFFBQUEsaUNBQWlDLEdBQUcsMkJBQTJCLENBQUMifQ==

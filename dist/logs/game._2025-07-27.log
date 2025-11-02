@@ -1,0 +1,58 @@
+[2025-07-27T22:32:22.309] [INFO] pinus - [application.js] application inited: "master-server-1"
+[2025-07-27T22:32:22.329] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app/services/databaseService.js] 连接Redis失败:master:数据客户端 Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+[2025-07-27T22:32:22.330] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app.js] startError 连接Redis失败:master:数据客户端
+[2025-07-27T22:32:22.382] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app/services/databaseService.js] 连接Redis失败:master:数据客户端数据客户端 Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+[2025-07-27T22:32:22.484] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app/services/databaseService.js] 连接Redis失败:master:数据客户端数据客户端数据客户端 Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+[2025-07-27T22:32:22.638] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app/services/databaseService.js] 连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端 Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+[2025-07-27T22:32:22.840] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app/services/databaseService.js] 连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端 Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+[2025-07-27T22:32:23.093] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app/services/databaseService.js] 连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端 Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+[2025-07-27T22:32:23.397] [ERROR] server_out - [/Users/qiankunxiao/Documents/backService/dist/app/services/databaseService.js] 连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端 Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}

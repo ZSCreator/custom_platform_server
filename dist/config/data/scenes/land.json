@@ -1,0 +1,38 @@
+[
+  {
+    "nid": "50",
+    "id": 0,
+    "name": "0.01金币",
+    "entryCond": 100,
+    "lowBet": 1,
+    "capBet": 2000,
+    "allinMaxNum": 2000
+  },
+  {
+    "nid": "50",
+    "id": 1,
+    "name": "2金币",
+    "entryCond": 5000,
+    "lowBet": 200,
+    "capBet": 10000,
+    "allinMaxNum": 20000
+  },
+  {
+    "nid": "50",
+    "id": 2,
+    "name": "5金币",
+    "entryCond": 10000,
+    "lowBet": 500,
+    "capBet": 20000,
+    "allinMaxNum": 100000
+  },
+  {
+    "nid": "50",
+    "id": 3,
+    "name": "10金币",
+    "entryCond": 30000,
+    "lowBet": 1000,
+    "capBet": 40000,
+    "allinMaxNum": 1000000
+  }
+]

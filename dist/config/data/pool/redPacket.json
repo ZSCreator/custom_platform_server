@@ -1,0 +1,36 @@
+[
+  {
+    "nid": "81",
+    "gameName":"红包扫雷",
+    "id": 0,
+    "sceneName":"10包1倍场",
+    "amount": 0,
+    "initAmount": 5000,
+    "minAmount": 2500,
+    "minParameter": 100,
+    "maxAmount": 10000,
+    "maxParameter": 100,
+    "maxAmountInStore": 20000,
+    "maxAmountInStoreSwitch": true,
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "personalReferenceValue": 1
+  },
+  {
+    "nid": "81",
+    "gameName":"红包扫雷",
+    "id": 1,
+    "sceneName":"7包1.5倍场",
+    "amount": 0,
+    "initAmount": 7500,
+    "minAmount": 3750,
+    "minParameter": 100,
+    "maxAmount": 15000,
+    "maxParameter": 100,
+    "maxAmountInStore": 30000,
+    "maxAmountInStoreSwitch": false,
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "personalReferenceValue": 2
+  }
+]

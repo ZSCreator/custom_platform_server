@@ -1,0 +1,33 @@
+[{
+        "nid": "4",
+        "id": 0,
+        "name": "初级场",
+        "canCarryGold": [1000, 20000],
+        "lowBet": 100,
+        "entryCond": 1000
+    },
+    {
+        "nid": "4",
+        "id": 1,
+        "name": "中级场",
+        "canCarryGold": [5000, 100000],
+        "lowBet": 500,
+        "entryCond": 5000
+    },
+    {
+        "nid": "4",
+        "id": 2,
+        "name": "高级场",
+        "canCarryGold": [10000, 200000],
+        "lowBet": 1000,
+        "entryCond": 10000
+    },
+    {
+        "nid": "4",
+        "id": 3,
+        "name": "至尊场",
+        "canCarryGold": [20000, 400000],
+        "lowBet": 2000,
+        "entryCond": 20000
+    }
+]

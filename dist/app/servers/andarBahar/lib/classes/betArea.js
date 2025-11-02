@@ -1,0 +1,91 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class BetArea {
+    constructor({ name, odds, limit }) {
+        this.totalBet = 0;
+        this.playersBet = {};
+        this.isWin = false;
+        this.lotteryResult = {};
+        this.totalProfit = 0;
+        this.currentCard = null;
+        this.limit = 0;
+        this.name = name;
+        this.odds = odds;
+        this.limit = limit;
+    }
+    init() {
+        this.totalBet = 0;
+        this.playersBet = {};
+        this.lotteryResult = {};
+        this.isWin = false;
+        this.totalProfit = 0;
+        this.currentCard = null;
+    }
+    getPlayerBet(uid) {
+        return !!this.playersBet[uid] ? this.playersBet[uid] : 0;
+    }
+    isOverrun(num) {
+        return this.totalBet + num > this.limit;
+    }
+    addPlayerBet(uid, num) {
+        if (!this.playersBet[uid]) {
+            this.playersBet[uid] = 0;
+        }
+        this.playersBet[uid] += num;
+        this.totalBet += num;
+        return this.playersBet[uid];
+    }
+    playerCancelBet(uid) {
+        if (!this.playersBet[uid])
+            return;
+        this.totalBet -= this.playersBet[uid];
+        Reflect.deleteProperty(this.playersBet, uid);
+    }
+    setWin() {
+        this.isWin = true;
+    }
+    getPlayerBetAndWin(uid) {
+        if (this.playersBet[uid]) {
+            return {
+                bet: this.playersBet[uid],
+                win: this.lotteryResult[uid],
+            };
+        }
+        return null;
+    }
+    getIsWin() {
+        return this.isWin;
+    }
+    setLossResult() {
+        for (let uid in this.playersBet) {
+            this.lotteryResult[uid] = -this.playersBet[uid];
+            this.totalBet += this.lotteryResult[uid];
+        }
+    }
+    getPlayerProfit(uid) {
+        return !this.lotteryResult[uid] ? 0 : this.lotteryResult[uid];
+    }
+    setWinResult() {
+        this.setWin();
+        this.lotteryResult = {};
+        this.totalProfit = 0;
+        for (let uid in this.playersBet) {
+            this.lotteryResult[uid] = this.playersBet[uid] * this.odds - this.playersBet[uid];
+            this.totalProfit += this.lotteryResult[uid];
+        }
+    }
+    getLotteryResult() {
+        return this.lotteryResult;
+    }
+    getTotalProfit() {
+        return this.totalProfit;
+    }
+    getTotalBet() {
+        return this.totalBet;
+    }
+    setCard(card) {
+        this.currentCard = card;
+    }
+}
+exports.default = BetArea;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmV0QXJlYS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL2FwcC9zZXJ2ZXJzL2FuZGFyQmFoYXIvbGliL2NsYXNzZXMvYmV0QXJlYS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQVlBLE1BQXFCLE9BQU87SUFXeEIsWUFBWSxFQUFDLElBQUksRUFBRSxJQUFJLEVBQUUsS0FBSyxFQUE4QztRQVJwRSxhQUFRLEdBQVcsQ0FBQyxDQUFDO1FBQ3JCLGVBQVUsR0FBNEIsRUFBRSxDQUFDO1FBQ3pDLFVBQUssR0FBWSxLQUFLLENBQUM7UUFDdkIsa0JBQWEsR0FBNEIsRUFBRSxDQUFDO1FBQzVDLGdCQUFXLEdBQVcsQ0FBQyxDQUFDO1FBQ3hCLGdCQUFXLEdBQVcsSUFBSSxDQUFDO1FBQ2xCLFVBQUssR0FBVyxDQUFDLENBQUM7UUFHL0IsSUFBSSxDQUFDLElBQUksR0FBRyxJQUFJLENBQUM7UUFDakIsSUFBSSxDQUFDLElBQUksR0FBRyxJQUFJLENBQUM7UUFDakIsSUFBSSxDQUFDLEtBQUssR0FBRyxLQUFLLENBQUM7SUFDdkIsQ0FBQztJQUtELElBQUk7UUFDQSxJQUFJLENBQUMsUUFBUSxHQUFHLENBQUMsQ0FBQztRQUNsQixJQUFJLENBQUMsVUFBVSxHQUFHLEVBQUUsQ0FBQztRQUNyQixJQUFJLENBQUMsYUFBYSxHQUFHLEVBQUUsQ0FBQztRQUN4QixJQUFJLENBQUMsS0FBSyxHQUFHLEtBQUssQ0FBQztRQUNuQixJQUFJLENBQUMsV0FBVyxHQUFHLENBQUMsQ0FBQztRQUNyQixJQUFJLENBQUMsV0FBVyxHQUFHLElBQUksQ0FBQztJQUM1QixDQUFDO0lBTUQsWUFBWSxDQUFDLEdBQVc7UUFDcEIsT0FBTyxDQUFDLENBQUMsSUFBSSxDQUFDLFVBQVUsQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUMsSUFBSSxDQUFDLFVBQVUsQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDO0lBQzdELENBQUM7SUFPRCxTQUFTLENBQUMsR0FBVztRQUNqQixPQUFPLElBQUksQ0FBQyxRQUFRLEdBQUcsR0FBRyxHQUFHLElBQUksQ0FBQyxLQUFLLENBQUM7SUFDNUMsQ0FBQztJQU9ELFlBQVksQ0FBQyxHQUFXLEVBQUUsR0FBVztRQUNqQyxJQUFJLENBQUMsSUFBSSxDQUFDLFVBQVUsQ0FBQyxHQUFHLENBQUMsRUFBRTtZQUN2QixJQUFJLENBQUMsVUFBVSxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsQ0FBQztTQUM1QjtRQUVELElBQUksQ0FBQyxVQUFVLENBQUMsR0FBRyxDQUFDLElBQUksR0FBRyxDQUFDO1FBRTVCLElBQUksQ0FBQyxRQUFRLElBQUksR0FBRyxDQUFDO1FBRXJCLE9BQU8sSUFBSSxDQUFDLFVBQVUsQ0FBQyxHQUFHLENBQUMsQ0FBQztJQUNoQyxDQUFDO0lBTUQsZUFBZSxDQUFDLEdBQVc7UUFDdkIsSUFBSSxDQUFDLElBQUksQ0FBQyxVQUFVLENBQUMsR0FBRyxDQUFDO1lBQUUsT0FBTztRQUVsQyxJQUFJLENBQUMsUUFBUSxJQUFJLElBQUksQ0FBQyxVQUFVLENBQUMsR0FBRyxDQUFDLENBQUM7UUFHdEMsT0FBTyxDQUFDLGNBQWMsQ0FBQyxJQUFJLENBQUMsVUFBVSxFQUFFLEdBQUcsQ0FBQyxDQUFDO0lBQ2pELENBQUM7SUFLRCxNQUFNO1FBQ0YsSUFBSSxDQUFDLEtBQUssR0FBRyxJQUFJLENBQUM7SUFDdEIsQ0FBQztJQU1ELGtCQUFrQixDQUFDLEdBQVc7UUFDMUIsSUFBSSxJQUFJLENBQUMsVUFBVSxDQUFDLEdBQUcsQ0FBQyxFQUFFO1lBQ3RCLE9BQU87Z0JBQ0gsR0FBRyxFQUFFLElBQUksQ0FBQyxVQUFVLENBQUMsR0FBRyxDQUFDO2dCQUN6QixHQUFHLEVBQUUsSUFBSSxDQUFDLGFBQWEsQ0FBQyxHQUFHLENBQUM7YUFDL0IsQ0FBQTtTQUNKO1FBRUQsT0FBTyxJQUFJLENBQUM7SUFDaEIsQ0FBQztJQUtELFFBQVE7UUFDSixPQUFPLElBQUksQ0FBQyxLQUFLLENBQUM7SUFDdEIsQ0FBQztJQUtELGFBQWE7UUFDVCxLQUFLLElBQUksR0FBRyxJQUFJLElBQUksQ0FBQyxVQUFVLEVBQUU7WUFDN0IsSUFBSSxDQUFDLGFBQWEsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxVQUFVLENBQUMsR0FBRyxDQUFDLENBQUM7WUFDaEQsSUFBSSxDQUFDLFFBQVEsSUFBSSxJQUFJLENBQUMsYUFBYSxDQUFDLEdBQUcsQ0FBQyxDQUFDO1NBQzVDO0lBQ0wsQ0FBQztJQU1ELGVBQWUsQ0FBQyxHQUFXO1FBQ3ZCLE9BQU8sQ0FBQyxJQUFJLENBQUMsYUFBYSxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLElBQUksQ0FBQyxhQUFhLENBQUMsR0FBRyxDQUFDLENBQUM7SUFDbEUsQ0FBQztJQUtELFlBQVk7UUFDUixJQUFJLENBQUMsTUFBTSxFQUFFLENBQUM7UUFFZCxJQUFJLENBQUMsYUFBYSxHQUFHLEVBQUUsQ0FBQztRQUN4QixJQUFJLENBQUMsV0FBVyxHQUFHLENBQUMsQ0FBQztRQUVyQixLQUFLLElBQUksR0FBRyxJQUFJLElBQUksQ0FBQyxVQUFVLEVBQUU7WUFFN0IsSUFBSSxDQUFDLGFBQWEsQ0FBQyxHQUFHLENBQUMsR0FBRyxJQUFJLENBQUMsVUFBVSxDQUFDLEdBQUcsQ0FBQyxHQUFHLElBQUksQ0FBQyxJQUFJLEdBQUcsSUFBSSxDQUFDLFVBQVUsQ0FBQyxHQUFHLENBQUMsQ0FBQztZQUNsRixJQUFJLENBQUMsV0FBVyxJQUFJLElBQUksQ0FBQyxhQUFhLENBQUMsR0FBRyxDQUFDLENBQUM7U0FDL0M7SUFDTCxDQUFDO0lBS0QsZ0JBQWdCO1FBQ1osT0FBTyxJQUFJLENBQUMsYUFBYSxDQUFDO0lBQzlCLENBQUM7SUFLRCxjQUFjO1FBQ1YsT0FBTyxJQUFJLENBQUMsV0FBVyxDQUFDO0lBQzVCLENBQUM7SUFLRCxXQUFXO1FBQ1AsT0FBTyxJQUFJLENBQUMsUUFBUSxDQUFDO0lBQ3pCLENBQUM7SUFLRCxPQUFPLENBQUMsSUFBWTtRQUVoQixJQUFJLENBQUMsV0FBVyxHQUFHLElBQUksQ0FBQztJQUM1QixDQUFDO0NBQ0o7QUF2S0QsMEJBdUtDIn0=

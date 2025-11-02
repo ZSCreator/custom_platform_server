@@ -1,0 +1,16 @@
+[
+    {
+        "nid": "13",
+        "id": 0,
+        "name": "初级场",
+        "entryCond": 500,
+        "lowBet": 1
+    },
+    {
+        "nid": "13",
+        "id": 1,
+        "name": "中级场",
+        "entryCond": 5000,
+        "lowBet": 10
+    }
+]

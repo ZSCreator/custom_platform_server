@@ -1,0 +1,30 @@
+{
+  "development": [{
+    "name": "mysql-test",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "123456",
+    "database": "game_backend",
+    "synchronize": false,
+    "debug": false,
+    "logging": ["query", "info", "warn", "error"],
+    "maxQueryExecutionTime": 1000,
+    "dropSchema": false
+  }],
+  "production": [{
+    "name": "mysql-test",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "123456",
+    "database": "game_backend",
+    "synchronize": false,
+    "debug": false,
+    "logging": ["query", "info", "warn", "error"],
+    "maxQueryExecutionTime": 1000,
+    "dropSchema": false
+  }]
+}
+
+

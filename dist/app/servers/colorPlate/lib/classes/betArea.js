@@ -1,0 +1,80 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class BetArea {
+    constructor({ name, odds, limit }) {
+        this.totalBet = 0;
+        this.playersBet = {};
+        this.isWin = false;
+        this.lotteryResult = {};
+        this.totalProfit = 0;
+        this.limit = 0;
+        this.name = name;
+        this.odds = odds;
+        this.limit = limit;
+    }
+    init() {
+        this.totalBet = 0;
+        this.playersBet = {};
+        this.lotteryResult = {};
+        this.isWin = false;
+        this.totalProfit = 0;
+    }
+    getPlayerBet(uid) {
+        return !!this.playersBet[uid] ? this.playersBet[uid] : 0;
+    }
+    isOverrun(num) {
+        return this.totalBet + num > this.limit;
+    }
+    addPlayerBet(uid, num) {
+        if (!this.playersBet[uid]) {
+            this.playersBet[uid] = 0;
+        }
+        this.playersBet[uid] += num;
+        this.totalBet += num;
+        return this.playersBet[uid];
+    }
+    setWin() {
+        this.isWin = true;
+    }
+    getIsWin() {
+        return this.isWin;
+    }
+    getPlayerBetAndWin(uid) {
+        if (this.playersBet[uid]) {
+            return {
+                bet: this.playersBet[uid],
+                win: this.lotteryResult[uid],
+            };
+        }
+        return null;
+    }
+    setLossResult() {
+        for (let uid in this.playersBet) {
+            this.lotteryResult[uid] = -this.playersBet[uid];
+            this.totalBet += this.lotteryResult[uid];
+        }
+    }
+    getPlayerProfit(uid) {
+        return !this.lotteryResult[uid] ? 0 : this.lotteryResult[uid];
+    }
+    setWinResult() {
+        this.setWin();
+        this.lotteryResult = {};
+        this.totalProfit = 0;
+        for (let uid in this.playersBet) {
+            this.lotteryResult[uid] = this.playersBet[uid] * this.odds - this.playersBet[uid];
+            this.totalProfit += this.lotteryResult[uid];
+        }
+    }
+    getLotteryResult() {
+        return this.lotteryResult;
+    }
+    getTotalProfit() {
+        return this.totalProfit;
+    }
+    getTotalBet() {
+        return this.totalBet;
+    }
+}
+exports.default = BetArea;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmV0QXJlYS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL2FwcC9zZXJ2ZXJzL2NvbG9yUGxhdGUvbGliL2NsYXNzZXMvYmV0QXJlYS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQVdBLE1BQXFCLE9BQU87SUFVeEIsWUFBWSxFQUFDLElBQUksRUFBRSxJQUFJLEVBQUUsS0FBSyxFQUE4QztRQVBwRSxhQUFRLEdBQVcsQ0FBQyxDQUFDO1FBQ3JCLGVBQVUsR0FBNEIsRUFBRSxDQUFDO1FBQ3pDLFVBQUssR0FBWSxLQUFLLENBQUM7UUFDdkIsa0JBQWEsR0FBNEIsRUFBRSxDQUFDO1FBQzVDLGdCQUFXLEdBQVcsQ0FBQyxDQUFDO1FBQ2YsVUFBSyxHQUFXLENBQUMsQ0FBQztRQUcvQixJQUFJLENBQUMsSUFBSSxHQUFHLElBQUksQ0FBQztRQUNqQixJQUFJLENBQUMsSUFBSSxHQUFHLElBQUksQ0FBQztRQUNqQixJQUFJLENBQUMsS0FBSyxHQUFHLEtBQUssQ0FBQztJQUN2QixDQUFDO0lBRUQsSUFBSTtRQUNBLElBQUksQ0FBQyxRQUFRLEdBQUcsQ0FBQyxDQUFDO1FBQ2xCLElBQUksQ0FBQyxVQUFVLEdBQUcsRUFBRSxDQUFDO1FBQ3JCLElBQUksQ0FBQyxhQUFhLEdBQUcsRUFBRSxDQUFDO1FBQ3hCLElBQUksQ0FBQyxLQUFLLEdBQUcsS0FBSyxDQUFDO1FBQ25CLElBQUksQ0FBQyxXQUFXLEdBQUcsQ0FBQyxDQUFDO0lBQ3pCLENBQUM7SUFNRCxZQUFZLENBQUMsR0FBVztRQUNwQixPQUFPLENBQUMsQ0FBQyxJQUFJLENBQUMsVUFBVSxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsQ0FBQyxJQUFJLENBQUMsVUFBVSxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUM7SUFDN0QsQ0FBQztJQU9ELFNBQVMsQ0FBQyxHQUFXO1FBQ2pCLE9BQU8sSUFBSSxDQUFDLFFBQVEsR0FBRyxHQUFH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

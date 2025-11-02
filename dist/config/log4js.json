@@ -1,0 +1,26 @@
+{
+  "appenders": {
+    "console": {
+      "type": "console"
+    },
+    "file": {
+      "type": "file",
+      "filename": "./logs/game-server.log",
+      "maxLogSize": 1048576,
+      "backups": 5
+    },
+    "dateFile": {
+      "type": "dateFile",
+      "filename": "./logs/game",
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": ["console", "file", "dateFile"],
+      "level": "debug"
+    }
+  },
+  "replaceConsole": true
+}

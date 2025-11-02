@@ -1,0 +1,53 @@
+[
+  {
+    "nid": "3",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "7up7down",
+    "id": 0,
+    "sceneName": "荣耀厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 50000,
+    "maxAmount": 1500000,
+    "maxParameter": 100000,
+    "maxAmountInStore": 3000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 1000
+  },
+  {
+    "nid": "3",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "7up7down",
+    "id": 1,
+    "sceneName": "传奇厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 250000,
+    "maxAmount": 12500000,
+    "maxParameter": 500000,
+    "maxAmountInStore": 25000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 5000
+  },
+  {
+    "nid": "3",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "7up7down",
+    "id": 2,
+    "sceneName": "尊享厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 250000,
+    "maxAmount": 12500000,
+    "maxParameter": 500000,
+    "maxAmountInStore": 25000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 5000
+  }
+]

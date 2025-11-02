@@ -1,0 +1,37 @@
+[{
+    "nid": "2",
+    "id": 0,
+    "name": "初级场",
+    "lowBet": 200,
+    "capBet": 10000,
+    "allinMaxNum": 200,
+    "entryCond": 5000
+  },
+  {
+    "nid": "2",
+    "id": 1,
+    "name": "中级场",
+    "lowBet": 1000,
+    "capBet": 10000,
+    "allinMaxNum": 1000,
+    "entryCond": 30000
+  },
+  {
+    "nid": "2",
+    "id": 2,
+    "name": "高级场",
+    "lowBet": 2500,
+    "capBet": 10000,
+    "allinMaxNum": 2500,
+    "entryCond": 60000
+  },
+  {
+    "nid": "2",
+    "id": 3,
+    "name": "至尊场",
+    "lowBet": 5000,
+    "capBet": 10000,
+    "allinMaxNum": 5000,
+    "entryCond": 120000
+  }
+]

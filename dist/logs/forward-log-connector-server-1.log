@@ -1,0 +1,872 @@
+[2022-08-02T10:38:05.654] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-02T10:38:43.640] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-02T10:40:03.524] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-02T10:40:24.351] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-02T11:00:37.926] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-02T11:01:02.271] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-04T17:46:37.303] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-04T17:47:28.457] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-04T17:48:02.155] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-06T17:04:26.155] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-06T17:05:07.468] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-06T17:11:52.320] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-06T17:12:23.740] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-06T17:15:32.416] [WARN] pinus - try to response to a notify: "activity.activityHandler.getreceiveRelief"
+[2022-08-06T17:16:24.852] [WARN] pinus - try to response to a notify: "activity.activityHandler.getreceiveRelief"
+[2022-08-06T17:20:49.924] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-06T17:21:19.810] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-06T17:21:38.976] [WARN] pinus - try to response to a notify: "activity.activityHandler.getreceiveRelief"
+[2022-08-06T17:22:01.197] [WARN] pinus - try to response to a notify: "activity.activityHandler.getreceiveRelief"
+[2022-08-06T17:27:08.881] [ERROR] pinus-rpc - mqtt rpc client connector-server-1 checkKeepAlive timeout from remote server activity-server-1 for 20000 lastPing: 1659777998880 lastPong: 1659777998879Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at MailBox.checkKeepAlive (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:222:28)
+    at Timeout._onTimeout (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:207:18)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-08-08T14:38:43.619] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-08T14:39:32.969] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-08T15:35:33.654] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-08T15:36:02.434] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-08T16:21:29.424] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-08T16:22:02.809] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-08T16:32:31.840] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-08T16:33:06.540] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T01:04:11.526] [ERROR] pinus-rpc - rpc socket connector-server-1 is error, remote server activity-server-1 host: 127.0.0.1, port: 3696Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at Connection.<anonymous> (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:117:20)
+    at Connection.emit (node:events:526:28)
+    at Socket.emit (node:events:526:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-08-09T11:32:07.888] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T11:32:27.798] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T11:51:21.617] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T11:52:12.933] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T11:52:27.841] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T12:45:40.611] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T12:46:01.040] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T13:08:42.207] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T13:08:58.616] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T13:10:28.942] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T13:10:54.906] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T13:21:57.405] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T13:22:17.268] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T13:56:16.150] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T13:56:32.251] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T16:16:02.922] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-09T16:16:17.806] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-09T16:17:17.902] [WARN] logger - diffDays 1
+[2022-08-09T16:17:17.903] [WARN] logger - player.alms 1
+[2022-08-09T16:17:17.904] [WARN] logger - player.gold 28
+[2022-08-09T16:17:43.781] [WARN] logger - diffDays 1
+[2022-08-09T16:17:43.782] [WARN] logger - player.alms 1
+[2022-08-09T16:17:43.782] [WARN] logger - player.gold 28
+[2022-08-09T16:19:10.764] [WARN] logger - diffDays 1
+[2022-08-09T16:19:10.765] [WARN] logger - player.alms 1
+[2022-08-09T16:19:10.766] [WARN] logger - player.gold 28
+[2022-08-09T16:22:25.279] [WARN] logger - diffDays 1
+[2022-08-09T16:22:25.279] [WARN] logger - player.alms 3
+[2022-08-09T16:22:25.280] [WARN] logger - player.gold 32
+[2022-08-10T13:45:32.227] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T13:46:13.046] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-10T13:52:06.351] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T13:52:28.186] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-10T13:56:04.253] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T13:56:28.343] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-10T14:00:13.545] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T14:00:38.661] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-10T14:05:26.448] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T14:05:49.697] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-10T14:12:17.702] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T14:12:44.877] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-10T14:16:14.760] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T14:16:36.426] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-10T14:23:53.623] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-10T14:24:18.496] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-12T15:15:34.130] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-12T15:16:17.504] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-12T15:48:53.052] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-12T15:49:12.769] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-12T16:40:01.576] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-12T16:40:22.059] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-13T12:44:48.776] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-13T12:45:44.818] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-13T15:19:38.190] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-13T15:20:08.435] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-13T15:28:05.539] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-13T15:28:45.865] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-13T15:43:06.744] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-13T15:43:43.706] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-14T12:30:56.877] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-14T12:34:32.748] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-14T12:35:05.084] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-14T13:04:36.212] [ERROR] pinus - connector-server-1 fail to forward message:TypeError: Cannot read properties of undefined (reading 'msgRemote')
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:432:44)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+    at Receiver.emit (node:events:526:28)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:451:20)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+[2022-08-14T13:44:00.740] [ERROR] pinus-rpc - mqtt rpc client connector-server-1 checkKeepAlive timeout from remote server hall-server-1 for 20000 lastPing: 1660455810738 lastPong: 1660455810737Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at MailBox.checkKeepAlive (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:222:28)
+    at Timeout._onTimeout (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:207:18)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-08-14T13:51:44.688] [ERROR] pinus - connector-server-1 fail to forward message:TypeError: Cannot read properties of undefined (reading 'msgRemote')
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:432:44)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+    at Receiver.emit (node:events:526:28)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:451:20)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+[2022-08-14T14:14:21.573] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-14T14:14:54.279] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-14T14:23:03.084] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.userMailBox',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'userMailBox'
+}
+[2022-08-14T14:23:22.219] [WARN] logger - routeRecord..... {
+  route: 'hall.userHandler.getPlayerBankAndUpi',
+  serverType: 'hall',
+  handler: 'userHandler',
+  method: 'getPlayerBankAndUpi'
+}
+[2022-08-14T14:23:51.331] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.userMailBox',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'userMailBox'
+}
+[2022-08-14T14:25:38.184] [WARN] logger - routeRecord..... {
+  route: 'hall.userHandler.getPlayerBankAndUpi',
+  serverType: 'hall',
+  handler: 'userHandler',
+  method: 'getPlayerBankAndUpi'
+}
+[2022-08-14T14:25:42.076] [WARN] logger - routeRecord..... {
+  route: 'hall.userHandler.getCashRecord',
+  serverType: 'hall',
+  handler: 'userHandler',
+  method: 'getCashRecord'
+}
+[2022-08-14T14:29:15.999] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.getAllSystemNotice',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'getAllSystemNotice'
+}
+[2022-08-14T14:29:22.370] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.openMail',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'openMail'
+}
+[2022-08-14T14:29:30.444] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.userMailBox',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'userMailBox'
+}
+[2022-08-14T14:29:31.625] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.userMailBox',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'userMailBox'
+}
+[2022-08-14T14:29:52.026] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.userMailBox',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'userMailBox'
+}
+[2022-08-14T14:41:01.519] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.userMailBox',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'userMailBox'
+}
+[2022-08-14T14:41:33.806] [WARN] logger - routeRecord..... {
+  route: 'hall.mainHandler.enterGameOrSelectionList',
+  serverType: 'hall',
+  handler: 'mainHandler',
+  method: 'enterGameOrSelectionList'
+}
+[2022-08-14T14:41:38.168] [WARN] logger - routeRecord..... {
+  route: 'hall.mainHandler.enterGameOrSelectionList',
+  serverType: 'hall',
+  handler: 'mainHandler',
+  method: 'enterGameOrSelectionList'
+}
+[2022-08-14T14:41:38.286] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.loaded',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'loaded'
+}
+[2022-08-14T14:41:40.455] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:40.742] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:41.147] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:41.524] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:42.055] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:42.663] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:49.091] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:49.478] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:49.737] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.userBet',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'userBet'
+}
+[2022-08-14T14:41:55.287] [WARN] logger - routeRecord..... {
+  route: 'SicBo.mainHandler.historyRecord',
+  serverType: 'SicBo',
+  handler: 'mainHandler',
+  method: 'historyRecord'
+}
+[2022-08-14T14:42:02.535] [WARN] logger - routeRecord..... {
+  route: 'hall.mainHandler.leaveRoomAndGame',
+  serverType: 'hall',
+  handler: 'mainHandler',
+  method: 'leaveRoomAndGame'
+}
+[2022-08-14T14:42:05.047] [WARN] logger - routeRecord..... {
+  route: 'hall.mailHandler.userMailBox',
+  serverType: 'hall',
+  handler: 'mailHandler',
+  method: 'userMailBox'
+}
+[2022-08-14T14:46:23.735] [WARN] logger - routeRecord..... {
+  route: 'payment.mallHandler.getAllPayMethodAndGoldItemInfo',
+  serverType: 'payment',
+  handler: 'mallHandler',
+  method: 'getAllPayMethodAndGoldItemInfo'
+}
+[2022-08-14T14:46:23.743] [ERROR] pinus - connector-server-1 fail to forward message:TypeError: Cannot read properties of undefined (reading 'msgRemote')
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:433:13)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+    at Receiver.emit (node:events:526:28)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:452:19)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+[2022-08-14T14:50:39.456] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-14T14:51:12.290] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-14T14:51:25.674] [ERROR] pinus - connector-server-1 fail to forward message:TypeError: Cannot read properties of undefined (reading 'msgRemote')
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:432:44)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+    at Receiver.emit (node:events:526:28)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:451:20)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+[2022-08-14T14:51:29.714] [ERROR] pinus - connector-server-1 fail to forward message:TypeError: Cannot read properties of undefined (reading 'msgRemote')
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:432:44)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+    at Receiver.emit (node:events:526:28)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:451:20)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+[2022-08-14T14:51:30.698] [ERROR] pinus - connector-server-1 fail to forward message:TypeError: Cannot read properties of undefined (reading 'msgRemote')
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:432:44)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+    at Receiver.emit (node:events:526:28)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:451:20)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+[2022-08-14T14:51:33.573] [ERROR] pinus - connector-server-1 fail to forward message:TypeError: Cannot read properties of undefined (reading 'msgRemote')
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:432:44)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+    at Receiver.emit (node:events:526:28)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at doForward (D:\backService\node_modules\pinus\lib\server\server.ts:451:20)
+    at dispatch (D:\backService\node_modules\pinus\lib\server\server.ts:147:17)
+    at next (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\backService\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\backService\node_modules\pinus\lib\server\server.ts:340:12)
+    at Server.globalHandle (D:\backService\node_modules\pinus\lib\server\server.ts:156:9)
+    at ServerComponent.globalHandle (D:\backService\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\backService\node_modules\pinus\lib\components\connector.ts:439:21)
+    at HybridSocket.<anonymous> (D:\backService\node_modules\pinus\lib\components\connector.ts:327:18)
+    at HybridSocket.emit (node:events:526:28)
+    at handleData (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\backService\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\backService\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (node:events:526:28)
+    at Receiver.receiverOnMessage (D:\backService\node_modules\ws\lib\websocket.js:1068:20)
+[2022-08-14T19:23:36.947] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-14T19:24:12.813] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-15T17:43:23.751] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-15T17:45:05.435] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-25T22:22:32.684] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-25T22:23:26.011] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-25T22:24:56.187] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-25T22:26:01.112] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-25T22:26:43.926] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-25T22:35:43.603] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-25T22:36:24.660] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-25T22:37:14.017] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-25T22:37:54.361] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-25T22:38:34.363] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-25T22:39:13.206] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-31T10:39:59.511] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-31T10:40:55.585] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-31T10:42:30.649] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-31T10:43:09.856] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-31T10:49:36.485] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-31T10:50:16.759] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-31T13:02:35.813] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-31T13:03:25.716] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-31T13:45:36.595] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-31T13:46:29.622] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-08-31T14:12:35.193] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-08-31T14:13:27.295] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-01T00:00:30.481] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-01T00:01:30.260] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-01T00:04:21.875] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-01T00:05:06.086] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-01T00:15:19.295] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-01T00:15:58.512] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-01T11:59:19.627] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-01T12:00:04.871] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-01T12:01:38.261] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-01T12:02:33.433] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-01T12:03:17.582] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-01T12:04:12.945] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-02T23:25:35.601] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-02T23:26:17.229] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-02T23:27:14.601] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-02T23:31:40.519] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-02T23:32:29.018] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T16:30:06.582] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T16:31:29.855] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T16:34:47.355] [WARN] logger - kickself true
+[2022-09-08T16:34:47.359] [WARN] logger - position 0
+[2022-09-08T16:35:52.344] [WARN] logger - kickself true
+[2022-09-08T16:35:52.346] [WARN] logger - position 0
+[2022-09-08T16:39:26.408] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T16:40:25.238] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T16:41:20.796] [WARN] logger - kickself true
+[2022-09-08T16:41:20.798] [WARN] logger - position 0
+[2022-09-08T16:41:56.875] [WARN] logger - kickself true
+[2022-09-08T16:41:56.876] [WARN] logger - position 0
+[2022-09-08T16:43:59.729] [WARN] logger - kickself false
+[2022-09-08T16:43:59.731] [WARN] logger - position null
+[2022-09-08T16:44:37.778] [WARN] logger - kickself true
+[2022-09-08T16:44:37.780] [WARN] logger - position 0
+[2022-09-08T16:45:17.206] [WARN] logger - kickself true
+[2022-09-08T16:45:17.207] [WARN] logger - position 0
+[2022-09-08T16:47:52.596] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T16:48:56.984] [WARN] logger - kickself true
+[2022-09-08T16:48:56.985] [WARN] logger - position 0
+[2022-09-08T16:48:56.990] [WARN] logger - 更新玩家kickself true
+[2022-09-08T16:49:31.559] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T16:54:03.629] [WARN] logger - kickself true
+[2022-09-08T16:54:03.630] [WARN] logger - position 0
+[2022-09-08T16:54:03.631] [WARN] logger - 更新玩家kickself true
+[2022-09-08T17:46:51.842] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T17:48:30.880] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T17:54:57.478] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T17:56:24.546] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T17:57:45.134] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T17:59:17.455] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T18:02:15.595] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T18:03:40.134] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T18:46:29.647] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T18:47:59.602] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-08T18:58:14.760] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-09-08T18:59:50.407] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-09-09T11:22:04.313] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:32.113] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:23:06.520] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-10-15T11:40:42.070] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-10-15T11:41:18.531] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-10-15T11:46:47.676] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-10-15T11:47:08.969] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-10-15T11:49:37.109] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-10-15T11:50:10.102] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-10-15T11:56:29.853] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-10-15T11:56:50.273] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-10-15T12:33:08.652] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-10-15T12:33:33.244] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-12-05T12:06:36.267] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-05T12:06:51.128] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-12-23T15:01:47.616] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-23T15:02:03.325] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-12-23T15:21:24.652] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-23T15:21:27.733] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-12-23T15:27:16.270] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-23T15:35:49.200] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-23T16:02:51.424] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-23T16:02:54.540] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-12-23T16:04:00.138] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-23T16:04:01.070] [WARN] logger - connector服务器未加载路由压缩组件
+[2022-12-23T16:05:46.539] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-23T16:19:37.698] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-24T12:10:41.024] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-24T12:56:53.868] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-24T13:01:11.090] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2022-12-24T13:01:58.620] [WARN] logger - resultList... [
+  {
+    nid: '17',
+    sort: 10,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: false
+  },
+  {
+    nid: '1',
+    sort: 13,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: false
+  },
+  {
+    nid: '16',
+    sort: 31,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: false
+  },
+  {
+    nid: '43',
+    sort: 32,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: true
+  },
+  {
+    nid: '82',
+    sort: 35,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: true
+  },
+  {
+    nid: '58',
+    sort: 19,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: true
+  },
+  {
+    nid: '84',
+    sort: 22,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: false
+  }
+]
+[2022-12-24T13:03:53.982] [WARN] logger - resultList... [
+  {
+    nid: '17',
+    sort: 10,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: false
+  },
+  {
+    nid: '16',
+    sort: 31,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: false
+  },
+  {
+    nid: '43',
+    sort: 32,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: true
+  },
+  {
+    nid: '58',
+    sort: 19,
+    whetherToShowScene: true,
+    whetherToShowRoom: false,
+    whetherToShowGamingInfo: true
+  }
+]
+[2023-01-11T11:21:05.942] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-13T15:26:48.458] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-13T15:29:00.713] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-13T15:34:30.359] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-18T11:07:12.968] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-18T11:12:21.662] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-28T11:56:02.634] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-28T12:00:39.241] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-28T12:02:28.188] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-28T12:06:45.931] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-29T12:12:39.572] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-29T15:21:51.150] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-29T16:06:03.071] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-29T16:08:52.521] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-29T17:00:36.658] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-30T15:35:50.844] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-30T16:29:31.874] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-30T16:36:39.044] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-30T17:02:03.195] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-30T18:04:37.684] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-30T18:31:48.294] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-31T10:23:43.223] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-31T13:19:32.775] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-31T13:25:40.822] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-01-31T13:40:41.174] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-06T13:47:58.280] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-06T13:48:36.555] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-06T13:58:20.419] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-06T14:07:21.954] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-06T14:32:23.592] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-06T14:35:31.399] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T13:13:33.714] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T13:39:41.917] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T13:49:40.117] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T13:53:12.017] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T14:03:04.734] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T14:05:19.008] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T14:11:09.198] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T14:16:25.844] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T14:35:33.394] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T14:36:17.258] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-10T14:38:31.834] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-11T18:35:08.278] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-11T19:00:16.895] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-11T19:03:52.184] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-11T19:06:05.846] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-02-11T19:15:25.799] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-08T15:26:54.015] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-08T15:28:10.205] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-20T23:09:48.274] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-22T12:30:00.592] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-22T12:32:13.511] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-22T13:26:41.724] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-23T13:31:25.909] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-23T15:36:11.398] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-23T15:39:01.430] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-23T17:22:47.966] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-23T17:28:23.134] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-23T17:30:19.379] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-24T11:23:53.418] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T01:51:51.643] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T02:08:05.158] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T02:25:19.572] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T02:27:02.276] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T15:17:27.466] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T15:24:42.897] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T15:30:29.601] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T15:35:33.650] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T15:48:32.307] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T17:18:06.196] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-27T17:55:58.023] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-28T13:40:39.814] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-28T13:43:57.709] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-28T17:14:46.526] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-03-28T17:18:12.264] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-09T12:09:56.316] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-09T12:25:46.413] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-11T17:21:49.265] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-11T17:29:44.915] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-11T17:31:51.973] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-11T17:37:43.982] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-11T17:49:06.060] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-11T17:50:39.718] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-11T17:55:19.412] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-13T14:55:04.487] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-13T14:59:23.588] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-04-13T15:02:27.885] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T14:17:43.956] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T14:23:19.083] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T14:24:53.393] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T15:13:11.590] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T15:45:38.420] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T15:50:28.149] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T15:52:54.413] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-02T15:56:25.728] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-25T11:52:52.522] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-25T12:23:38.465] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-25T12:33:08.976] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-25T12:38:08.026] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-29T11:44:09.535] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功
+[2023-05-30T11:38:34.782] [WARN] logger - mysql | 服务 connector-server-1 | 创建连接池 | 成功

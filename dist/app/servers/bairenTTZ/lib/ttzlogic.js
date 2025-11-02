@@ -1,0 +1,123 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.lottery_fun = exports.shuffle_cards = exports.controlLottery = exports.settle_zhuang = void 0;
+const utils_1 = require("../../../utils");
+function settle_zhuang(roomInfo, Players) {
+    try {
+        lottery_fun(roomInfo);
+        let winArea = calculateWinAreas(roomInfo);
+        for (const pl of Players) {
+            if (pl.bet) {
+                pl.profit = 0;
+                for (const area in pl.betList) {
+                    pl.betList[area].profit = 0;
+                    if (winArea.includes(area)) {
+                        pl.betList[area].profit = pl.betList[area].bet;
+                        pl.profit += pl.betList[area].bet;
+                    }
+                    else {
+                        pl.betList[area].profit = -pl.betList[area].bet;
+                        pl.profit -= pl.betList[area].bet;
+                    }
+                }
+            }
+        }
+        return { winArea };
+    }
+    catch (e) {
+        console.error(`ttz_zhuangService.settle错误 ==> ${e}`);
+        return null;
+    }
+}
+exports.settle_zhuang = settle_zhuang;
+function calculateWinAreas(room) {
+    let winArea = [];
+    for (const lottery of room.lotterys) {
+        if (`center` == lottery.area) {
+            continue;
+        }
+        if (lottery.iswin) {
+            winArea.push(lottery.area);
+        }
+    }
+    return winArea;
+}
+function controlLottery(room, players, statisticalType) {
+    const winArea = calculateWinAreas(room);
+    let win = 0;
+    players.forEach(p => {
+        if (p.isRobot === statisticalType) {
+            for (let area in p.betList) {
+                if (!room.killAreas.has(area)) {
+                    win += p.betList[area].profit;
+                }
+            }
+        }
+    });
+    return { win, winArea };
+}
+exports.controlLottery = controlLottery;
+function shuffle_cards() {
+    let cards = [
+        0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09,
+        0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09,
+        0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09,
+        0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09,
+        10, 10, 10, 10,
+    ];
+    cards.sort((a, b) => 0.5 - Math.random());
+    return cards;
+}
+exports.shuffle_cards = shuffle_cards;
+function lottery_fun(roomInfo) {
+    let indexSet = new Set();
+    while (indexSet.size < 5) {
+        indexSet.add((0, utils_1.random)(0, roomInfo._numbers.length - 1));
+    }
+    const numberIndexList = [...indexSet];
+    for (const index in roomInfo.lotterys) {
+        const lottery = roomInfo.lotterys[index];
+        lottery.result.push(roomInfo._numbers[numberIndexList[index]]);
+        let Points = lottery.result[0] + lottery.result[1];
+        lottery.type = 0;
+        if (lottery.result[0] == lottery.result[1]) {
+            lottery.type = 2;
+        }
+        else if (lottery.result[0] == 2 && lottery.result[1] == 8) {
+            lottery.type = 1;
+        }
+        else if (lottery.result[0] == 8 && lottery.result[1] == 2) {
+            lottery.type = 1;
+        }
+        else {
+            if (Points >= 10)
+                Points -= 10;
+        }
+        lottery.Points = Points;
+    }
+    let center_lottery = roomInfo.lotterys.find(m => m.area == `center`);
+    for (const lottery of roomInfo.lotterys) {
+        if (lottery.area == `center`) {
+            continue;
+        }
+        lottery.iswin = false;
+        if (center_lottery.type < lottery.type) {
+            lottery.iswin = true;
+        }
+        if (center_lottery.type != lottery.type) {
+            continue;
+        }
+        if (center_lottery.Points < lottery.Points) {
+            lottery.iswin = true;
+        }
+        if (center_lottery.Points != lottery.Points) {
+            continue;
+        }
+        if (Math.max(center_lottery.result[0], center_lottery.result[1]) < Math.max(lottery.result[0], lottery.result[1])) {
+            lottery.iswin = true;
+        }
+    }
+}
+exports.lottery_fun = lottery_fun;
+;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHR6bG9naWMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9iYWlyZW5UVFovbGliL3R0emxvZ2ljLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQU1BLDBDQUF3QztBQWN4QyxTQUFnQixhQUFhLENBQUMsUUFBaUIsRUFBRSxPQUFvQjtJQUNqRSxJQUFJO1FBQ0EsV0FBVyxDQUFDLFFBQVEsQ0FBQyxDQUFDO1FBQ3RCLElBQUksT0FBTyxHQUFhLGlCQUFpQixDQUFDLFFBQVEsQ0FBQyxDQUFDO1FBQ3BELEtBQUssTUFBTSxFQUFFLElBQUksT0FBTyxFQUFFO1lBQ3RCLElBQUksRUFBRSxDQUFDLEdBQUcsRUFBRTtnQkFDUixFQUFFLENBQUMsTUFBTSxHQUFHLENBQUMsQ0FBQztnQkFDZCxLQUFLLE1BQU0sSUFBSSxJQUFJLEVBQUUsQ0FBQyxPQUFPLEVBQUU7b0JBQzNCLEVBQUUsQ0FBQyxPQUFPLENBQUMsSUFBSSxDQUFDLENBQUMsTUFBTSxHQUFHLENBQUMsQ0FBQztvQkFDNUIsSUFBSSxPQUFPLENBQUMsUUFBUSxDQUFDLElBQUksQ0FBQyxFQUFFO3dCQUN4QixFQUFFLENBQUMsT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDLE1BQU0sR0FBRyxFQUFFLENBQUMsT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDLEdBQUcsQ0FBQzt3QkFDL0MsRUFBRSxDQUFDLE1BQU0sSUFBSSxFQUFFLENBQUMsT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDLEdBQUcsQ0FBQztxQkFDckM7eUJBQU07d0JBQ0gsRUFBRSxDQUFDLE9BQU8sQ0FBQyxJQUFJLENBQUMsQ0FBQyxNQUFNLEdBQUcsQ0FBQyxFQUFFLENBQUMsT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDLEdBQUcsQ0FBQzt3QkFDaEQsRUFBRSxDQUFDLE1BQU0sSUFBSSxFQUFFLENBQUMsT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDLEdBQUcsQ0FBQztxQkFD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

@@ -1,0 +1,202 @@
+|2025-07-27T18:34:23.260|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:23.263|ERROR|master-server-1|server_out|startErrorError: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Application.<anonymous> (/Users/qiankunxiao/Documents/backService/app.ts:269:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 连接Redis失败:master:数据客户端|
+|2025-07-27T18:34:23.316|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:23.419|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:23.573|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:23.776|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:24.029|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:24.331|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:24.684|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:25.096|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:25.550|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|
+|2025-07-27T18:34:26.052|ERROR|master-server-1|server_out|连接Redis失败:master:数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端数据客户端Error: 
+    at Logger.pLogger.<computed> [as error] (/Users/qiankunxiao/Documents/backService/node_modules/pinus-logger/lib/logger.ts:76:34)
+    at Redis.<anonymous> (/Users/qiankunxiao/Documents/backService/app/services/databaseService.ts:75:14)
+    at Redis.emit (node:events:390:28)
+    at Redis.silentEmit (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/index.js:553:26)
+    at Socket.<anonymous> (/Users/qiankunxiao/Documents/backService/node_modules/ioredis/built/redis/event_handler.js:191:14)
+    at Object.onceWrapper (node:events:510:26)
+    at Socket.emit (node:events:402:35)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}|

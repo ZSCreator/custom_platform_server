@@ -1,0 +1,22 @@
+[
+  {
+    "nid": "49",
+    "id": 0,
+    "name": "荣耀厅",
+    "entryCond": 0,
+    "upZhuangCond": 500000,
+    "lowBet": 2000,
+    "allinMaxNum": 2000000,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  },
+  {
+    "nid": "49",
+    "id": 1,
+    "name": "传奇厅",
+    "entryCond": 0,
+    "upZhuangCond": 1000000,
+    "lowBet": 10000,
+    "allinMaxNum": 2000000,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  }
+]

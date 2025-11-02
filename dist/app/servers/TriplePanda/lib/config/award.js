@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.award = void 0;
+exports.award = {
+    "A": [1],
+    "K": [2],
+    "Q": [3],
+    "J": [5],
+    "E": [10],
+    "F": [20],
+    "G": [40],
+    "H": [60],
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXdhcmQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9UcmlwbGVQYW5kYS9saWIvY29uZmlnL2F3YXJkLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFhLFFBQUEsS0FBSyxHQUFHO0lBQ25CLEdBQUcsRUFBRSxDQUFDLENBQUMsQ0FBQztJQUNSLEdBQUcsRUFBRSxDQUFDLENBQUMsQ0FBQztJQUNSLEdBQUcsRUFBRSxDQUFDLENBQUMsQ0FBQztJQUNSLEdBQUcsRUFBRSxDQUFDLENBQUMsQ0FBQztJQUNSLEdBQUcsRUFBRSxDQUFDLEVBQUUsQ0FBQztJQUNULEdBQUcsRUFBRSxDQUFDLEVBQUUsQ0FBQztJQUNULEdBQUcsRUFBRSxDQUFDLEVBQUUsQ0FBQztJQUNULEdBQUcsRUFBRSxDQUFDLEVBQUUsQ0FBQztDQUNWLENBQUMifQ==

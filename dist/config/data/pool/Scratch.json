@@ -1,0 +1,19 @@
+[
+  {
+    "nid": "44",
+    "gameName": "刮刮乐",
+    "id": 0,
+    "sceneName": "专业场",
+    "amount": 0,
+    "initAmount": 5000,
+    "minAmount": 2500,
+    "minParameter": 100,
+    "maxAmount": 10000,
+    "maxParameter": 100,
+    "maxAmountInStore": 20000,
+    "maxAmountInStoreSwitch": false,
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "personalReferenceValue": 1
+  }
+]

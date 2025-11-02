@@ -1,0 +1,36 @@
+[
+  {
+    "nid": "53",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "万人金花",
+    "id":0,
+    "sceneName": "荣耀厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 100000,
+    "maxAmount": 10000000,
+    "maxParameter": 200000,
+    "maxAmountInStore": 20000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 2000
+  },
+  {
+    "nid": "53",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "万人金花",
+    "id":1,
+    "sceneName": "传奇厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 200000,
+    "maxAmount": 20000000,
+    "maxParameter": 400000,
+    "maxAmountInStore": 40000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 4000
+  }
+]

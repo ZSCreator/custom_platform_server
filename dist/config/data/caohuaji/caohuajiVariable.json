@@ -1,0 +1,14 @@
+[
+  {"id":0,"value":4,"describe":"倍数"},
+  {"id":1,"value":0.8,"describe":"调控触发值"},
+  {"id":2,"value":0.6,"describe":"调控触发值"},
+  {"id":3,"value":0.3,"describe":"调控触发值"},
+  {"id":4,"value":0.03,"describe":"流入盈利池"},
+  {"id":5,"value":0.97,"describe":"流入奖池比例"},
+  {"id":6,"value":0.05,"describe":"流入鬼牌奖池"},
+  {"id":7,"value":30000,"describe":"bonus大奖触发值"},
+  {"id":8,"value":10000,"describe":"bonus大奖触发值"},
+  {"id":9,"value":0.7,"describe":"bonus特殊一等奖大奖"},
+  {"id":10,"value":0.5,"describe":"bonus特殊二等奖大奖"},
+  {"id":11,"value":0.3,"describe":"bonus特殊三等奖大奖"}
+]

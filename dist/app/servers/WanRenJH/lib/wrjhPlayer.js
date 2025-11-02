@@ -1,0 +1,187 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const RecordGeneralManager_1 = require("../../../common/dao/RecordGeneralManager");
+const PlayerInfo_1 = require("../../../common/pojo/entity/PlayerInfo");
+const commonConst_1 = require("../../../domain/CommonControl/config/commonConst");
+const utils = require("../../../utils/index");
+const pinus_1 = require("pinus");
+const Logger = (0, pinus_1.getLogger)('server_out', __filename);
+class wrjhPlayer extends PlayerInfo_1.PlayerInfo {
+    constructor(opts) {
+        super(opts);
+        this.bets = [{ bet: 0, profit: 0 }, { bet: 0, profit: 0 }, { bet: 0, profit: 0 }, { bet: 0, profit: 0 }];
+        this.lastBets = [];
+        this.isBet = false;
+        this.lastProfit = 0;
+        this.addUpBet = 0;
+        this.zhuang = false;
+        this.profit = 0;
+        this.totalProfit = [];
+        this.bet = 0;
+        this.totalBet = [];
+        this.standbyRounds = 0;
+        this.regions_chang_gold = [];
+        this.winRound = 0;
+        this.initgold = 0;
+        this.gold = utils.sum(opts.gold);
+        this.initgold = this.gold;
+    }
+    initGame(roomInfo) {
+        this.initControlType();
+        this.standbyRounds++;
+        if (this.bet) {
+            this.lastProfit = this.profit;
+            this.totalProfit.push(this.profit > 0 ? this.profit : 0);
+            this.totalBet.push(this.bet);
+            (this.totalBet.length > 20) && this.totalBet.shift();
+            (this.totalProfit.length > 20) && this.totalProfit.shift();
+            this.lastBets = [];
+            for (const situation of roomInfo.situations) {
+                for (const bet_ of situation.betList) {
+                    if (bet_.uid == this.uid)
+                        this.lastBets.push({ area: situation.area, betNum: bet_.bet });
+                }
+            }
+            this.standbyRounds = 0;
+        }
+        if (roomInfo.zhuangInfo.uid == this.uid || roomInfo.applyZhuangs.find(pl => pl.uid == this.uid)) {
+            this.standbyRounds = 0;
+        }
+        this.regions_chang_gold = [];
+        this.lastProfit = this.profit;
+        this.profit = 0;
+        this.bet = 0;
+        this.bets = [{ bet: 0, profit: 0 }, { bet: 0, profit: 0 }, { bet: 0, profit: 0 }, { bet: 0, profit: 0 }];
+        this.isBet = false;
+        this.winRound = this.totalProfit.reduce((total, Value) => {
+            if (Value > 0) {
+                total++;
+            }
+            return total;
+        }, 0);
+    }
+    settlementBairenPlayer(roomInfo) {
+        for (let i = this.bets.length - 1; i >= 0; i--) {
+            const num = this.bets[i];
+            if (num.bet > 0) {
+                num.profit = (roomInfo.regions[i].isWin ? 1 : -1) * (roomInfo.regions[i].multiple * num.bet);
+                this.profit += num.profit;
+                this.regions_chang_gold.push({ area: i, chang_gold: this.profit });
+            }
+        }
+    }
+    isCanRenew(roomInfo) {
+        if (this.isRobot == 2) {
+            return 0;
+        }
+        let tatalBet = this.lastBets.reduce((total, Value) => {
+            total += Value.betNum;
+            return total;
+        }, 0);
+        if (roomInfo.compensate * tatalBet > this.gold) {
+            return 0;
+        }
+        return this.lastBets.length;
+    }
+    hasBet() {
+        return this.bets.some(m => m.bet > 0);
+    }
+    toSettlementInfoByMail() {
+        return {
+            uid: this.uid,
+            profit: this.profit,
+            sumBet: this.bet,
+            bets: this.bets
+        };
+    }
+    result() {
+        return {
+            uid: this.uid,
+            gold: this.gold,
+            profit: this.profit,
+            bet: this.bet,
+            nickname: this.nickname,
+            headurl: this.headurl,
+            bets: this.bets
+        };
+    }
+    strip(hasRound) {
+        return {
+            uid: this.uid,
+            headurl: this.headurl,
+            nickname: encodeURI(this.nickname),
+            gold: this.gold,
+            profit: this.lastProfit,
+            hasRound: hasRound
+        };
+    }
+    strip1() {
+        return {
+            uid: this.uid,
+            headurl: this.headurl,
+            nickname: encodeURI(this.nickname),
+            bet: this.bet,
+            gold: this.gold,
+            robot: this.isRobot,
+        };
+    }
+    strip2() {
+        return {
+            uid: this.uid,
+            headurl: this.headurl,
+            nickname: encodeURI(this.nickname),
+            gold: this.gold,
+            profit: this.profit,
+            bets: this.bets,
+            isRobot: this.isRobot
+        };
+    }
+    loadedStrip(roomInfo) {
+        return {
+            uid: this.uid,
+            headurl: this.headurl,
+            nickname: encodeURI(this.nickname),
+            bet: this.bet,
+            bets: this.bets,
+            gold: this.gold,
+            isRenew: this.isCanRenew(roomInfo)
+        };
+    }
+    async updateGold(roomInfo) {
+        let result = {
+            uid: this.uid,
+            banker: (roomInfo.zhuangInfo && roomInfo.zhuangInfo.uid == this.uid) ? true : false,
+            area: this.bets,
+            Kaijiang_area: roomInfo.regions,
+            zhuangResult: roomInfo.zhuangResult,
+            regions_chang_gold: this.regions_chang_gold
+        };
+        let validBet = this.bet;
+        if (Math.abs(this.profit) > this.bet && this.profit < 0) {
+            validBet = Math.abs(this.profit);
+        }
+        const res = await (0, RecordGeneralManager_1.default)()
+            .setPlayerBaseInfo(this.uid, false, this.isRobot, this.initgold)
+            .setGameInfo(roomInfo.nid, roomInfo.sceneId, roomInfo.roomId)
+            .setGameRoundInfo(roomInfo.roundId, roomInfo.realPlayersNumber, 0)
+            .setControlType(this.controlType)
+            .setGameRecordInfo(this.bet, validBet, this.profit, roomInfo.zhuangInfo.uid === this.uid)
+            .setGameRecordLivesResult(result)
+            .sendToDB(1);
+        this.profit = res.playerRealWin;
+        this.gold = utils.sum(res.gold);
+        this.initgold = this.gold;
+        if (roomInfo.zhuangInfo.uid == this.uid) {
+            roomInfo.zhuangInfo.money += this.profit;
+        }
+        this.profit > 0 && roomInfo.addResult(this, this.profit);
+    }
+    checkOverrunBet(condition) {
+        const con = condition * 100;
+        return this.bets.map(betNumber => {
+            return betNumber.bet >= con ? commonConst_1.CommonControlState.LOSS : commonConst_1.CommonControlState.RANDOM;
+        });
+    }
+}
+exports.default = wrjhPlayer;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid3JqaFBsYXllci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL2FwcC9zZXJ2ZXJzL1dhblJlbkpIL2xpYi93cmpoUGxheWVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsbUZBQWlGO0FBQ2pGLHVFQUFvRTtBQUNwRSxrRkFBc0Y7QUFDdEYsOENBQStDO0FBRy9DLGlDQUFrQztBQUNsQyxNQUFNLE1BQU0sR0FBRyxJQUFBLGlCQUFTLEVBQUMsWUFBWSxFQUFFLFVBQVUsQ0FBQyxDQUFDO0FBRW5ELE1BQXFCLFVBQVcsU0FBUSx1QkFBVTtJQTBCOUMsWUFBWSxJQUFTO1FBQ2pCLEtBQUssQ0FBQyxJQUFJLENBQUMsQ0FBQztRQXpCaEIsU0FBSSxHQUFHLENBQUMsRUFBRSxHQUFHLEVBQUUsQ0FBQyxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsRUFBRSxFQUFFLEdBQUcsRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLENBQUMsRUFBRSxFQUFFLEVBQUUsR0FBRyxFQUFFLENBQUMsRUFBRSxNQUFNLEVBQUUsQ0FBQyxFQUFFLEVBQUUsRUFBRSxHQUFHLEVBQUUsQ0FBQyxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsQ0FBQyxDQUFDO1FBRXBHLGFBQVEsR0FBdUMsRUFBRSxDQUFDO1FBRWxELFVBQUssR0FBWSxLQUFLLENBQUM7UUFFdkIsZUFBVSxHQUFXLENBQUMsQ0FBQztRQUV2QixhQUFRLEdBQVcsQ0FBQyxDQUFDO1FBQ3JCLFdBQU0sR0FBWSxLQUFLLENBQUM7UUFFeEIsV0FBTSxHQUFXLENBQUMsQ0FBQztRQUVuQixnQkFBVyxHQUFhLEVBQUUsQ0FBQztRQUUzQixRQUFHLEdBQVcsQ0FBQyxDQUFDO1FBRWhCLGFBQVEsR0FBYSxFQUFFLENBQUM7UUFFeEIsa0JBQWEsR0FBRyxDQUFDLENBQUM7UUFDbEIsdUJBQWtCLEdBQTJDLEVBQUUsQ0FBQTtRQUMvRCxhQUFRLEdBQVcsQ0FBQyxDQUFDO1FBRXJCLGFB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

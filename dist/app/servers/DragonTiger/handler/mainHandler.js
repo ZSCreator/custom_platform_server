@@ -1,0 +1,230 @@
+'use strict';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.mainHandler = void 0;
+const sessionService = require("../../../services/sessionService");
+const DragonTigerRoomMangerImpl_1 = require("../lib/DragonTigerRoomMangerImpl");
+const DragonTigerConst = require("../lib/DragonTigerConst");
+const gamesBetAstrict_1 = require("../../../../config/data/gamesBetAstrict");
+const langsrv = require("../../../services/common/langsrv");
+function default_1(app) {
+    return new mainHandler(app);
+}
+exports.default = default_1;
+;
+function check(sceneId, roomId, uid) {
+    const roomInfo = DragonTigerRoomMangerImpl_1.default.searchRoom(sceneId, roomId);
+    if (!roomInfo) {
+        return { err: "百家房间不存在" };
+    }
+    const playerInfo = roomInfo.getPlayer(uid);
+    if (!playerInfo) {
+        return { roomInfo, err: "百家玩家不存在" };
+    }
+    playerInfo.update_time();
+    return { roomInfo, playerInfo };
+}
+class mainHandler {
+    constructor(app) {
+        this.app = app;
+        this.app = app;
+    }
+    async enterGame({}, session) {
+        const { roomId, uid, sceneId } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        if (err)
+            return { code: 501, msg: err };
+        if (!playerInfo.onLine)
+            roomInfo.addPlayerInRoom(playerInfo);
+        const { countdown } = roomInfo.getRoomInfo();
+        setTimeout(() => {
+            roomInfo.playersChange(playerInfo);
+            roomInfo.noticeZhuangInfo(playerInfo);
+        }, 500);
+        const opts = {
+            code: 200,
+            status: roomInfo.roomStatus,
+            countdown,
+            cards: roomInfo.cards,
+            roomId: roomInfo.roomId,
+            roundId: roomInfo.roundId,
+            result: roomInfo.result,
+            room: {
+                lowBet: roomInfo.lowBet
+            },
+            playerInfo: playerInfo.strip(),
+            winArea: roomInfo.winArea,
+            banker: roomInfo.banker ? roomInfo.banker.bankerStrip() : roomInfo.banker,
+            situation: roomInfo.situations,
+            sceneId,
+            bankerProfitProportion: DragonTigerConst.bankerProfitProportion,
+            bankerGoldLimit: DragonTigerConst.bankerGoldLimit[sceneId]
+        };
+        return opts;
+    }
+    ;
+    async upstarts({}, session) {
+        const { roomId, uid, sceneId } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        let result = {
+            code: 200,
+            upstarts: null
+        };
+        if (err) {
+            return { code: 501, msg: err };
+        }
+        else {
+            result.upstarts = roomInfo.rankingLists().slice(0, 50);
+            return result;
+        }
+    }
+    ;
+    async becomeBanker({ isUp }, session) {
+        const { roomId, uid, sceneId } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        if (err) {
+            return { code: 501, msg: err };
+        }
+        if (isUp) {
+            if (playerInfo.gold < DragonTigerConst.bankerGoldLimit[roomInfo.sceneId]) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1054) };
+            }
+            if (roomInfo.checkPlayerIsBanker(uid)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1024) };
+            }
+            if (roomInfo.checkPlayerInBankerQueue(uid)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1025) };
+            }
+            if (playerInfo.isRobot == 2 && roomInfo.bankerQueue.length >= 3) {
+                return { code: 200, msg: "msg" };
+            }
+            roomInfo.joinBankerQueue(uid);
+            return { code: 200 };
+        }
+        else {
+            if (roomInfo.checkPlayerIsBanker(uid)) {
+                roomInfo.descendBanker(uid);
+                return { code: 200 };
+            }
+            if (!roomInfo.checkPlayerInBankerQueue(uid)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1029) };
+            }
+            roomInfo.quitBankerQueue(uid);
+            return { code: 200 };
+        }
+    }
+    ;
+    async getBankerQueue({}, session) {
+        const { roomId, uid, sceneId } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        if (err) {
+            return { code: 501, msg: err };
+        }
+        return { code: 200, bankerQueue: roomInfo.getBankerQueue() };
+    }
+    ;
+    async userBet(msg, session) {
+        const { roomId, uid, sceneId } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        if (err) {
+            return { code: 501, msg: err };
+        }
+        try {
+            if (typeof msg.bet !== 'number' || msg.bet <= 0) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1217) };
+            }
+            if (playerInfo.bet == 0 && roomInfo.lowBet > (playerInfo.gold - playerInfo.bet)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1217) };
+            }
+            if (roomInfo.roomStatus !== DragonTigerConst.status.BET) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_2011) };
+            }
+            if (roomInfo.checkPlayerIsBanker(uid)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1024) };
+            }
+            if ((playerInfo.gold - playerInfo.bet) < gamesBetAstrict_1.betAstrict.nid_8[`sceneId_${roomInfo.sceneId}`]) {
+                const reGold = gamesBetAstrict_1.betAstrict.nid_8[`sceneId_${roomInfo.sceneId}`] / gamesBetAstrict_1.betAstrict.ratio;
+                return {
+                    code: 500,
+                    msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1106, reGold),
+                };
+            }
+            if (msg.bet > (playerInfo.gold - playerInfo.bet)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1015) };
+            }
+            if (roomInfo.playerIsBankerBetLimit([msg])) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1023) };
+            }
+            const limitCheck = roomInfo.ceiling(uid, [msg]);
+            if (limitCheck === DragonTigerConst.LimitRed.total) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_2015) };
+            }
+            await roomInfo.playerBet(uid, [msg]);
+            return { code: 200, gold: playerInfo.gold - playerInfo.bet };
+        }
+        catch (error) {
+        }
+    }
+    ;
+    async getRecords({}, session) {
+        const { roomId, uid, sceneId } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        if (err) {
+            return { code: 501, msg: "" };
+        }
+        if (roomInfo && playerInfo) {
+            const DragonTigerHistory = roomInfo['DragonTigerHistory'] ? roomInfo['DragonTigerHistory'] : [];
+            return { code: 200, DragonTigerHistory };
+        }
+        return { code: 500, msg: langsrv.getlanguage(playerInfo && playerInfo.language, langsrv.Net_Message.id_2004) };
+    }
+    ;
+    async goonBet({}, session) {
+        const { roomId, uid, sceneId } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        if (err) {
+            return { code: 501, msg: err };
+        }
+        try {
+            if (playerInfo.bet > 0) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1215) };
+            }
+            if (playerInfo.bet == 0 && roomInfo.lowBet > (playerInfo.gold - playerInfo.bet)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1217) };
+            }
+            if (roomInfo.roomStatus !== DragonTigerConst.status.BET) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_2011) };
+            }
+            if (roomInfo.checkPlayerIsBanker(uid)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1024) };
+            }
+            if ((playerInfo.gold - playerInfo.bet) < gamesBetAstrict_1.betAstrict.nid_8[`sceneId_${roomInfo.sceneId}`]) {
+                const reGold = gamesBetAstrict_1.betAstrict.nid_8[`sceneId_${roomInfo.sceneId}`] / gamesBetAstrict_1.betAstrict.ratio;
+                return {
+                    code: 500,
+                    msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1106, reGold),
+                };
+            }
+            let total_gold = playerInfo.recordBets.reduce((total, Value) => {
+                return total + Value.bet;
+            }, 0);
+            if (total_gold > (playerInfo.gold - playerInfo.bet)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1015) };
+            }
+            if (roomInfo.playerIsBankerBetLimit(playerInfo.recordBets)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1023) };
+            }
+            const limitCheck = roomInfo.ceiling(uid, playerInfo.recordBets);
+            if (limitCheck === DragonTigerConst.LimitRed.total) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_2015) };
+            }
+            await roomInfo.playerBet(uid, playerInfo.recordBets);
+            return { code: 200, gold: playerInfo.gold - playerInfo.bet };
+        }
+        catch (error) {
+            console.error(`dt:${error}`);
+            return { code: 200, msg: error };
+        }
+    }
+}
+exports.mainHandler = mainHandler;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbkhhbmRsZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9EcmFnb25UaWdlci9oYW5kbGVyL21haW5IYW5kbGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFlBQVksQ0FBQTs7O0FBR1osbUVBQW9FO0FBQ3BFLGdGQUE4RDtBQUM5RCw0REFBNEQ7QUFDNUQsNkVBQXFFO0FBQ3JFLDREQUE2RDtBQUM3RCxtQkFBeUIsR0FBZ0I7SUFDckMsT0FBTyxJQUFJLFdBQVcsQ0FBQyxHQUFHLENBQUMsQ0FBQztBQUNoQyxDQUFDO0FBRkQsNEJBRUM7QUFBQSxDQUFDO0FBQ0YsU0FBUyxLQUFLLENBQUMsT0FBZSxFQUFFLE1BQWMsRUFBRSxHQUFXO0lBQ3ZELE1BQU0sUUFBUSxHQUFHLG1DQUFjLENBQUMsVUFBVSxDQUFDLE9BQU8sRUFBRSxNQUFNLENBQUMsQ0FBQztJQUM1RCxJQUFJLENBQUMsUUFBUSxFQUFFO1FBQ1gsT0FBTyxFQUFFLEdBQUcsRUFBRSxTQUFTLEVBQUUsQ0FBQztLQUM3QjtJQUNELE1BQU0sVUFBVSxHQUFHLFFBQVEsQ0FBQyxTQUFTLENBQUMsR0FBRyxDQUFDLENBQUM7SUFDM0MsSUFBSSxDQUFDLFVBQVUsRUFBRTtRQUNiLE9BQU8sRUFBRSxRQUFRLEVBQUUsR0FBRyxFQUFFLFNBQVMsRUFBRSxDQUFDO0tBQ3ZDO0lBQ0QsVUFBVSxDQUFDLFdBQVcsRUFBRSxDQUFDO0lBQ3pCLE9BQU8sRUFBRSxRQUFRLEVBQUUsVUFBVSxFQUFFLENBQUM7QUFDcEMsQ0FBQztBQUNELE1BQWEsV0FBVztJQUVwQixZQUFvQixHQUFnQjtRQUFoQixRQUFHLEdBQUgsR0FBRyxDQUFhO1FBQ2hDLElBQUksQ0FBQyxHQUFHLEdBQUcsR0FBRyxDQUFDO0lBQ25CLENBQUM7SUFPRCxLQUFLLENBQUMsU0FBUyxDQUFDLEVBQUcsRUFBRSxPQUF1QjtRQUN4QyxNQUFNLEVBQUUsTUFBTSxFQUFF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

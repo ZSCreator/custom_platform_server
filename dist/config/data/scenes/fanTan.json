@@ -1,0 +1,13 @@
+[
+  {
+    "nid": "85",
+    "id": 0,
+    "name": "番摊",
+    "lowBet": 0,
+    "capBet": 0,
+    "allinMaxNum": 0,
+    "entryCond": 0,
+    "ChipList":[100, 1000, 5000, 10000, 50000]
+  }
+
+]

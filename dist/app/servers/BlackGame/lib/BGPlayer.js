@@ -1,0 +1,187 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const PlayerInfo_1 = require("../../../common/pojo/entity/PlayerInfo");
+const utils = require("../../../utils/index");
+const BG_logic = require("./BG_logic");
+const RecordGeneralManager_1 = require("../../../common/dao/RecordGeneralManager");
+const commonUtil_1 = require("../../../utils/lottery/commonUtil");
+class Player extends PlayerInfo_1.PlayerInfo {
+    constructor(i, opts) {
+        super(opts);
+        this.profit = 0;
+        this.bet = 0;
+        this.status = 'NONE';
+        this.state = "PS_NONE";
+        this.seat = i;
+        this.gold = opts.gold;
+        this.initgold = opts.gold;
+    }
+    init() {
+        this.initControlType();
+        this.bet = 0;
+        this.initProfit();
+    }
+    initProfit() {
+        this.profit = 0;
+    }
+    async settlement(roomInfo) {
+        if (this.bet > 0) {
+            const res = await (0, RecordGeneralManager_1.default)()
+                .setPlayerBaseInfo(this.uid, false, this.isRobot, this.initgold)
+                .setGameInfo(roomInfo.nid, roomInfo.sceneId, roomInfo.roomId)
+                .setGameRoundInfo(roomInfo.roundId, roomInfo.realPlayersNumber, 0)
+                .setControlType(this.controlType)
+                .setGameRecordInfo(Math.abs(this.bet), Math.abs(this.bet), this.profit, false)
+                .setGameRecordLivesResult(roomInfo.record_history)
+                .sendToDB(1);
+            this.gold = (0, commonUtil_1.fixNoRound)(res.gold);
+            this.profit = (0, commonUtil_1.fixNoRound)(res.playerRealWin);
+            this.initgold = this.gold;
+        }
+    }
+    action_first(roomInfo, bet, location, timeout) {
+        this.bet += bet;
+        this.gold -= bet;
+        const temp_areaList = roomInfo.area_list[location];
+        if (temp_areaList.length == 0) {
+            temp_areaList.push({ bet: bet, profit: 0, insurance: false, insurance_bet: -1, cards: [], type: 0, operate_status: 0, Points: 0, Points_t: 0, uid: this.uid, addMultiple: false });
+        }
+        temp_areaList[0].bet = bet;
+        roomInfo.channelIsPlayer("BlackGame.action_first", { uid: this.uid, seat: this.seat, bet, location, gold: this.gold });
+        roomInfo.record_history.oper.push({ uid: this.uid, oper_type: "下注", bet });
+        let is_can_next = true;
+        for (let key in roomInfo.area_list) {
+            const area_list = roomInfo.area_list[key];
+            if (area_list.length == 0 || area_list.length == 1 && area_list[0].bet == 0) {
+                is_can_next = false;
+                break;
+            }
+        }
+        if (!timeout && is_can_next) {
+            clearTimeout(roomInfo.Oper_timeout);
+            roomInfo.handler_deal();
+        }
+    }
+    action_separatePoker(roomInfo) {
+        this.state = "PS_NONE";
+        const area = roomInfo.area_list[roomInfo.location][0];
+        const bet = area.bet;
+        this.bet += bet;
+        this.gold -= bet;
+        roomInfo.area_list[roomInfo.location] = [utils.clone(area), utils.clone(area)];
+        roomInfo.area_list[roomInfo.location][0].cards = [area.cards[0]];
+        roomInfo.area_list[roomInfo.location][1].cards = [area.cards[1]];
+        roomInfo.area_list[roomInfo.location][0].cards.push(roomInfo.allcards.shift());
+        roomInfo.area_list[roomInfo.location][1].cards.push(roomInfo.allcards.shift());
+        const res1 = BG_logic.get_Points(roomInfo.area_list[roomInfo.location][0].cards, true);
+        const res2 = BG_logic.get_Points(roomInfo.area_list[roomInfo.location][1].cards, true);
+        roomInfo.area_list[roomInfo.location][0].type = res1.type;
+        roomInfo.area_list[roomInfo.location][0].Points = res1.Points;
+        roomInfo.area_list[roomInfo.location][0].Points_t = res1.Points_t;
+        roomInfo.area_list[roomInfo.location][1].type = res2.type;
+        roomInfo.area_list[roomInfo.location][1].Points = res2.Points;
+        roomInfo.area_list[roomInfo.location][1].Points_t = res2.Points_t;
+        roomInfo.channelIsPlayer("BlackGame.action_separatePoker", {
+            area_list: roomInfo.area_list,
+            seat: this.seat,
+            location: roomInfo.location, bet: 2 * bet, gold: this.gold
+        });
+        roomInfo.record_history.oper.push({ uid: this.uid, oper_type: "分牌", bet });
+        roomInfo.handler_loop();
+    }
+    action_addMultiple(roomInfo) {
+        const temp_areaList = roomInfo.area_list[roomInfo.location][roomInfo.idx];
+        const bet = temp_areaList.bet;
+        this.gold -= bet;
+        this.bet += bet;
+        temp_areaList.addMultiple = true;
+        temp_areaList.operate_status = 3;
+        temp_areaList.bet = bet * 2;
+        roomInfo.record_history.oper.push({ uid: this.uid, oper_type: "加倍", bet });
+        this.action_getOnePoker(roomInfo, false);
+    }
+    action_stop_getCard(roomInfo) {
+        this.state = "PS_NONE";
+        const temp_areaList = roomInfo.area_list[roomInfo.location][roomInfo.idx];
+        temp_areaList.operate_status = 3;
+        const opts = {
+            area_list: roomInfo.area_list,
+            location: roomInfo.location,
+            idx: roomInfo.idx,
+            seat: this.seat,
+            addMultiple: temp_areaList.addMultiple,
+            bet: temp_areaList.bet,
+            gold: this.gold
+        };
+        roomInfo.channelIsPlayer("BlackGame.action_stop_getCard", opts);
+        roomInfo.record_history.oper.push({ uid: this.uid, oper_type: "停牌" });
+        roomInfo.handler_loop();
+    }
+    action_getOnePoker(roomInfo, flag) {
+        this.state = "PS_NONE";
+        const temp_areaList = roomInfo.area_list[roomInfo.location][roomInfo.idx];
+        temp_areaList.cards.push(roomInfo.allcards.shift());
+        let res = BG_logic.get_Points(temp_areaList.cards, roomInfo.area_list[roomInfo.location].length == 2);
+        if (res.Points == 21 || temp_areaList.cards.length == 5) {
+            temp_areaList.operate_status = 3;
+        }
+        temp_areaList.Points = res.Points;
+        temp_areaList.Points_t = res.Points_t;
+        temp_areaList.type = res.type;
+        if (res.type == 0) {
+            temp_areaList.operate_status = 2;
+        }
+        const opts = {
+            area_list: roomInfo.area_list,
+            location: roomInfo.location,
+            idx: roomInfo.idx,
+            seat: this.seat,
+            addMultiple: temp_areaList.addMultiple,
+            bet: roomInfo.area_list[roomInfo.location].reduce((total, c) => (c.bet + total), 0),
+            gold: this.gold
+        };
+        if (flag) {
+            roomInfo.record_history.oper.push({ uid: this.uid, oper_type: "要牌" });
+        }
+        roomInfo.channelIsPlayer("BlackGame.action_getOnePoker", opts);
+        roomInfo.handler_loop();
+    }
+    action_insurance(roomInfo, flag) {
+        this.state = "PS_NONE";
+        const temp_areaList = roomInfo.area_list[roomInfo.location][roomInfo.idx];
+        const bet = flag ? temp_areaList.bet / 2 : 0;
+        this.gold -= bet;
+        this.bet += bet;
+        temp_areaList.insurance_bet = bet;
+        roomInfo.record_history.oper.push({ uid: this.uid, oper_type: "买保险", bet: bet });
+        roomInfo.channelIsPlayer("BlackGame.action_insurance", { bet, gold: this.gold, seat: this.seat, location: roomInfo.location, operate_status: flag });
+        let is_over = true;
+        let has_insurance = false;
+        for (let key in roomInfo.area_list) {
+            const area_list = roomInfo.area_list[key];
+            if (area_list.length > 0 && area_list[0].insurance == true) {
+                if (area_list[0].insurance_bet == -1) {
+                    is_over = false;
+                    break;
+                }
+                else {
+                    has_insurance = true;
+                }
+            }
+        }
+        if (is_over) {
+            clearTimeout(roomInfo.Oper_timeout);
+            if (has_insurance) {
+                roomInfo.handler_check(true);
+            }
+            else {
+                roomInfo.handler_loop();
+            }
+        }
+        else {
+            roomInfo.insurance_loop();
+        }
+    }
+}
+exports.default = Player;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQkdQbGF5ZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9CbGFja0dhbWUvbGliL0JHUGxheWVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsdUVBQW9FO0FBQ3BFLDhDQUErQztBQUUvQyx1Q0FBd0M7QUFDeEMsbUZBQWlGO0FBQ2pGLGtFQUErRDtBQUUvRCxNQUFxQixNQUFPLFNBQVEsdUJBQVU7SUFXMUMsWUFBWSxDQUFTLEVBQUUsSUFBUztRQUM1QixLQUFLLENBQUMsSUFBSSxDQUFDLENBQUM7UUFSaEIsV0FBTSxHQUFXLENBQUMsQ0FBQztRQUVuQixRQUFHLEdBQVcsQ0FBQyxDQUFDO1FBQ2hCLFdBQU0sR0FBNkIsTUFBTSxDQUFDO1FBRTFDLFVBQUssR0FBMEIsU0FBUyxDQUFDO1FBSXJDLElBQUksQ0FBQyxJQUFJLEdBQUcsQ0FBQyxDQUFDO1FBQ2QsSUFBSSxDQUFDLElBQUksR0FBRyxJQUFJLENBQUMsSUFBSSxDQUFDO1FBQ3RCLElBQUksQ0FBQyxRQUFRLEdBQUcsSUFBSSxDQUFDLElBQUksQ0FBQztJQUM5QixDQUFDO0lBS0QsSUFBSTtRQUNBLElBQUksQ0FBQyxlQUFlLEVBQUUsQ0FBQztRQUN2QixJQUFJLENBQUMsR0FBRyxHQUFHLENBQUMsQ0FBQztRQUNiLElBQUksQ0FBQyxVQUFVLEVBQUUsQ0FBQztJQUN0QixDQUFDO0lBRUQsVUFBVTtRQUNOLElBQUksQ0FBQyxNQUFNLEdBQUcsQ0FBQyxDQUFDO0lBQ3BCLENBQUM7SUFHRCxLQUFLLENBQUMsVUFBVSxDQUFDLFFBQWdCO1FBQzdCLElBQUksSUFBSSxDQUFDLEdBQUcsR0FBRyxDQUFDLEVBQUU7WUFDZCxNQUFNLEdBQUcsR0FBRyxNQUFNLElBQUEsOEJBQXlCLEdBQUU7aUJBQ3hDLGlCQUFpQixDQUFDLElBQUksQ0FBQyxHQUFHLEVBQUUsS0FBSyxFQUFFLElBQUksQ0FBQyxPQUFPLEVBQUUsSUFBSSxDQUFDLFFBQVEsQ0FBQztpQkFDL0QsV0FBVyxDQUFDLFFBQVEsQ0FBQyxHQUFHLEVBQUUsUUFBUSxDQUFDLE9BQU8sRUFBRSxRQUFRLENBQUMsTUFBTSxDQUFDO2lCQUM1RCxnQkFBZ0IsQ0FBQyxRQUFRLENBQUMsT0FBTyxFQUFFLFFBQVEsQ0FBQyxpQkFBaUIsRUFBRSxDQUFDLENBQUM7aUJBQ2pFLGNBQWMsQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDO2lCQUNoQyxpQkFBaUIsQ0FBQyxJQUFJLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRSxJQUFJLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRSxJQUFJLENBQUMsTUFBTSxFQUFFLEtBQUssQ0FBQztpQkFDN0Usd0JBQXdCLENBQUMsUUFBUSxDQUFDLGNBQWMsQ0FBQztpQkFDakQsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDO1lBQ2pCLElBQUksQ0FBQyxJQUFJLEdBQUcsSUFBQSx1QkFBVSxFQUFDLEdBQUcsQ0FBQyxJQUFJLENBQUMsQ0FBQztZQUNqQyxJQUFJLENBQUMsTUFBTSxHQUFHLElBQUEsdUJBQVUsRUFBQyxHQUFHLENBQUMsYUFBYSxDQUFDLENBQUM7WUFDNUMsSUFBSSxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUMsSUFBSSxDQUFDO1NBQzdCO0lBQ0wsQ0FBQztJQUVELFlBQVksQ0FBQyxRQUFnQixFQUFFLEdBQVcsRUFBRSxRQUFnQixFQUFFLE9BQWdCO1FBQzFFLElBQUksQ0FBQyxHQUFHLElBQUksR0FBRyxDQUFDO1FBQ2hCLElBQUksQ0FBQyxJQUFJLElBQUksR0FBRyxDQUFDO1FBQ2pCLE1BQU0sYUFBYSxHQUFHLFFBQVEsQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLENBQUM7UUFDbkQsSUFBSSxhQUFhLENBQUMsTUFBTSxJQUFJLENBQUMsRUFBRTtZQUMzQixhQUFhLENBQUMsSUFBSSxDQUFDLEVBQUUsR0FBRyxFQUFFLEdBQUcsRUFBRSxNQUFNLEVBQUUsQ0FBQyxFQUFFLFNBQVMsRUFBRSxLQUFLLEVBQUUsYUFBYSxFQUFFLENBQUMsQ0FBQyxFQUFFLEtBQUssRUFBRSxFQUFFLEVBQUUsSUFBSSxFQUFFLENBQUMsRUFBRSxjQUFjLEVBQUUsQ0FBQyxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsUUFBUSxFQUFFLENBQUMsRUFBRSxHQUFHLEVBQUUsSUFBSSxDQUFDLEdBQUcsRUFBRSxXQUFXLEVBQUUsS0FBSyxFQUFFLENBQUMsQ0FBQTtTQUNyTDtRQUNELGFBQWEsQ0FBQyxDQUFDLENBQUMsQ0FBQyxHQUFHLEdBQUcsR0FBRyxDQUFDO1FBQzNCLFFBQVEsQ0FBQyxlQUFlLENBQUMsd0JBQXdCLEVBQUUsRUFBRSxHQUFHLEVBQUUsSUFBSSxDQUFDLEdBQUcsRUFBRSxJQUFJLEVBQUUsSUFBSSxDQUFDLElBQUksRUFBRSxHQUFHLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxJQUFJLENBQUMsSUFBSSxFQUFFLENBQUMsQ0FBQztRQUN2SCxRQUFRLENBQUMsY0FBYyxDQUFDLElBQUksQ0FBQyxJQUFJLENBQUMsRUFBRSxHQUFHLEVBQUUsSUFBSSxDQUFDLEdBQUcsRUFBRSxTQUFTLEVBQUUsSUFBSSxFQUFFLEdBQUcsRUFBRSxDQUFDLENBQUM7UUFFM0UsSUFBSSxXQUFXLEdBQUcsSUFBSSxDQUFDO1FBQ3ZCLEtBQUssSUFBSSxHQUFHLElBQUksUUFBUSxDQUFDLFNBQVMsRUFBRTtZQUNoQyxNQUFNLFNBQVMsR0FBRyxRQUFRLENBQUMsU0FBUyxDQUFDLEdBQUcsQ0FBQyxDQUFDO1lBQzFDLElBQUksU0FBUyxDQUFDLE1BQU0sSUFBSSxDQUFDLElBQUksU0FBUyxDQUFDLE1BQU0sSUFBSSxDQUFDLElBQUksU0FBUyxDQUFDLENBQUMsQ0FBQyxDQUFDLEdBQUcsSUFBSSxDQUFDLEVBQUU7Z0JBQ3pFLFdBQVcsR0FBRyxLQUFLLENBQUM7Z0JBQ3BCLE1BQU07YUFDVDtTQUNKO1FBQ0QsSUFBSSxDQUFDLE9BQU8sSUFBSSxXQUFXLEVBQUU7WUFDekIsWUFBWSxDQUFDLFFBQVEsQ0FBQyxZQUFZLENBQUMsQ0FBQztZQUNwQyxRQUFRLENBQUMsWUFBWSxFQUFFLENBQUM7U0FDM0I7SUFDTCxDQUFDO0lBSUQsb0JBQW9CLENBQUMsUUFBZ0I7UUFDakMsSUFBSSxDQUFDLEtBQUssR0FBRyxTQUFTLENBQUM7UUFDdkIsTUFBTSxJQUFJLEdBQUcsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUM7UUFDdEQsTUFBTSxHQUFHLEdBQUcsSUFBSSxDQUFDLEdBQUcsQ0FBQztRQUNyQixJQUFJLENBQUMsR0FBRyxJQUFJLEdBQUcsQ0FBQztRQUNoQixJQUFJLENBQUMsSUFBSSxJQUFJLEdBQUcsQ0FBQztRQUNqQixRQUFRLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsR0FBRyxDQUFDLEtBQUssQ0FBQyxLQUFLLENBQUMsSUFBSSxDQUFDLEVBQUUsS0FBSyxDQUFDLEtBQUssQ0FBQyxJQUFJLENBQUMsQ0FBQyxDQUFDO1FBRS9FLFFBQVEsQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLFFBQVEsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLEtBQUssR0FBRyxDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQztRQUNqRSxRQUFRLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxLQUFLLEdBQUcsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUM7UUFFakUsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsS0FBSyxDQUFDLElBQUksQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLEtBQUssRUFBRSxDQUFDLENBQUM7UUFDL0UsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsS0FBSyxDQUFDLElBQUksQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLEtBQUssRUFBRSxDQUFDLENBQUM7UUFFL0UsTUFBTSxJQUFJLEdBQUcsUUFBUSxDQUFDLFVBQVUsQ0FBQyxRQUFRLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxLQUFLLEVBQUUsSUFBSSxDQUFDLENBQUM7UUFDdkYsTUFBTSxJQUFJLEdBQUcsUUFBUSxDQUFDLFVBQVUsQ0FBQyxRQUFRLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxLQUFLLEVBQUUsSUFBSSxDQUFDLENBQUM7UUFFdkYsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsSUFBSSxHQUFHLElBQUksQ0FBQyxJQUFJLENBQUM7UUFDMUQsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsTUFBTSxHQUFHLElBQUksQ0FBQyxNQUFNLENBQUM7UUFDOUQsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxRQUFRLENBQUM7UUFFbEUsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsSUFBSSxHQUFHLElBQUksQ0FBQyxJQUFJLENBQUM7UUFDMUQsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsTUFBTSxHQUFHLElBQUksQ0FBQyxNQUFNLENBQUM7UUFDOUQsUUFBUSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxRQUFRLENBQUM7UUFFbEUsUUFBUSxDQUFDLGVBQWUsQ0FBQyxnQ0FBZ0Ms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

@@ -1,0 +1,29 @@
+[
+  {
+    "nid": "48",
+    "id": 0,
+    "name": "推筒子",
+    "entryCond": 0,
+    "lowBet": 100,
+    "capBet": 50000,
+    "allinMaxNum": 500000
+  },
+  {
+    "nid": "48",
+    "id": 1,
+    "name": "推筒子",
+    "entryCond": 0,
+    "lowBet": 100,
+    "capBet": 50000,
+    "allinMaxNum": 500000
+  },
+  {
+    "nid": "48",
+    "id": 2,
+    "name": "推筒子",
+    "entryCond": 0,
+    "lowBet": 100,
+    "capBet": 50000,
+    "allinMaxNum": 500000
+  }
+]

@@ -1,0 +1,13 @@
+[
+{
+"nid": "58",
+"id": 0,
+"name": "鱼虾蟹",
+"lowBet": 10,
+"capBet": 0,
+"allinMaxNum": 0,
+"entryCond": 0,
+"roomCapacity": 100,
+"ChipList":[100, 1000, 5000, 10000, 50000]
+}
+]

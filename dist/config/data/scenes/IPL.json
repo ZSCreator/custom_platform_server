@@ -1,0 +1,12 @@
+{
+    "development": {
+        "apiKey": "AIzaSyCKqwxpgPnBgE-_eV0c9Jf0r-B_1Wf3F1o",
+        "email": "meibotechtest@aecricex.xyz",
+        "password": "ondvf5ktzvtkvgv"
+    },
+    "production": {
+        "apiKey": "AIzaSyCKqwxpgPnBgE-_eV0c9Jf0r-B_1Wf3F1o",
+        "email": "meibotechtest@aecricex.xyz",
+        "password": "ondvf5ktzvtkvgv"
+    }
+}

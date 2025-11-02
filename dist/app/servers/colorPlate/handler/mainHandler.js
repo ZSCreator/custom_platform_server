@@ -1,0 +1,73 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.mainHandler = void 0;
+const utils_1 = require("../../../utils");
+const langsrv_1 = require("../../../services/common/langsrv");
+function default_1(app) {
+    return new mainHandler(app);
+}
+exports.default = default_1;
+;
+class mainHandler {
+    constructor(app) {
+        this.app = app;
+        this.app = app;
+    }
+    async load({ room, player }, session) {
+        return {
+            code: 200,
+            state: room.processState.stateName,
+            countdown: room.processState.getRemainingTime(),
+            roundId: room.roundId,
+            betAreas: room.getSimpleBetAreas(),
+            playerBetsDetail: player.getBetsDetail(),
+            displayPlayers: room.getDisplayPlayers(),
+            lotteryHistory: room.getLotteryHistory(),
+            playersNumber: room.getPlayers().length,
+            gold: player.gold,
+        };
+    }
+    async bet({ room, player, bets }, session) {
+        if (!room.isBetState()) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_2011) };
+        }
+        if (!bets) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_1214) };
+        }
+        if (player.isLackGold((0, utils_1.sum)(bets))) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_1015) };
+        }
+        if (!player.checkBetAreas(bets)) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_1738) };
+        }
+        if (room.checkBets(bets)) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_1013) };
+        }
+        room.playerBet(player, bets);
+        return { code: 200, gold: player.gold };
+    }
+    async renew({ room, player }, session) {
+        if (!player.isLastBet()) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_2022) };
+        }
+        if (player.isLackGold((0, utils_1.sum)(player.getLastBets()))) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_1015) };
+        }
+        if (room.checkBets(player.getLastBets())) {
+            return { code: 500, message: (0, langsrv_1.getlanguage)(player.language, langsrv_1.Net_Message.id_1013) };
+        }
+        room.playerBet(player, player.getLastBets());
+        return { code: 200, gold: player.gold };
+    }
+    async applyToBeBanker({ room, player }, session) {
+        return { code: 200 };
+    }
+    async applyToBePlayer({ room, player }, session) {
+        return { code: 200 };
+    }
+    async getPlayers({ room, player }, session) {
+        return { code: 200, players: room.getFrontDisplayPlayers() };
+    }
+}
+exports.mainHandler = mainHandler;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbkhhbmRsZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9jb2xvclBsYXRlL2hhbmRsZXIvbWFpbkhhbmRsZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBSUEsMENBQXFDO0FBQ3JDLDhEQUE0RTtBQUk1RSxtQkFBeUIsR0FBZ0I7SUFDckMsT0FBTyxJQUFJLFdBQVcsQ0FBQyxHQUFHLENBQUMsQ0FBQztBQUNoQyxDQUFDO0FBRkQsNEJBRUM7QUFBQSxDQUFDO0FBRUYsTUFBYSxXQUFXO0lBRXBCLFlBQW9CLEdBQWdCO1FBQWhCLFFBQUcsR0FBSCxHQUFHLENBQWE7UUFDaEMsSUFBSSxDQUFDLEdBQUcsR0FBRyxHQUFHLENBQUM7SUFDbkIsQ0FBQztJQU9ELEtBQUssQ0FBQyxJQUFJLENBQUMsRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFrQyxFQUFFLE9BQXdCO1FBR2pGLE9BQU87WUFDSCxJQUFJLEVBQUUsR0FBRztZQUNULEtBQUssRUFBRSxJQUFJLENBQUMsWUFBWSxDQUFDLFNBQVM7WUFDbEMsU0FBUyxFQUFFLElBQUksQ0FBQyxZQUFZLENBQUMsZ0JBQWdCLEVBQUU7WUFDL0MsT0FBTyxFQUFFLElBQUksQ0FBQyxPQUFPO1lBQ3JCLFFBQVEsRUFBRSxJQUFJLENBQUMsaUJBQWlCLEVBQUU7WUFDbEMsZ0JBQWdCLEVBQUUsTUFBTSxDQUFDLGFBQWEsRUFBRTtZQUN4QyxjQUFjLEVBQUUsSUFBSSxDQUFDLGlCQUFpQixFQUFFO1lBQ3hDLGNBQWMsRUFBRSxJQUFJLENBQUMsaUJBQWlCLEVBQUU7WUFDeEMsYUFBYSxFQUFFLElBQUksQ0FBQyxVQUFVLEVBQUUsQ0FBQyxNQUFNO1lBQ3ZDLElBQUksRUFBRSxNQUFNLENBQUMsSUFBSTtTQUNwQixDQUFDO0lBQ04sQ0FBQztJQU9ELEtBQUssQ0FBQyxHQUFHLENBQUMsRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFFLElBQUksRUFBMkUs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

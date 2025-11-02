@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.buildRecordResult = void 0;
+const elementConversionConfig = {
+    'A': '1',
+    'K': '2',
+    'Q': '3',
+    'J': '4',
+    'E': '5',
+    'F': '6',
+    'G': '7',
+    'H': '8',
+    'W': '9',
+};
+function buildRecordResult(bet, betLine, winLines) {
+    const linesCount = winLines.length;
+    let lines = winLines.length === 0 ? '' : winLines.reduce(((str, line) => {
+        return str + `${line.money}/${elementConversionConfig[line.type]}/${line.multiple}|`;
+    }), '');
+    if (lines.length)
+        lines = lines.slice(0, lines.length - 1);
+    return `${bet}|${betLine}|${linesCount}|${lines}`;
+}
+exports.buildRecordResult = buildRecordResult;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVjb3JkVXRpbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL2FwcC9zZXJ2ZXJzL1RyaXBsZVBhbmRhL2xpYi91dGlsL3JlY29yZFV0aWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBR0EsTUFBTSx1QkFBdUIsR0FBRztJQUM1QixHQUFHLEVBQUUsR0FBRztJQUNSLEdBQUcsRUFBRSxHQUFHO0lBQ1IsR0FBRyxFQUFFLEdBQUc7SUFDUixHQUFHLEVBQUUsR0FBRztJQUNSLEdBQUcsRUFBRSxHQUFHO0lBQ1IsR0FBRyxFQUFFLEdBQUc7SUFDUixHQUFHLEVBQUUsR0FBRztJQUNSLEdBQUcsRUFBRSxHQUFHO0lBQ1IsR0FBRyxFQUFFLEdBQUc7Q0FDWCxDQUFDO0FBU0YsU0FBZ0IsaUJBQWlCLENBQUMsR0FBVyxFQUFFLE9BQWUsRUFBRSxRQUFlO0lBRTNFLE1BQU0sVUFBVSxHQUFHLFFBQVEsQ0FBQyxNQUFNLENBQUM7SUFFbkMsSUFBSSxLQUFLLEdBQVcsUUFBUSxDQUFDLE1BQU0sS0FBSyxDQUFDLENBQUMsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxDQUFDLENBQUMsUUFBUSxDQUFDLE1BQU0sQ0FBQyxDQUFDLENBQUMsR0FBRyxFQUFFLElBQUksRUFBRSxFQUFFO1FBQzVFLE9BQU8sR0FBRyxHQUFHLEdBQUcsSUFBSSxDQUFDLEtBQUssSUFBSSx1QkFBdUIsQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLElBQUksSUFBSSxDQUFDLFFBQVEsR0FBRyxDQUFDO0lBQ3pGLENBQUMsQ0FBQyxFQUFFLEVBQUUsQ0FBQyxDQUFDO0lBRVIsSUFBSSxLQUFLLENBQUMsTUFBTTtRQUFFLEtBQUssR0FBRyxLQUFLLENBQUMsS0FBSyxDQUFDLENBQUMsRUFBRSxLQUFLLENBQUMsTUFBTSxHQUFHLENBQUMsQ0FBQyxDQUFDO0lBRTNELE9BQU8sR0FBRyxHQUFHLElBQUksT0FBTyxJQUFJLFVBQVUsSUFBSSxLQUFLLEVBQUUsQ0FBQztBQUN0RCxDQUFDO0FBWEQsOENBV0MifQ==

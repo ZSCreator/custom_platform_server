@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "6",
+        "id": 0,
+        "name": "0.1金币炮场",
+        "entryCond": 1000,
+        "bullet_value": 10,
+        "base_rate": 100
+    },
+    {
+        "nid": "6",
+        "id": 1,
+        "name": "1金币炮场",
+        "entryCond": 10000,
+        "bullet_value": 100,
+        "base_rate": 100
+    },
+    {
+        "nid": "6",
+        "id": 2,
+        "name": "5金币炮场",
+        "entryCond": 50000,
+        "bullet_value": 500,
+        "base_rate": 100
+    }
+]

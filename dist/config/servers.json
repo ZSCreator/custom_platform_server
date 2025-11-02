@@ -1,0 +1,108 @@
+{
+  "development": {
+    "gateHttp": [
+      {
+        "id": "gateHttp-server-1",
+        "host": "127.0.0.1",
+        "port": 3150,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "connector": [
+      {
+        "id": "connector-server-1",
+        "host": "127.0.0.1",
+        "port": 3250,
+        "clientHost": "52.221.182.81",
+        "clientPort": 3200,
+        "frontend": true,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "hall": [
+      {
+        "id": "hall-server-1",
+        "host": "127.0.0.1",
+        "port": 3350,
+        "auto-restart": true,
+        "restart-force": true,
+        "args": " --inspect=13350"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "schedule-server-1",
+        "host": "127.0.0.1",
+        "port": 3450,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "control": [
+      {
+        "id": "control-server-1",
+        "host": "127.0.0.1",
+        "port": 3560,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "gmsApi": [
+      {
+        "id": "gmsApi-server-1",
+        "host": "127.0.0.1",
+        "port": 3670,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "checkPlayerInGame": [
+      {
+        "id": "checkPlayerInGame-server-1",
+        "host": "127.0.0.1",
+        "port": 3695,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "activity": [
+      {
+        "id": "activity-server-1",
+        "host": "127.0.0.1",
+        "port": 3696,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "DZpipei": [
+      {
+        "id": "DZpipei-server-1",
+        "host": "127.0.0.1",
+        "port": 3733,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "GoldenFlower": [
+      {
+        "id": "GoldenFlower-server-1",
+        "host": "127.0.0.1",
+        "port": 3734,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ],
+    "qznnpp": [
+      {
+        "id": "qznnpp-server-1",
+        "host": "127.0.0.1",
+        "port": 3735,
+        "auto-restart": true,
+        "restart-force": true
+      }
+    ]
+  },
+  "production": {}
+}

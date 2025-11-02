@@ -1,0 +1,36 @@
+[
+  {
+    "nid": "14",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "奔驰宝马",
+    "id": 0,
+    "sceneName": "荣耀厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 5000,
+    "maxAmount": 1000000,
+    "maxParameter": 10000,
+    "maxAmountInStore": 2000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 100
+  },
+  {
+    "nid": "14",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "奔驰宝马",
+    "id": 1,
+    "sceneName": "尊享厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 5000,
+    "maxAmount": 1000000,
+    "maxParameter": 10000,
+    "maxAmountInStore": 2000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 100
+  }
+]

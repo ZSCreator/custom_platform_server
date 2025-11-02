@@ -1,0 +1,19 @@
+[
+  {
+    "nid": "39",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "caishen",
+    "id": 0,
+    "sceneName": "迎财神",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 100000,
+    "maxAmount": 5000000,
+    "maxParameter": 200000,
+    "maxAmountInStore": 10000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 2000
+  }
+]

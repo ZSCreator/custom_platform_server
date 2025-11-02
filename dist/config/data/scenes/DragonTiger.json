@@ -1,0 +1,32 @@
+[
+  {
+    "nid": "42",
+    "id": 0,
+    "name": "荣耀厅",
+    "lowBet": 2000,
+    "capBet": 1000000,
+    "allinMaxNum": 100,
+    "entryCond": 0,
+    "ChipList":[100, 1000, 5000, 10000, 50000]
+  },
+  {
+    "nid": "42",
+    "id": 1,
+    "name": "传奇厅",
+    "lowBet": 10000,
+    "capBet": 2000000,
+    "allinMaxNum": 1000,
+    "entryCond": 0,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  },
+  {
+    "nid": "42",
+    "id": 2,
+    "name": "尊享厅",
+    "lowBet": 20000,
+    "capBet": 5000000,
+    "allinMaxNum": 1000,
+    "entryCond": 0,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  }
+]

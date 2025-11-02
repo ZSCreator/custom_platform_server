@@ -1,0 +1,16 @@
+[2023-05-25T12:23:36.498] [WARN] logger - mysql | 服务 slots77-server-1 | 创建连接池 | 成功
+[2023-05-25T12:23:36.561] [WARN] logger - 重置当前服务器人数 slots77-server-1
+[2023-05-25T12:23:36.709] [WARN] logger - 重置当前服务器人数 slots77-server-1
+[2023-05-25T12:23:36.805] [WARN] logger - slots77-server-1 77(3x3) 配服务器启动之后
+[2023-05-25T12:33:08.365] [WARN] logger - mysql | 服务 slots77-server-1 | 创建连接池 | 成功
+[2023-05-25T12:33:08.447] [WARN] logger - 重置当前服务器人数 slots77-server-1
+[2023-05-25T12:33:08.558] [WARN] logger - slots77-server-1 77(3x3) 配服务器启动之后
+[2023-05-25T12:38:04.993] [WARN] logger - mysql | 服务 slots77-server-1 | 创建连接池 | 成功
+[2023-05-25T12:38:05.334] [WARN] logger - 重置当前服务器人数 slots77-server-1
+[2023-05-25T12:38:05.469] [WARN] logger - slots77-server-1 77(3x3) 配服务器启动之后
+[2023-05-29T11:44:09.583] [WARN] logger - mysql | 服务 slots77-server-1 | 创建连接池 | 成功
+[2023-05-29T11:44:11.562] [WARN] logger - 重置当前服务器人数 slots77-server-1
+[2023-05-29T11:44:13.712] [WARN] logger - slots77-server-1 77(3x3) 配服务器启动之后
+[2023-05-30T11:38:34.785] [WARN] logger - mysql | 服务 slots77-server-1 | 创建连接池 | 成功
+[2023-05-30T11:38:34.998] [WARN] logger - 重置当前服务器人数 slots77-server-1
+[2023-05-30T11:38:35.105] [WARN] logger - slots77-server-1 77(3x3) 配服务器启动之后

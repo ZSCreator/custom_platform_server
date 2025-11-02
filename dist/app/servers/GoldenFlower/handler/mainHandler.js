@@ -1,0 +1,363 @@
+'use strict';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.mainHandler = void 0;
+const pinus_1 = require("pinus");
+const GoldenFlowerMgr_1 = require("../lib/GoldenFlowerMgr");
+const sessionService = require("../../../services/sessionService");
+const pinus_logger_1 = require("pinus-logger");
+const utils = require("../../../utils/index");
+const langsrv = require("../../../services/common/langsrv");
+const GoldenFlower_logic = require("../lib/GoldenFlower_logic");
+function check(sceneId, roomId, uid) {
+    const roomInfo = GoldenFlowerMgr_1.default.searchRoom(sceneId, roomId);
+    if (!roomInfo) {
+        return { err: `三张牌房间不存在${roomId}|${uid}` };
+    }
+    const playerInfo = roomInfo.getPlayer(uid);
+    if (!playerInfo) {
+        return { err: "该局已结束，你已离开房间", uid: uid, players: roomInfo.players };
+    }
+    playerInfo.update_time();
+    return { roomInfo, playerInfo };
+}
+function default_1(app) {
+    return new mainHandler(app);
+}
+exports.default = default_1;
+;
+class mainHandler {
+    constructor(app) {
+        this.app = app;
+        this.logger = (0, pinus_logger_1.getLogger)('server_out', __filename);
+    }
+    async loaded(msg, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (playerInfo.status === 'NONE') {
+                playerInfo.status = `WAIT`;
+                roomInfo.channelIsPlayer('ZJH_onEntry', {
+                    roomId: roomInfo.roomId,
+                    player: playerInfo.strip(),
+                    status: roomInfo.status,
+                    waitTime: roomInfo.getWaitTime(),
+                    roomNum: roomInfo.players.filter(m => m != null).length
+                });
+            }
+            if (roomInfo.status == `NONE` || roomInfo.status == `INWAIT`) {
+                roomInfo.wait(playerInfo);
+            }
+            const opts = {
+                code: 200,
+                room: roomInfo.strip(),
+                holds: playerInfo.holdStatus === 1 ? playerInfo.toHolds() : null,
+                waitTime: roomInfo.getWaitTime(),
+                lowBet: roomInfo.lowBet,
+                capBet: roomInfo.capBet,
+                seat: playerInfo.seat,
+                roundId: roomInfo.roundId,
+                offLine: roomInfo.stripSpeak(playerInfo),
+                totalBet: playerInfo.totalBet,
+                id: roomInfo.sceneId
+            };
+            return opts;
+        }
+        catch (error) {
+            this.logger.warn(`GoldenFlower.mainHandler.loaded:${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    ;
+    async cingl({}, session) {
+        const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        try {
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (roomInfo.status != 'INGAME') {
+                return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1018) };
+            }
+            if (roomInfo.curr_doing_seat != playerInfo.seat || playerInfo.state == "PS_NONE") {
+                return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1033) };
+            }
+            const betNum = playerInfo.holdStatus === 1 ? roomInfo.betNum * 2 : roomInfo.betNum;
+            if (playerInfo.gold < betNum) {
+                return { code: 500, error: langsrv.getlanguage(language, langsrv.Net_Message.id_1015) };
+            }
+            playerInfo.handler_cingl(roomInfo, betNum);
+            return { code: 200, betNum: betNum, gold: playerInfo.gold };
+        }
+        catch (error) {
+            this.logger.error(`${pinus_1.pinus.app.getServerId()}|GoldenFlower.mainHandler.cingl:${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    ;
+    async filling(msg, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (roomInfo.status !== 'INGAME') {
+                return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1018) };
+            }
+            if (roomInfo.curr_doing_seat != playerInfo.seat || playerInfo.state == "PS_NONE") {
+                return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1033) };
+            }
+            if (typeof msg.multiple !== 'number') {
+                msg.multiple = roomInfo.betNum;
+            }
+            let flag = (msg.multiple > roomInfo.betNum && msg.multiple <= roomInfo.capBet / 2) ? true : false;
+            let num = Math.max(roomInfo.betNum, msg.multiple);
+            num = Math.min(num, roomInfo.capBet / 2);
+            let betNum = playerInfo.holdStatus === 1 ? num * 2 : num;
+            if (playerInfo.gold < betNum) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1015) };
+            }
+            if (flag) {
+                playerInfo.handler_filling(roomInfo, betNum, num);
+            }
+            else {
+                betNum = playerInfo.holdStatus === 1 ? roomInfo.betNum * 2 : roomInfo.betNum;
+                playerInfo.handler_cingl(roomInfo, betNum);
+            }
+            return { code: 200, betNum: betNum, gold: playerInfo.gold };
+        }
+        catch (error) {
+            this.logger.error(`${pinus_1.pinus.app.getServerId()}|GoldenFlower.mainHandler.filling:${error}`);
+        }
+    }
+    ;
+    async kanpai({}, session) {
+        const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+        const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+        try {
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (roomInfo.status != 'INGAME' || playerInfo.totalBet < roomInfo.lowBet) {
+                return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1012) };
+            }
+            if (playerInfo.holdStatus != 0) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1012) };
+            }
+            playerInfo.holdStatus = 1;
+            playerInfo.handler_kanpai(roomInfo);
+            const num = playerInfo.holdStatus == 1 ? roomInfo.betNum * 2 : roomInfo.betNum;
+            let allin = false;
+            if (playerInfo.gold < num) {
+                allin = true;
+            }
+            return { code: 200, holds: playerInfo.toHolds(), holdStatus: playerInfo.holdStatus, allin };
+        }
+        catch (error) {
+            this.logger.error(`GoldenFlower.mainHandler.kanpai:${error}`);
+            return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1012) };
+        }
+    }
+    ;
+    async applyBipai({}, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (roomInfo.status !== 'INGAME') {
+                return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1018) };
+            }
+            if (roomInfo.curr_doing_seat !== playerInfo.seat || playerInfo.state == "PS_NONE") {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1033) };
+            }
+            const canBipai = roomInfo.get_canBipai();
+            if (!canBipai) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1032) };
+            }
+            const num = playerInfo.holdStatus === 1 ? roomInfo.betNum * 2 : roomInfo.betNum;
+            if (playerInfo.gold < num) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1015) };
+            }
+            const list = roomInfo.players.filter(m => m && m.status == 'GAME' && m.uid !== playerInfo.uid);
+            if (list.length === 0) {
+                return { code: 500, msg: "" };
+            }
+            if (list.length === 1) {
+                roomInfo.handler_bipai(playerInfo, list[0], num);
+                return { code: 200 };
+            }
+            else {
+                return {
+                    code: 200, list: list.map(m => {
+                        return {
+                            seat: m.seat,
+                            holdStatus: m.holdStatus
+                        };
+                    })
+                };
+            }
+        }
+        catch (error) {
+            this.logger.error(`${pinus_1.pinus.app.getServerId()}|GoldenFlower.mainHandler.applyBipai:${error}`);
+        }
+    }
+    ;
+    async bipai({ seat: seat }, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (roomInfo.status !== 'INGAME') {
+                return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1018) };
+            }
+            const other = roomInfo.players[seat];
+            if (!other || other.status != "GAME") {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1009) };
+            }
+            if (roomInfo.curr_doing_seat !== playerInfo.seat || playerInfo.state == "PS_NONE") {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1033) };
+            }
+            const canBipai = roomInfo.get_canBipai();
+            if (!canBipai) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1032) };
+            }
+            const num = playerInfo.holdStatus === 1 ? roomInfo.betNum * 2 : roomInfo.betNum;
+            if (playerInfo.gold < num) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1015) };
+            }
+            roomInfo.handler_bipai(playerInfo, other, num);
+            return { code: 200 };
+        }
+        catch (error) {
+            this.logger.error(`${pinus_1.pinus.app.getServerId()}|GoldenFlower.mainHandler.bipai:${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    ;
+    async fold({}, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (roomInfo.status != 'INGAME' || playerInfo.status != "GAME") {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1214) };
+            }
+            const list = roomInfo.players.filter(pl => pl && pl.status == 'GAME');
+            if (list.length <= 1) {
+                return { code: 500, msg: "" };
+            }
+            playerInfo.handler_fold(roomInfo);
+            return { code: 200 };
+        }
+        catch (error) {
+            this.logger.error(`GoldenFlower.mainHandler.fold:${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    ;
+    async Allfighting(msg, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            const num = playerInfo.holdStatus == 1 ? roomInfo.betNum * 2 : roomInfo.betNum;
+            if (playerInfo.gold >= num) {
+                console.warn(`${playerInfo.nickname}|${playerInfo.gold}|${playerInfo.holdStatus}|${roomInfo.betNum}`);
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1214) };
+            }
+            if (roomInfo.curr_doing_seat !== playerInfo.seat || playerInfo.state == "PS_NONE") {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1033) };
+            }
+            let ret = playerInfo.handler_Allfighting(roomInfo);
+            return { code: 200, win: ret };
+        }
+        catch (error) {
+            this.logger.warn(`GoldenFlower.mainHandler.ready:${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    async auto_genzhu(msg, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (![true, false].includes(msg.cmsg)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1214) };
+            }
+            if (roomInfo.curr_doing_seat != playerInfo.seat) {
+                playerInfo.auto_genzhu = msg.cmsg;
+                roomInfo.record_history.oper.push({ uid: playerInfo.uid, oper_type: "auto_genzhu", update_time: utils.cDate(), msg: msg.cmsg });
+            }
+            return { code: 200, msg: msg.cmsg, auto_genzhu: playerInfo.auto_genzhu };
+        }
+        catch (error) {
+            this.logger.warn(`SparrowHZH.mainHandler.ready:${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    async auto_no_Fold(msg, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (![true, false].includes(msg.cmsg)) {
+                return { code: 500, msg: langsrv.getlanguage(playerInfo.language, langsrv.Net_Message.id_1214) };
+            }
+            playerInfo.auto_no_Fold = msg.cmsg;
+            roomInfo.record_history.oper.push({ uid: playerInfo.uid, oper_type: "auto_no_Fold", update_time: utils.cDate(), msg: msg.cmsg });
+            return { code: 200, msg: msg.cmsg };
+        }
+        catch (error) {
+            this.logger.warn(`SparrowHZH.mainHandler.ready:${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    async getInning({}, session) {
+        try {
+            const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+            const { err, roomInfo, playerInfo } = check(sceneId, roomId, uid);
+            if (err) {
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+            if (playerInfo.isRobot !== 2) {
+                throw "not robot";
+            }
+            return { code: 200, room: roomInfo.strip(), Holds: roomInfo.players.map(m => m && m.stripRobot()) };
+        }
+        catch (error) {
+            this.logger.error(`GoldenFlower.mainHandler.getInning: ${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+    async test(msg, session) {
+        try {
+            let ret1 = GoldenFlower_logic.judgeCards(msg.cards1);
+            let cardType1 = GoldenFlower_logic.getCardType(msg.cards1);
+            let ret2 = GoldenFlower_logic.judgeCards(msg.cards2);
+            let cardType2 = GoldenFlower_logic.getCardType(msg.cards2);
+            let win = GoldenFlower_logic.bipaiSole({ cardType: cardType1, cards: msg.cards1 }, { cardType: cardType2, cards: msg.cards2 });
+            return { code: 200, data: { pl1: { ret1, cardType1 }, pl2: { ret2, cardType2 }, win } };
+        }
+        catch (error) {
+            this.logger.error(`GoldenFlower.mainHandler.getInning: ${error}`);
+            return { code: 500, msg: error };
+        }
+    }
+}
+exports.mainHandler = mainHandler;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbkhhbmRsZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9Hb2xkZW5GbG93ZXIvaGFuZGxlci9tYWluSGFuZGxlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFZLENBQUM7OztBQUNiLGlDQUF5RjtBQUN6Riw0REFBZ0Q7QUFDaEQsbUVBQW9FO0FBQ3BFLCtDQUF5QztBQUN6Qyw4Q0FBK0M7QUFDL0MsNERBQTZEO0FBQzdELGdFQUFnRTtBQUVoRSxTQUFTLEtBQUssQ0FBQyxPQUFlLEVBQUUsTUFBYyxFQUFFLEdBQVc7SUFDdkQsTUFBTSxRQUFRLEdBQUcseUJBQVUsQ0FBQyxVQUFVLENBQUMsT0FBTyxFQUFFLE1BQU0sQ0FBQyxDQUFDO0lBQ3hELElBQUksQ0FBQyxRQUFRLEVBQUU7UUFDWCxPQUFPLEVBQUUsR0FBRyxFQUFFLFdBQVcsTUFBTSxJQUFJLEdBQUcsRUFBRSxFQUFFLENBQUM7S0FDOUM7SUFDRCxNQUFNLFVBQVUsR0FBRyxRQUFRLENBQUMsU0FBUyxDQUFDLEdBQUcsQ0FBQyxDQUFDO0lBQzNDLElBQUksQ0FBQyxVQUFVLEVBQUU7UUFDYixPQUFPLEVBQUUsR0FBRyxFQUFFLGNBQWMsRUFBRSxHQUFHLEVBQUUsR0FBRyxFQUFFLE9BQU8sRUFBRSxRQUFRLENBQUMsT0FBTyxFQUFFLENBQUM7S0FDdkU7SUFDRCxVQUFVLENBQUMsV0FBVyxFQUFFLENBQUM7SUFDekIsT0FBTyxFQUFFLFFBQVEsRUFBRSxVQUFVLEVBQUUsQ0FBQztBQUNwQyxDQUFDO0FBRUQsbUJBQXlCLEdBQWdCO0lBQ3JDLE9BQU8sSUFBSSxXQUFXLENBQUMsR0FBRyxDQUFDLENBQUM7QUFDaEMsQ0FBQztBQUZELDRCQUVDO0FBQUEsQ0FBQztBQUNGLE1BQWEsV0FBVztJQUVwQixZQUFvQixHQUFnQjtRQUFoQixRQUFHLEdBQUgsR0FBRyxDQUFhO1FBRHBDLFdBQU0sR0FBRyxJQUFBLHdCQUFT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

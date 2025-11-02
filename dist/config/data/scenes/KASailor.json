@@ -1,0 +1,29 @@
+[
+  {
+    "nid": "18",
+    "id": 0,
+    "name": "普通场",
+    "lowBet": 100,
+    "capBet": 50000,
+    "allinMaxNum": 100,
+    "entryCond": 0
+  },
+  {
+    "nid": "18",
+    "id": 1,
+    "name": "专业场",
+    "lowBet": 1000,
+    "capBet": 100000,
+    "allinMaxNum": 1000,
+    "entryCond": 0
+  },
+  {
+    "nid": "18",
+    "id": 2,
+    "name": "贵宾场",
+    "lowBet": 1000,
+    "capBet": 100000,
+    "allinMaxNum": 1000,
+    "entryCond": 0
+  }
+]

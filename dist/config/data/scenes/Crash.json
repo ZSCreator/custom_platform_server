@@ -1,0 +1,13 @@
+[
+  {
+    "nid": "59",
+    "id": 0,
+    "name": "Crash",
+    "lowBet": 100,
+    "capBet": 1000000,
+    "allinMaxNum": 0,
+    "entryCond": 500,
+    "ChipList":[100, 1000, 5000, 10000, 50000]
+  }
+
+]

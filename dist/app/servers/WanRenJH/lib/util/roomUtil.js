@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.buildRecordResult = void 0;
+const GameUtil_1 = require("../../../../utils/GameUtil");
+function buildRecordResult(playerCards, bankerCards) {
+    const prefix = playerCards.map(p => {
+        return (0, GameUtil_1.conversionCards)(p.cards) + p.cardType.toString(16);
+    }).reduce((a, b) => a + b);
+    const suffix = playerCards.map(p => p.isWin ? '1' : '0').reduce(((a, b) => a + b), '');
+    return `${prefix}${(0, GameUtil_1.conversionCards)(bankerCards.cards) + bankerCards.cardType.toString(16)}${suffix}`;
+}
+exports.buildRecordResult = buildRecordResult;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicm9vbVV0aWwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9XYW5SZW5KSC9saWIvdXRpbC9yb29tVXRpbC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSx5REFBMkQ7QUFPM0QsU0FBZ0IsaUJBQWlCLENBQUMsV0FBa0IsRUFBRSxXQUFnQjtJQUNsRSxNQUFNLE1BQU0sR0FBRyxXQUFXLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxFQUFFO1FBQy9CLE9BQU8sSUFBQSwwQkFBZSxFQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsR0FBRyxDQUFDLENBQUMsUUFBUSxDQUFDLFFBQVEsQ0FBQyxFQUFFLENBQUMsQ0FBQztJQUM5RCxDQUFDLENBQUMsQ0FBQyxNQUFNLENBQUMsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxFQUFFLEVBQUUsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUM7SUFHM0IsTUFBTSxNQUFNLEdBQUcsV0FBVyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsTUFBTSxDQUFDLENBQUMsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxFQUFFLEVBQUUsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUM7SUFRdkYsT0FBTyxHQUFHLE1BQU0sR0FBRyxJQUFBLDBCQUFlLEVBQUMsV0FBVyxDQUFDLEtBQUssQ0FBQyxHQUFHLFdBQVcsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLEVBQUUsQ0FBQyxHQUFHLE1BQU0sRUFBRSxDQUFDO0FBQ3pHLENBQUM7QUFmRCw4Q0FlQyJ9

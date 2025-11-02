@@ -1,0 +1,19 @@
+[
+  {
+    "nid": "43",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "骰宝",
+    "id": 0,
+    "sceneName": "传奇厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 50000,
+    "maxAmount": 1500000,
+    "maxParameter": 100000,
+    "maxAmountInStore": 3000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 1000
+  }
+]

@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.oddsList = exports.lineNumList = exports.freeSpinOverlay = exports.FREE_SPIN_COUNT = exports.MAX_SPECIAL_COUNT = exports.specialElement = exports.anyElement = void 0;
+exports.anyElement = 'J';
+exports.specialElement = 'L';
+exports.MAX_SPECIAL_COUNT = 5;
+exports.FREE_SPIN_COUNT = 12;
+exports.freeSpinOverlay = {
+    '1': 2,
+    '2': 3,
+    '3': 4,
+    '4': 5,
+    '5': 8,
+};
+exports.lineNumList = [18, 38, 68, 88];
+exports.oddsList = [10, 20, 40, 100, 400, 1000, 2000];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9pY2VCYWxsL2xpYi9jb25zdGFudC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFpQmEsUUFBQSxVQUFVLEdBQUcsR0FBRyxDQUFDO0FBR2pCLFFBQUEsY0FBYyxHQUFHLEdBQUcsQ0FBQztBQUdyQixRQUFBLGlCQUFpQixHQUFHLENBQUMsQ0FBQztBQUd0QixRQUFBLGVBQWUsR0FBRyxFQUFFLENBQUM7QUFHckIsUUFBQSxlQUFlLEdBQUc7SUFDM0IsR0FBRyxFQUFFLENBQUM7SUFDTixHQUFHLEVBQUUsQ0FBQztJQUNOLEdBQUcsRUFBRSxDQUFDO0lBQ04sR0FBRyxFQUFFLENBQUM7SUFDTixHQUFHLEVBQUUsQ0FBQztDQUNULENBQUE7QUFHWSxRQUFBLFdBQVcsR0FBRyxDQUFDLEVBQUUsRUFBRSxFQUFFLEVBQUUsRUFBRSxFQUFFLEVBQUUsQ0FBQyxDQUFDO0FBRy9CLFFBQUEsUUFBUSxHQUFHLENBQUMsRUFBRSxFQUFFLEVBQUUsRUFBRSxFQUFFLEVBQUUsR0FBRyxFQUFFLEdBQUcsRUFBRSxJQUFJLEVBQUUsSUFBSSxDQUFDLENBQUMifQ==

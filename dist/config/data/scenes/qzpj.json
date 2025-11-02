@@ -1,0 +1,38 @@
+[
+  {
+    "nid": "25",
+    "id": 0,
+    "name": "体验场",
+    "entryCond": 1200,
+    "lowBet": 200,
+    "capBet": 2000,
+    "allinMaxNum": 2000
+  },
+  {
+    "nid": "25",
+    "id": 1,
+    "name": "初级场",
+    "entryCond": 3000,
+    "lowBet": 500,
+    "capBet": 50000,
+    "allinMaxNum": 10000
+  },
+  {
+    "nid": "25",
+    "id": 2,
+    "name": "中级场",
+    "entryCond": 9000,
+    "lowBet": 1500,
+    "capBet": 15000,
+    "allinMaxNum": 20000
+  },
+  {
+    "nid": "25",
+    "id": 3,
+    "name": "高级场",
+    "entryCond": 30000,
+    "lowBet": 5000,
+    "capBet": 200000,
+    "allinMaxNum": 40000
+  }
+]

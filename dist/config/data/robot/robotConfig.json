@@ -1,0 +1,275 @@
+[
+    {
+        "nid": "2",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2, 3, 4],
+        "name": "baicao"
+    },
+    {
+        "nid": "3",
+        "open": true,
+        "number": 12,
+        "fenscene": [0, 1, 2, 3],
+        "name": "7up7down"
+    },
+    {
+        "nid": "4",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2, 3],
+        "name": "搜哈"
+    },
+    {
+        "nid": "5",
+        "open": true,
+        "number": 2,
+        "fenscene": [0, 1, 2, 3,4],
+        "name": "骰子扑克"
+    },
+    {
+        "nid": "6",
+        "open": true,
+        "number": 2,
+        "fenscene": [0, 1, 2, 3],
+        "name": "捕鱼"
+    },
+    {
+        "nid": "8",
+        "open": true,
+        "number": 21,
+        "fenscene": [0, 1, 2, 3],
+        "name": "百家乐"
+    },
+    {
+        "nid": "9",
+        "open": true,
+        "number": 15,
+        "fenscene": [0, 1, 2, 3],
+        "name": "百人牛牛"
+    },
+    {
+        "nid": "13",
+        "open": true,
+        "number": 1,
+        "fenscene": [0],
+        "name": "二人麻将"
+    },
+    {
+        "nid": "14",
+        "open": true,
+        "number": 15,
+        "fenscene": [0, 1, 2, 3],
+        "name": "奔驰宝马"
+    },
+    {
+        "nid": "15",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2, 3],
+        "name": "比牌牛牛"
+    },
+    {
+        "nid": "16",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2, 3],
+        "name": "TeenPatti"
+    },
+    {
+        "nid": "17",
+        "open": true,
+        "number": 15,
+        "fenscene": [0, 1, 2, 3],
+        "name": "21点"
+    },
+    {
+        "nid": "18",
+        "open": true,
+        "number": 4,
+        "fenscene": [0, 1, 2, 3],
+        "name": "二八杠"
+    },
+    {
+        "nid": "19",
+        "open": true,
+        "number": 16,
+        "fenscene": [0, 1, 2, 3],
+        "name": "红黑大战"
+    },
+    {
+        "nid": "20",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2, 3,4],
+        "name": "炸金花"
+    },
+    {
+        "nid": "21",
+        "open": true,
+        "number": 10,
+        "fenscene": [0,1,2,3],
+        "name": "幸运骰子"
+    },
+    {
+        "nid": "22",
+        "open": true,
+        "number": 5,
+        "fenscene": [0,1,2,3],
+        "name": "21点"
+    },
+    {
+        "nid": "23",
+        "open": true,
+        "number": 4,
+        "fenscene": [0,1,2,3],
+        "name": "配牌抢庄牛牛"
+    },
+    {
+        "nid": "25",
+        "open": true,
+        "number": 4,
+        "fenscene": [0,1,2,3],
+        "name": "抢庄牌九"
+    },
+    {
+        "nid": "40",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2,3,4,5,6,7,8,9],
+        "name": "德州扑克"
+    },
+    {
+        "nid": "41",
+        "open": false,
+        "number": 10,
+        "fenscene": [-1],
+        "name": "草花机"
+    },
+    {
+        "nid": "42",
+        "open": true,
+        "number": 20,
+        "fenscene": [0, 1],
+        "name": "龙虎斗"
+    },
+    {
+        "nid": "43",
+        "open": true,
+        "number": 15,
+        "fenscene": [0, 1],
+        "name": "骰宝"
+    },
+    {
+        "nid": "45",
+        "open": true,
+        "number": 2,
+        "fenscene": [0, 1, 2, 3],
+        "name": "13水"
+    },
+    {
+        "nid": "46",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2, 3, 4],
+        "name": "三公"
+    },
+    {
+        "nid": "47",
+        "open": true,
+        "number": 3,
+        "fenscene": [0, 1, 2, 3,4,5,6],
+        "name": "抢庄牛牛"
+    },
+    {
+        "nid": "48",
+        "open": true,
+        "number": 15,
+        "fenscene": [0],
+        "name": "推筒子"
+    },
+    {
+        "nid": "49",
+        "open": true,
+        "number": 15,
+        "fenscene": [0],
+        "name": "推筒子(有庄)"
+    },
+    {
+        "nid": "50",
+        "open": true,
+        "number": 2,
+        "fenscene": [0],
+        "name": "斗地主"
+    },
+    {
+        "nid": "51",
+        "open": true,
+        "number": 10,
+        "fenscene": [0],
+        "name": "渔场大亨"
+    },
+    {
+        "nid": "52",
+        "open": true,
+        "number": 11,
+        "fenscene": [-1],
+        "name": "水果机"
+    },
+    {
+        "nid": "53",
+        "open": true,
+        "number": 15,
+        "fenscene": [0, 1],
+        "name": "万人金花"
+    },
+    {
+        "nid": "55",
+        "open": true,
+        "number": 15,
+        "fenscene": [0],
+        "name": "彩票牛牛"
+    },
+    {
+        "nid": "56",
+        "open": true,
+        "number": 20,
+        "fenscene": [],
+        "name": "时时彩"
+    },
+    {
+        "nid": "81",
+        "open": true,
+        "number": 10,
+        "fenscene": [0, 1],
+        "name": "红包扫雷"
+    },
+    {
+        "nid": "82",
+        "open": true,
+        "number": 15,
+        "fenscene": [0],
+        "name": "色碟"
+    },
+    {
+        "nid": "83",
+        "open": true,
+        "number": 2,
+        "fenscene": [0, 1, 2, 3],
+        "name": "猜AB"
+    },
+    {
+        "nid": "84",
+        "open": true,
+        "number": 1,
+        "fenscene": [0, 1, 2, 3],
+        "name": "Rummy"
+    },
+    {
+        "nid": "85",
+        "open": true,
+        "number": 25,
+        "fenscene": [0],
+        "name": "番摊"
+    }
+]

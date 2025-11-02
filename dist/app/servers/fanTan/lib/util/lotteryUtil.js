@@ -1,0 +1,147 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.genRandomResult = exports.LotteryUtil = void 0;
+const betAreas_1 = require("../config/betAreas");
+const utils_1 = require("../../../../utils");
+class LotteryUtil {
+    constructor() {
+        this.result = null;
+        this.winAreas = [];
+        this.killAreas = [];
+        this.drawAreas = [];
+    }
+    setKillAreas(killAreas) {
+        this.killAreas = killAreas;
+        return this;
+    }
+    setBetAreas(betAreas) {
+        this.betAreas = betAreas;
+    }
+    getKillAreas() {
+        return this.killAreas;
+    }
+    isContain() {
+        return !!this.killAreas.find(areaName => this.winAreas.includes(areaName));
+    }
+    genLotteryResult() {
+        this.result = (0, utils_1.random)(1, 48);
+        return this.result;
+    }
+    lottery() {
+        this.genLotteryResult();
+        this.calculationWinAreas();
+        if (this.killAreas.length > 0 && this.isContain()) {
+            return this.lottery();
+        }
+        for (let [areaName, area] of Object.entries(this.betAreas)) {
+            if (this.drawAreas.includes(areaName)) {
+                area.setDrawResult();
+            }
+            else if (this.winAreas.includes(areaName)) {
+                area.setWinResult();
+            }
+            else {
+                area.setLossResult();
+            }
+        }
+        return this.result;
+    }
+    calculationWinAreas() {
+        this.winAreas = [];
+        this.drawAreas = [];
+        const remainder = this.result % 4;
+        this.winAreas.push(remainder % 2 === 0 ? betAreas_1.BetAreasName.DOUBLE : betAreas_1.BetAreasName.SINGLE);
+        switch (remainder) {
+            case 0:
+                this.winAreas.push(betAreas_1.BetAreasName.FOUR);
+                break;
+            case 1:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE);
+                break;
+            case 2:
+                this.winAreas.push(betAreas_1.BetAreasName.TWO);
+                break;
+            case 3:
+                this.winAreas.push(betAreas_1.BetAreasName.THREE);
+                break;
+            default: throw new Error('开奖错误');
+        }
+        switch (remainder) {
+            case 0:
+                this.winAreas.push(betAreas_1.BetAreasName.FOUR_FOR_THREE, betAreas_1.BetAreasName.FOUR_FOR_TWO, betAreas_1.BetAreasName.FOUR_FOR_ONE);
+                break;
+            case 1:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE_FOR_FOUR, betAreas_1.BetAreasName.ONE_FOR_THREE, betAreas_1.BetAreasName.ONE_FOR_TWO);
+                break;
+            case 2:
+                this.winAreas.push(betAreas_1.BetAreasName.TWO_FOR_THREE, betAreas_1.BetAreasName.TWO_FOR_ONE, betAreas_1.BetAreasName.TWO_FOR_FOUR);
+                break;
+            case 3:
+                this.winAreas.push(betAreas_1.BetAreasName.THREE_FOR_FOUR, betAreas_1.BetAreasName.THREE_FOR_TWO, betAreas_1.BetAreasName.THREE_FOR_ONE);
+                break;
+            default: throw new Error('开奖错误');
+        }
+        switch (remainder) {
+            case 0:
+                this.drawAreas.push(betAreas_1.BetAreasName.ONE_FOR_FOUR, betAreas_1.BetAreasName.TWO_FOR_FOUR, betAreas_1.BetAreasName.THREE_FOR_FOUR);
+                break;
+            case 1:
+                this.drawAreas.push(betAreas_1.BetAreasName.THREE_FOR_ONE, betAreas_1.BetAreasName.TWO_FOR_ONE, betAreas_1.BetAreasName.FOUR_FOR_ONE);
+                break;
+            case 2:
+                this.drawAreas.push(betAreas_1.BetAreasName.THREE_FOR_TWO, betAreas_1.BetAreasName.FOUR_FOR_TWO, betAreas_1.BetAreasName.ONE_FOR_TWO);
+                break;
+            case 3:
+                this.drawAreas.push(betAreas_1.BetAreasName.FOUR_FOR_THREE, betAreas_1.BetAreasName.ONE_FOR_THREE, betAreas_1.BetAreasName.TWO_FOR_THREE);
+                break;
+            default: throw new Error('开奖错误');
+        }
+        switch (remainder) {
+            case 0:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE_FOUR_ANGLE, betAreas_1.BetAreasName.THREE_FOUR_ANGLE);
+                break;
+            case 1:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE_FOUR_ANGLE, betAreas_1.BetAreasName.ONE_TWO_ANGLE);
+                break;
+            case 2:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE_TWO_ANGLE, betAreas_1.BetAreasName.TWO_THREE_ANGLE);
+                break;
+            case 3:
+                this.winAreas.push(betAreas_1.BetAreasName.TWO_THREE_ANGLE, betAreas_1.BetAreasName.THREE_FOUR_ANGLE);
+                break;
+            default: throw new Error('开奖错误');
+        }
+        switch (remainder) {
+            case 0:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE_TWO_FOUR_DOOR, betAreas_1.BetAreasName.ONE_THREE_FOUR_DOOR, betAreas_1.BetAreasName.TWO_THREE_FOUR_DOOR);
+                break;
+            case 1:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE_TWO_THREE_DOOR, betAreas_1.BetAreasName.ONE_TWO_FOUR_DOOR, betAreas_1.BetAreasName.ONE_THREE_FOUR_DOOR);
+                break;
+            case 2:
+                this.winAreas.push(betAreas_1.BetAreasName.ONE_TWO_THREE_DOOR, betAreas_1.BetAreasName.ONE_TWO_FOUR_DOOR, betAreas_1.BetAreasName.TWO_THREE_FOUR_DOOR);
+                break;
+            case 3:
+                this.winAreas.push(betAreas_1.BetAreasName.TWO_THREE_FOUR_DOOR, betAreas_1.BetAreasName.ONE_THREE_FOUR_DOOR, betAreas_1.BetAreasName.ONE_TWO_THREE_DOOR);
+                break;
+            default: throw new Error('开奖错误');
+        }
+    }
+    getWinAreas() {
+        return this.winAreas;
+    }
+    getResult() {
+        return this.result;
+    }
+}
+exports.LotteryUtil = LotteryUtil;
+function genRandomResult() {
+    const num = (0, utils_1.random)(10, 20);
+    const results = [];
+    for (let i = 0; i < num; i++) {
+        results.push((0, utils_1.random)(1, 48));
+    }
+    return results;
+}
+exports.genRandomResult = genRandomResult;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG90dGVyeVV0aWwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9mYW5UYW4vbGliL3V0aWwvbG90dGVyeVV0aWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsaURBQWdEO0FBRWhELDZDQUF5QztBQU96QyxNQUFhLFdBQVc7SUFBeEI7UUFDWSxXQUFNLEdBQVcsSUFBSSxDQUFDO1FBQ3RCLGFBQVEsR0FBbUIsRUFBRSxDQUFDO1FBQzlCLGNBQVMsR0FBbUIsRUFBRSxDQUFDO1FBQy9CLGNBQVMsR0FBbUIsRUFBRSxDQUFDO0lBMEszQyxDQUFDO0lBbktHLFlBQVksQ0FBQyxTQUF5QjtRQUNsQyxJQUFJLENBQUMsU0FBUyxHQUFHLFNBQVMsQ0FBQztRQUMzQixPQUFPLElBQUksQ0FBQztJQUNoQixDQUFDO0lBTUQsV0FBVyxDQUFDLFFBQTBDO1FBQ2xELElBQUksQ0FBQyxRQUFRLEdBQUcsUUFBUSxDQUFDO0lBQzdCLENBQUM7SUFLRCxZQUFZO1FBQ1IsT0FBTyxJQUFJLENBQUMsU0FBUyxDQUFDO0lBQzFCLENBQUM7SUFLRCxTQUFTO1FBQ0wsT0FBTyxDQUFDLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsUUFBUSxDQUFDLEVBQUUsQ0FBQyxJQUFJLENBQUMsUUFBUSxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsQ0FBQyxDQUFDO0lBQy9FLENBQUM7SUFLRCxnQkFBZ0I7UUFDWixJQUFJLENBQUMsTUFBTSxHQUFHLElBQUEsY0FBTSxFQUFDLENBQUMsRUFBRSxFQUFFLENBQUMsQ0FBQztRQUM1QixPQUFPLElBQUksQ0FBQyxNQUFNLENBQUM7SUFDdkIsQ0FBQztJQUtELE9BQU87UUFFSCxJQUFJLENBQUMsZ0JBQWdCLEVBQUUsQ0FBQztRQUd4QixJQUFJLENBQUMsbUJBQW1CLEVBQUUsQ0FBQztRQUczQixJQUFJLElBQUksQ0FBQyxTQUFTLENBQUMsTUFBTSxH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

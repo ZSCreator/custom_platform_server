@@ -1,0 +1,19 @@
+[
+  {
+    "nid": "59",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "Crash",
+    "id":0,
+    "sceneName": "荣耀厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 50000,
+    "maxAmount": 5000000,
+    "maxParameter": 100000,
+    "maxAmountInStore": 10000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 1000
+  }
+]

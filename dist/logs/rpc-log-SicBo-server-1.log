@@ -1,0 +1,324 @@
+[2022-08-10T14:16:17.430] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-10T14:16:17.549] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-10T14:23:16.059] [ERROR] logger - sicbo.Room.openAward()==>Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at sicboRoom.openAward (D:\backService\app\servers\SicBo\lib\sicboRoom.ts:262:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) TypeError: Cannot read properties of undefined (reading 'id')
+    at randomServerRpcId (D:\backService\app\services\newControl\gameControlService.ts:22:66)
+    at GameControlService.getCorrectedValue (D:\backService\app\services\newControl\gameControlService.ts:186:90)
+    at GameControlService.getControlInfo (D:\backService\app\services\newControl\gameControlService.ts:93:33)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at SicBoControl.result (D:\backService\app\servers\SicBo\lib\control.ts:21:91)
+    at sicboRoom.openAward (D:\backService\app\servers\SicBo\lib\sicboRoom.ts:225:28)
+[2022-08-10T14:23:16.130] [ERROR] logger - sicbo.Room.openAward()==>Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at sicboRoom.openAward (D:\backService\app\servers\SicBo\lib\sicboRoom.ts:262:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) TypeError: Cannot read properties of undefined (reading 'id')
+    at randomServerRpcId (D:\backService\app\services\newControl\gameControlService.ts:22:66)
+    at GameControlService.getCorrectedValue (D:\backService\app\services\newControl\gameControlService.ts:186:90)
+    at GameControlService.getControlInfo (D:\backService\app\services\newControl\gameControlService.ts:93:33)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at SicBoControl.result (D:\backService\app\servers\SicBo\lib\control.ts:21:91)
+    at sicboRoom.openAward (D:\backService\app\servers\SicBo\lib\sicboRoom.ts:225:28)
+[2022-08-10T14:23:54.928] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-10T14:23:55.224] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-10T14:25:19.006] [WARN] logger - 游戏解锁功能:gold999302,uid90502413,sidconnector-server-1
+[2022-08-10T14:25:19.012] [WARN] logger - list..... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:25:19.014] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '52', name: '水果机', entryCond: 1000 },
+  { nid: '8', name: '百家乐', entryCond: 2000 },
+  { nid: '20', name: '红黑大战', entryCond: 2000 },
+  { nid: '42', name: '龙虎斗', entryCond: 2000 },
+  { nid: '14', name: '奔驰宝马', entryCond: 2000 },
+  { nid: '43', name: '骰宝', entryCond: 5000 },
+  { nid: '59', name: 'crash', entryCond: 2000 },
+  { nid: '22', name: '21点', entryCond: 600 },
+  { nid: '40', name: '德州扑克', entryCond: 1000 },
+  { nid: '16', name: '印度三张牌', entryCond: 5000 }
+]
+[2022-08-10T14:25:19.019] [WARN] logger - nidList...... []
+[2022-08-10T14:27:55.357] [WARN] logger - 游戏解锁功能:gold978702,uid90502413,sidconnector-server-1
+[2022-08-10T14:27:55.366] [WARN] logger - list..... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:27:55.367] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '52', name: '水果机', entryCond: 1000 },
+  { nid: '8', name: '百家乐', entryCond: 2000 },
+  { nid: '20', name: '红黑大战', entryCond: 2000 },
+  { nid: '42', name: '龙虎斗', entryCond: 2000 },
+  { nid: '14', name: '奔驰宝马', entryCond: 2000 },
+  { nid: '43', name: '骰宝', entryCond: 5000 },
+  { nid: '59', name: 'crash', entryCond: 2000 },
+  { nid: '22', name: '21点', entryCond: 600 },
+  { nid: '40', name: '德州扑克', entryCond: 1000 },
+  { nid: '16', name: '印度三张牌', entryCond: 5000 }
+]
+[2022-08-10T14:27:55.372] [WARN] logger - nidList...... []
+[2022-08-10T14:32:45.930] [WARN] logger - 房间销毁 43
+[2022-08-10T14:32:45.931] [WARN] logger - 房间销毁结束 43
+[2022-08-12T15:15:34.698] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-12T15:15:34.789] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-12T15:48:55.532] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-12T15:48:55.725] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-12T16:40:03.158] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-12T16:40:03.282] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-13T12:44:48.581] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-13T12:44:50.074] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-13T15:19:42.090] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-13T15:19:42.196] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-13T15:28:05.838] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-13T15:28:05.902] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-13T15:43:07.656] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-13T15:43:07.804] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-14T12:30:58.472] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-14T12:30:59.365] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-14T12:34:34.768] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-14T12:34:34.907] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-14T12:43:45.510] [WARN] logger - 房间销毁 43
+[2022-08-14T12:43:45.512] [WARN] logger - 房间销毁结束 43
+[2022-08-14T12:43:45.513] [WARN] logger - 房间销毁 43
+[2022-08-14T12:43:45.513] [WARN] logger - 房间销毁结束 43
+[2022-08-14T14:14:23.490] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-14T14:14:23.693] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-14T14:44:04.838] [WARN] logger - 房间销毁 43
+[2022-08-14T14:44:04.846] [WARN] logger - 房间销毁结束 43
+[2022-08-14T14:50:39.578] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-14T14:50:39.681] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-14T19:23:39.859] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-14T19:23:40.010] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-15T17:43:32.280] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-15T17:43:32.406] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-15T17:45:07.628] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-15T17:45:07.759] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-25T22:22:33.793] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-25T22:22:33.945] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-25T22:24:55.285] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-25T22:24:55.414] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-25T22:25:59.866] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-25T22:25:59.958] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-25T22:35:47.207] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-25T22:35:47.348] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-25T22:37:14.312] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-25T22:37:14.470] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-25T22:38:36.207] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-25T22:38:36.315] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-31T10:40:00.330] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-31T10:40:00.372] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-31T10:42:30.354] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-31T10:42:30.536] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-31T10:49:37.289] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-31T10:49:37.342] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-31T13:02:44.714] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-31T13:02:44.827] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-31T13:45:39.230] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-31T13:45:39.499] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-08-31T14:12:37.380] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-08-31T14:12:37.744] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-01T00:00:36.642] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-01T00:00:36.727] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-01T00:04:21.027] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-01T00:04:21.124] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-01T00:15:19.899] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-01T00:15:20.101] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-01T11:59:19.631] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-01T11:59:19.796] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-01T12:01:40.092] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-01T12:01:40.250] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-01T12:03:18.137] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-01T12:03:18.198] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-02T23:25:36.446] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-02T23:25:36.458] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-02T23:25:36.601] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)
+[2022-09-02T23:26:18.137] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-02T23:26:18.734] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-02T23:31:40.899] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-02T23:31:40.992] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T16:30:07.374] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T16:30:07.552] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T16:39:29.106] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T16:39:29.200] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T16:47:53.049] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T16:47:53.704] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T17:46:53.126] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T17:46:53.431] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T17:55:02.768] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T17:55:03.109] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T17:57:46.278] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T17:57:46.530] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T18:02:15.848] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T18:02:16.215] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T18:46:28.737] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T18:46:28.967] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-08T18:58:18.031] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 成功
+[2022-09-08T18:58:18.839] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-09T11:22:04.307] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:04.320] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-09T11:22:04.772] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)
+[2022-09-09T11:22:32.860] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:32.871] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-09T11:22:32.886] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)
+[2022-09-09T11:23:06.323] [WARN] logger - mysql | 服务 SicBo-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:23:06.331] [WARN] logger - 重置当前服务器人数 SicBo-server-1
+[2022-09-09T11:23:06.343] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at RedBlackGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at RedBlackGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at LifeCycle.beforeStartup (D:\backService\app\servers\SicBo\lifecycle.ts:20:9)

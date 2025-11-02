@@ -1,0 +1,13 @@
+[
+    {
+      "nid": "52",
+      "id": 0,
+      "name": "水果机",
+      "lowBet": 0,
+      "capBet": 0,
+      "allinMaxNum": 0,
+      "entryCond": 500,
+      "betLimit": 1000000,
+      "roomCapacity": 100
+    }
+  ]

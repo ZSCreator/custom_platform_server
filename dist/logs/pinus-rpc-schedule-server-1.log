@@ -1,0 +1,1609 @@
+[2022-08-02T10:38:06.808] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-02T10:38:07.186] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-02T10:38:07.209] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-02T10:38:08.867] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-02T10:38:09.023] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-02T10:38:23.344] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-02T10:38:23.347] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-02T10:40:02.245] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-02T10:40:02.320] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-02T10:40:02.333] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-02T10:40:02.978] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-02T10:40:02.986] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-02T10:40:03.090] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-02T10:40:03.092] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-02T11:00:38.471] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-02T11:00:38.627] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-02T11:00:38.648] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-02T11:00:39.603] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-02T11:00:39.616] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-02T11:00:40.588] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-02T11:00:40.591] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-04T17:46:38.879] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-04T17:46:39.247] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-04T17:46:39.268] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-04T17:46:43.521] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-04T17:46:44.179] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-04T17:46:45.186] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-04T17:46:45.188] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-04T17:47:27.913] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-04T17:47:28.040] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-04T17:47:28.060] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-04T17:47:28.698] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-04T17:47:28.711] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-04T17:47:28.881] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-04T17:47:28.883] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-06T17:04:26.796] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-06T17:04:27.031] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-06T17:04:27.077] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-06T17:04:28.226] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-06T17:04:28.306] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-06T17:04:28.678] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-06T17:04:28.681] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-06T17:11:53.361] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-06T17:11:53.488] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-06T17:11:53.506] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-06T17:11:54.994] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-06T17:11:55.009] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-06T17:11:55.227] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-06T17:11:55.230] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-06T17:20:48.282] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-06T17:20:48.355] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-06T17:20:48.365] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-06T17:20:48.959] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-06T17:20:48.970] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-06T17:20:49.108] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-06T17:20:49.111] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-08T14:38:44.317] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-08T14:38:44.440] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-08T14:38:44.491] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-08T14:38:46.289] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-08T14:38:46.338] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-08T14:38:47.313] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-08T14:38:47.316] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-08T15:35:33.086] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-08T15:35:33.200] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-08T15:35:33.217] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-08T15:35:35.814] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-08T15:35:35.889] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-08T15:35:36.396] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-08T15:35:36.399] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-08T16:21:29.083] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-08T16:21:29.167] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-08T16:21:29.180] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-08T16:21:29.918] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-08T16:21:29.927] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-08T16:21:30.107] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-08T16:21:30.110] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-08T16:32:32.877] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-08T16:32:32.952] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-08T16:32:32.961] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-08T16:32:33.450] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-08T16:32:33.458] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-08T16:32:33.588] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-08T16:32:33.590] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-08T17:26:10.132] [ERROR] pinus-rpc - mqtt rpc client schedule-server-1 checkKeepAlive timeout from remote server connector-server-1 for 20000 lastPing: 1659950740112 lastPong: 1659950740111Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at MailBox.checkKeepAlive (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:222:28)
+    at Timeout._onTimeout (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:207:18)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-08-08T23:59:00.007] [WARN] logger - 11点59分进行API得数据报表统计  ==== 开始
+[2022-08-08T23:59:00.078] [WARN] logger - 11点59分进行API得数据报表统计  ==== 结束
+[2022-08-09T00:00:00.013] [WARN] logger - 每日凌晨清楚玩家的登陆和新增
+[2022-08-09T11:32:08.983] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T11:32:09.418] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T11:32:09.433] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T11:32:11.122] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T11:32:11.168] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T11:32:11.891] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T11:32:11.894] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T11:51:21.564] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T11:51:21.709] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T11:51:21.785] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T11:51:24.335] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T11:51:24.372] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T11:51:25.152] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T11:51:25.155] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T11:52:14.532] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T11:52:14.603] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T11:52:14.612] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T11:52:15.851] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T11:52:15.874] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T11:52:16.107] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T11:52:16.110] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T12:45:42.833] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T12:45:42.933] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T12:45:42.949] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T12:45:44.244] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T12:45:44.262] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T12:45:44.539] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T12:45:44.541] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T13:08:43.815] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T13:08:44.211] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T13:08:44.242] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T13:08:45.781] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T13:08:45.810] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T13:08:46.326] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T13:08:46.329] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T13:10:28.004] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T13:10:28.082] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T13:10:28.098] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T13:10:28.806] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T13:10:28.818] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T13:10:29.156] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T13:10:29.158] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T13:21:57.625] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T13:21:57.771] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T13:21:57.796] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T13:22:00.735] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T13:22:00.812] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T13:22:01.706] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T13:22:01.710] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T13:56:15.690] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T13:56:15.795] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T13:56:15.813] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T13:56:16.874] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T13:56:16.886] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T13:56:17.121] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T13:56:17.123] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-09T14:33:50.112] [ERROR] pinus-rpc - mqtt rpc client schedule-server-1 checkKeepAlive timeout from remote server connector-server-1 for 20000 lastPing: 1660026800101 lastPong: 1660026800100Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at MailBox.checkKeepAlive (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:222:28)
+    at Timeout._onTimeout (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:207:18)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-08-09T16:16:02.839] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-09T16:16:03.015] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-09T16:16:03.040] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-09T16:16:04.757] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-09T16:16:04.772] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-09T16:16:05.444] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-09T16:16:05.447] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T13:45:34.423] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T13:45:34.543] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T13:45:34.563] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T13:45:35.250] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T13:45:35.269] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T13:45:35.494] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T13:45:35.497] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T13:52:04.617] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T13:52:04.744] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T13:52:04.768] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T13:52:07.328] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T13:52:07.403] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T13:52:08.485] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T13:52:08.489] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T13:56:04.537] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T13:56:04.692] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T13:56:04.712] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T13:56:06.768] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T13:56:06.784] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T13:56:07.278] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T13:56:07.281] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T14:00:14.402] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T14:00:14.530] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T14:00:14.544] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T14:00:16.403] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T14:00:16.429] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T14:00:16.970] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T14:00:16.973] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T14:05:26.632] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T14:05:26.783] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T14:05:26.798] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T14:05:30.746] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T14:05:30.808] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T14:05:31.820] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T14:05:31.823] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T14:12:16.772] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T14:12:16.902] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T14:12:16.926] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T14:12:18.772] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T14:12:18.841] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T14:12:19.710] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T14:12:19.713] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T14:16:15.800] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T14:16:15.903] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T14:16:15.916] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T14:16:17.542] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T14:16:17.579] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T14:16:17.922] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T14:16:17.925] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-10T14:23:54.530] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-10T14:23:55.221] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-10T14:23:55.270] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-10T14:23:57.376] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-10T14:23:57.426] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-10T14:23:58.129] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-10T14:23:58.131] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-12T15:15:34.632] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-12T15:15:34.762] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-12T15:15:34.777] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-12T15:15:35.448] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-12T15:15:35.465] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-12T15:15:35.666] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-12T15:15:35.669] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-12T15:48:54.564] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-12T15:48:55.106] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-12T15:48:55.145] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-12T15:48:57.269] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-12T15:48:57.290] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-12T15:48:57.629] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-12T15:48:57.631] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-12T16:40:01.435] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-12T16:40:01.573] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-12T16:40:01.591] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-12T16:40:02.507] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-12T16:40:02.523] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-12T16:40:02.764] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-12T16:40:02.767] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-13T12:44:48.592] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-13T12:44:48.844] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-13T12:44:48.885] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-13T12:44:51.937] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-13T12:44:55.098] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-13T12:44:56.021] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-13T12:44:56.024] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-13T15:19:38.907] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-13T15:19:39.031] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-13T15:19:39.047] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-13T15:19:39.711] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-13T15:19:39.726] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-13T15:19:39.911] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-13T15:19:39.913] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-13T15:28:08.055] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-13T15:28:08.802] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-13T15:28:08.839] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-13T15:28:11.558] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-13T15:28:11.592] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-13T15:28:12.301] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-13T15:28:12.304] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-13T15:43:04.508] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-13T15:43:04.622] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-13T15:43:04.640] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-13T15:43:07.779] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-13T15:43:07.871] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-13T15:43:09.001] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-13T15:43:09.004] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-14T12:30:57.044] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-14T12:30:57.131] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-14T12:30:57.147] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-14T12:30:59.375] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-14T12:30:59.539] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-14T12:31:01.448] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-14T12:31:01.451] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-14T12:34:33.927] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-14T12:34:34.011] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-14T12:34:34.028] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-14T12:34:36.187] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-14T12:34:36.210] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-14T12:34:36.581] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-14T12:34:36.584] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-14T14:14:23.436] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-14T14:14:24.050] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-14T14:14:24.130] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-14T14:14:26.118] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-14T14:14:26.146] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-14T14:14:26.637] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-14T14:14:26.640] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-14T14:50:40.180] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-14T14:50:40.683] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-14T14:50:40.707] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-14T14:50:43.120] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-14T14:50:43.152] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-14T14:50:43.610] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-14T14:50:43.612] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-14T19:23:37.608] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-14T19:23:37.692] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-14T19:23:37.704] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-14T19:23:38.999] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-14T19:23:39.014] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-14T19:23:39.261] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-14T19:23:39.264] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-15T17:43:24.161] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-15T17:43:24.242] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-15T17:43:25.069] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-15T17:43:26.265] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-15T17:43:26.286] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-15T17:43:27.147] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-15T17:43:27.150] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-15T17:45:04.537] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-15T17:45:04.661] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-15T17:45:04.983] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-15T17:45:07.256] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-15T17:45:07.369] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-15T17:45:08.788] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-15T17:45:08.790] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-25T22:22:34.855] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-25T22:22:35.378] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-25T22:22:35.393] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-25T22:22:37.029] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-25T22:22:37.071] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-25T22:22:37.775] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-25T22:22:37.778] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-25T22:24:54.577] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-25T22:24:54.678] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-25T22:24:54.693] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-25T22:24:57.824] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-25T22:24:57.908] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-25T22:24:59.614] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-25T22:24:59.617] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-25T22:26:01.076] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-25T22:26:01.496] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-25T22:26:01.515] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-25T22:26:03.477] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-25T22:26:03.506] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-25T22:26:04.730] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-25T22:26:04.732] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-25T22:35:45.608] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-25T22:35:46.351] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-25T22:35:46.500] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-25T22:35:49.246] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-25T22:35:49.265] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-25T22:35:49.825] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-25T22:35:49.827] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-25T22:37:15.311] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-25T22:37:15.882] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-25T22:37:15.912] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-25T22:37:18.618] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-25T22:37:18.658] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-25T22:37:19.794] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-25T22:37:19.796] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-25T22:38:35.335] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-25T22:38:35.398] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-25T22:38:35.413] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-25T22:38:36.557] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-25T22:38:36.581] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-25T22:38:37.621] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-25T22:38:37.623] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-31T10:40:01.656] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-31T10:40:01.914] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-31T10:40:01.937] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-31T10:40:03.032] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-31T10:40:03.063] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-31T10:40:03.497] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-31T10:40:03.499] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-31T10:42:30.263] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-31T10:42:30.870] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-31T10:42:30.962] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-31T10:42:33.868] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-31T10:42:33.894] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-31T10:42:34.414] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-31T10:42:34.417] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-31T10:49:36.651] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-31T10:49:36.729] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-31T10:49:36.741] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-31T10:49:37.513] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-31T10:49:37.528] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-31T10:49:37.632] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-31T10:49:37.633] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-31T13:02:36.338] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-31T13:02:36.460] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-31T13:02:36.472] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-31T13:02:37.121] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-31T13:02:37.134] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-31T13:02:37.349] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-31T13:02:37.351] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-31T13:45:39.189] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-31T13:45:39.847] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-31T13:45:39.949] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-31T13:45:44.009] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-31T13:45:44.116] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-31T13:45:45.487] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-31T13:45:45.490] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-08-31T14:12:35.243] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-08-31T14:12:35.462] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-08-31T14:12:35.528] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-08-31T14:12:41.761] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-08-31T14:12:41.809] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-08-31T14:12:44.063] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-08-31T14:12:44.066] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-01T00:00:30.456] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-01T00:00:30.754] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-01T00:00:30.777] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-01T00:00:31.465] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-01T00:00:31.478] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-01T00:00:38.252] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-01T00:00:38.255] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-01T00:04:22.787] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-01T00:04:23.313] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-01T00:04:23.353] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-01T00:04:25.560] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-01T00:04:25.592] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-01T00:04:26.349] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-01T00:04:26.352] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-01T00:15:19.543] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-01T00:15:20.250] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-01T00:15:20.330] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-01T00:15:22.484] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-01T00:15:22.545] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-01T00:15:22.906] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-01T00:15:22.909] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-01T11:59:20.448] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-01T11:59:20.536] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-01T11:59:20.551] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-01T11:59:21.056] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-01T11:59:21.079] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-01T11:59:21.751] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-01T11:59:21.753] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-01T12:01:40.095] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-01T12:01:40.733] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-01T12:01:40.841] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-01T12:01:43.449] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-01T12:01:43.511] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-01T12:01:44.347] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-01T12:01:44.350] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-01T12:03:17.932] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-01T12:03:18.056] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-01T12:03:18.069] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-01T12:03:18.859] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-01T12:03:18.889] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-01T12:03:19.176] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-01T12:03:19.179] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-02T23:25:38.476] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-02T23:25:38.545] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-02T23:25:38.559] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-02T23:25:38.570] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-02T23:25:38.577] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-02T23:25:38.586] [ERROR] logger - 备份表 | 查询目标表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:21:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:27:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-02T23:25:38.588] [ERROR] logger - 备份表 | 创建表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:144:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:149:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-02T23:25:38.589] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-02T23:25:38.590] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-02T23:26:16.730] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-02T23:26:16.834] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-02T23:26:16.852] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-02T23:26:17.666] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-02T23:26:17.682] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-02T23:26:17.936] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-02T23:26:17.939] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-02T23:31:41.443] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-02T23:31:41.981] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-02T23:31:42.009] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-02T23:31:44.519] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-02T23:31:44.563] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-02T23:31:45.165] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-02T23:31:45.169] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T16:30:06.391] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T16:30:07.368] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T16:30:07.436] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T16:30:08.629] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T16:30:08.652] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T16:30:09.005] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T16:30:09.010] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T16:39:25.890] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T16:39:25.987] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T16:39:26.007] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T16:39:26.760] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T16:39:26.768] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T16:39:26.894] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T16:39:26.896] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T16:47:51.250] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T16:47:52.454] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T16:47:52.505] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T16:47:58.814] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T16:47:58.913] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T16:48:01.416] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T16:48:01.420] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T17:46:52.342] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T17:46:52.411] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T17:46:52.424] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T17:46:54.452] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T17:46:54.473] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T17:46:54.797] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T17:46:54.799] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T17:55:00.054] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T17:55:01.362] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T17:55:01.427] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T17:55:06.079] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T17:55:06.269] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T17:55:09.612] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T17:55:09.620] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T17:57:46.355] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T17:57:46.778] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T17:57:46.973] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T17:57:51.323] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T17:57:51.362] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T17:57:51.978] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T17:57:51.983] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T18:02:13.849] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T18:02:15.030] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T18:02:15.082] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T18:02:20.104] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T18:02:20.267] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T18:02:27.603] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T18:02:27.606] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T18:46:29.805] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T18:46:30.112] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T18:46:30.150] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T18:46:33.036] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T18:46:33.093] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T18:46:33.726] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T18:46:33.732] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-08T18:58:17.406] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-09-08T18:58:17.665] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-08T18:58:17.720] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-08T18:58:21.458] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-08T18:58:21.510] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-08T18:58:22.217] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-08T18:58:22.223] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-09T11:22:04.943] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:05.232] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-09T11:22:05.247] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-09T11:22:05.252] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-09T11:22:05.255] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-09T11:22:05.261] [ERROR] logger - 备份表 | 查询目标表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:21:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:27:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-09T11:22:05.263] [ERROR] logger - 备份表 | 创建表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:144:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:149:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-09T11:22:05.264] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-09T11:22:05.266] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-09T11:22:33.176] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:33.273] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-09T11:22:33.290] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-09T11:22:33.301] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-09T11:22:33.306] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-09T11:22:33.316] [ERROR] logger - 备份表 | 查询目标表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:21:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:27:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-09T11:22:33.322] [ERROR] logger - 备份表 | 创建表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:144:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:149:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-09T11:22:33.323] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-09T11:22:33.325] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-09-09T11:23:07.278] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:23:07.683] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-09-09T11:23:07.735] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-09-09T11:23:07.752] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-09-09T11:23:07.760] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-09-09T11:23:07.773] [ERROR] logger - 备份表 | 查询目标表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:21:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.tableBeExists (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:27:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:152:56)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-09T11:23:07.777] [ERROR] logger - 备份表 | 创建表 Sp_GameRecord_202209 出错: ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:144:49)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameRecordDateTableMysqlDao.createTable (D:\backService\app\common\dao\mysql\GameRecordDateTable.mysql.dao.ts:149:21)
+    at Object.StartServerCheckGameRecordTable (D:\backService\app\servers\schedule\service\hall\implementation\hallImplementation.ts:154:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at createGameRecordTable (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:141:3)
+    at Object.setHallScheduleJob (D:\backService\app\servers\schedule\service\hall\hallSchedule.ts:102:5)
+    at Lifecycle.afterStartup (D:\backService\app\servers\schedule\lifecycle.ts:28:9)
+[2022-09-09T11:23:07.779] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-09-09T11:23:07.782] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-10-15T11:40:43.558] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-10-15T11:40:43.689] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-10-15T11:40:43.712] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-10-15T11:40:45.146] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-10-15T11:40:45.169] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-10-15T11:40:58.938] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-10-15T11:40:58.941] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-10-15T11:46:45.592] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-10-15T11:46:45.709] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-10-15T11:46:45.727] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-10-15T11:46:46.588] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-10-15T11:46:46.602] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-10-15T11:46:46.758] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-10-15T11:46:46.761] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-10-15T11:49:38.849] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-10-15T11:49:39.883] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-10-15T11:49:39.973] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-10-15T11:49:43.382] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-10-15T11:49:43.462] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-10-15T11:49:45.035] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-10-15T11:49:45.038] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-10-15T11:56:28.311] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-10-15T11:56:28.425] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-10-15T11:56:28.446] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-10-15T11:56:31.822] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-10-15T11:56:32.015] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-10-15T11:56:32.918] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-10-15T11:56:32.921] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-10-15T12:33:08.673] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-10-15T12:33:08.815] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-10-15T12:33:08.869] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-10-15T12:33:09.575] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-10-15T12:33:09.590] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-10-15T12:33:09.749] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-10-15T12:33:09.750] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-05T12:06:38.289] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-05T12:06:38.589] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-05T12:06:38.604] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-05T12:06:38.811] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-05T12:06:38.837] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-05T12:06:38.872] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-05T12:06:38.874] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T15:01:48.925] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T15:01:49.359] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T15:01:49.370] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T15:01:49.483] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T15:01:49.554] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T15:01:49.576] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T15:01:49.578] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T15:21:24.045] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T15:21:24.168] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T15:21:24.198] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T15:21:24.396] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T15:21:24.515] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T15:21:24.665] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T15:21:24.668] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T15:27:16.364] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T15:27:16.502] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T15:27:16.520] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T15:27:17.416] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T15:27:17.569] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T15:27:17.870] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T15:27:17.872] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T15:35:46.368] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T15:35:46.468] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T15:35:46.481] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T15:35:46.590] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T15:35:46.614] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T15:35:46.681] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T15:35:46.683] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T16:02:51.413] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T16:02:51.542] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T16:02:51.589] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T16:02:51.711] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T16:02:51.727] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T16:02:51.745] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T16:02:51.747] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T16:03:57.850] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T16:03:57.983] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T16:03:58.015] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T16:03:58.165] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T16:03:58.183] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T16:03:58.209] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T16:03:58.211] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T16:05:46.801] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T16:05:46.925] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T16:05:46.948] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T16:05:47.698] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T16:05:47.710] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T16:05:56.607] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T16:05:56.609] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-23T16:19:36.038] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-23T16:19:36.163] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-23T16:19:36.185] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-23T16:19:39.017] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-23T16:19:39.083] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-23T16:19:39.818] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-23T16:19:39.821] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-24T12:10:42.265] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-24T12:10:42.661] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-24T12:10:42.681] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-24T12:10:44.172] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-24T12:10:44.218] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-24T12:10:44.752] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-24T12:10:44.754] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-24T12:56:53.270] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-24T12:56:53.883] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-24T12:56:53.912] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-24T12:56:56.127] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-24T12:56:56.148] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-24T12:56:56.634] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-24T12:56:56.636] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2022-12-24T13:01:11.851] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2022-12-24T13:01:12.005] [WARN] logger - 开始执行大厅方面的定时任务
+[2022-12-24T13:01:12.029] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2022-12-24T13:01:15.508] [WARN] logger - 每5分钟校验上下分预警和预警
+[2022-12-24T13:01:15.554] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2022-12-24T13:01:16.563] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2022-12-24T13:01:16.568] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-11T11:21:06.210] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-11T11:21:06.339] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-11T11:21:06.635] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-11T11:21:10.184] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-11T11:21:10.241] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-11T11:21:27.822] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-11T11:21:27.825] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-13T15:26:51.939] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-13T15:26:52.327] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-13T15:26:52.352] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-13T15:26:54.040] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-13T15:26:54.078] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-13T15:26:54.696] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-13T15:26:54.699] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-13T15:29:01.258] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-13T15:29:01.368] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-13T15:29:01.383] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-13T15:29:03.399] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-13T15:29:03.413] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-13T15:29:03.668] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-13T15:29:03.671] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-13T15:34:29.270] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-13T15:34:29.424] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-13T15:34:29.447] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-13T15:34:32.491] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-13T15:34:32.511] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-13T15:34:33.149] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-13T15:34:33.152] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-13T23:59:00.012] [WARN] logger - 11点59分进行API得数据报表统计  ==== 开始
+[2023-01-13T23:59:00.149] [WARN] logger - 11点59分进行API得数据报表统计  ==== 结束
+[2023-01-14T00:00:00.007] [WARN] logger - 每日凌晨清楚玩家的登陆和新增
+[2023-01-18T11:07:12.902] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-18T11:07:13.132] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-18T11:07:13.412] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-18T11:07:15.514] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-18T11:07:15.555] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-18T11:07:16.262] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-18T11:07:16.264] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-18T11:12:23.073] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-18T11:12:23.356] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-18T11:12:23.392] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-18T11:12:26.455] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-18T11:12:26.476] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-18T11:12:27.691] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-18T11:12:27.694] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-28T11:56:02.468] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-28T11:56:03.475] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-28T11:56:03.530] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-28T11:56:04.696] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-28T11:56:04.735] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-28T11:56:05.167] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-28T11:56:05.171] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-28T12:00:38.151] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-28T12:00:38.218] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-28T12:00:38.230] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-28T12:00:38.978] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-28T12:00:38.993] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-28T12:00:40.052] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-28T12:00:40.055] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-28T12:02:28.365] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-28T12:02:28.498] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-28T12:02:28.520] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-28T12:02:29.323] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-28T12:02:29.335] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-28T12:02:29.555] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-28T12:02:29.557] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-28T12:06:46.234] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-28T12:06:46.325] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-28T12:06:46.334] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-28T12:06:47.220] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-28T12:06:47.237] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-28T12:06:47.546] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-28T12:06:47.548] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-29T12:12:40.011] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-29T12:12:40.343] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-29T12:12:40.355] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-29T12:12:41.269] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-29T12:12:41.299] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-29T12:12:41.564] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-29T12:12:41.566] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-29T15:21:51.070] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-29T15:21:51.326] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-29T15:21:51.373] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-29T15:21:52.435] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-29T15:21:52.448] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-29T15:21:52.735] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-29T15:21:52.738] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-29T16:06:03.041] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-29T16:06:03.312] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-29T16:06:03.349] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-29T16:06:05.492] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-29T16:06:05.507] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-29T16:06:06.067] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-29T16:06:06.070] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-29T16:08:50.196] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-29T16:08:50.348] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-29T16:08:50.361] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-29T16:08:54.285] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-29T16:08:54.331] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-29T16:08:55.805] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-29T16:08:55.808] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-29T17:00:37.434] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-29T17:00:37.554] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-29T17:00:37.568] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-29T17:00:38.574] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-29T17:00:38.616] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-29T17:00:38.920] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-29T17:00:38.923] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-29T23:59:00.131] [WARN] logger - 11点59分进行API得数据报表统计  ==== 开始
+[2023-01-29T23:59:01.156] [WARN] logger - 11点59分进行API得数据报表统计  ==== 结束
+[2023-01-30T00:00:00.017] [WARN] logger - 每日凌晨清楚玩家的登陆和新增
+[2023-01-30T15:35:51.145] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-30T15:35:51.315] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-30T15:35:51.365] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-30T15:35:53.303] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-30T15:35:53.382] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-30T15:35:54.075] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-30T15:35:54.077] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-30T16:29:31.959] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-30T16:29:32.089] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-30T16:29:32.107] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-30T16:29:34.240] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-30T16:29:34.276] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-30T16:29:35.022] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-30T16:29:35.025] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-30T16:36:38.165] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-30T16:36:38.893] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-30T16:36:38.960] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-30T16:36:41.947] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-30T16:36:41.977] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-30T16:36:42.641] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-30T16:36:42.644] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-30T17:02:03.019] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-30T17:02:03.155] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-30T17:02:03.175] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-30T17:02:04.759] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-30T17:02:04.791] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-30T17:02:06.262] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-30T17:02:06.266] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-30T18:04:39.670] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-30T18:04:40.233] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-30T18:04:40.262] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-30T18:04:41.898] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-30T18:04:41.923] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-30T18:04:42.189] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-30T18:04:42.191] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-30T18:31:47.853] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-30T18:31:47.969] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-30T18:31:47.986] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-30T18:31:49.343] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-30T18:31:49.459] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-30T18:31:51.159] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-30T18:31:51.162] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-30T23:59:00.061] [WARN] logger - 11点59分进行API得数据报表统计  ==== 开始
+[2023-01-30T23:59:00.611] [WARN] logger - 11点59分进行API得数据报表统计  ==== 结束
+[2023-01-31T00:00:00.013] [WARN] logger - 每日凌晨清楚玩家的登陆和新增
+[2023-01-31T10:23:44.614] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-31T10:23:44.963] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-31T10:23:44.976] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-31T10:23:46.219] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-31T10:23:46.248] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-31T10:23:46.625] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-31T10:23:46.627] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-31T13:19:34.635] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-31T13:19:34.740] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-31T13:19:34.761] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-31T13:19:36.200] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-31T13:19:36.217] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-31T13:19:36.508] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-31T13:19:36.510] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-31T13:25:39.643] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-31T13:25:39.718] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-31T13:25:39.735] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-31T13:25:40.410] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-31T13:25:40.421] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-31T13:25:40.638] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-31T13:25:40.641] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-01-31T13:40:39.198] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-01-31T13:40:40.578] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-01-31T13:40:40.662] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-01-31T13:40:44.396] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-01-31T13:40:44.457] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-01-31T13:40:45.712] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-01-31T13:40:45.716] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-06T13:47:59.183] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-06T13:47:59.544] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-06T13:47:59.989] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-06T13:48:01.883] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-06T13:48:01.939] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-06T13:48:09.057] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-06T13:48:09.060] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-06T13:48:34.674] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-06T13:48:34.781] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-06T13:48:34.799] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-06T13:48:36.265] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-06T13:48:36.279] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-06T13:48:36.504] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-06T13:48:36.506] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-06T13:58:20.472] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-06T13:58:20.652] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-06T13:58:20.674] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-06T13:58:23.089] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-06T13:58:23.142] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-06T13:58:23.931] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-06T13:58:23.934] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-06T14:07:20.686] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-06T14:07:20.775] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-06T14:07:20.794] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-06T14:07:22.078] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-06T14:07:22.093] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-06T14:07:22.281] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-06T14:07:22.284] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-06T14:32:24.773] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-06T14:32:24.939] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-06T14:32:24.960] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-06T14:32:28.860] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-06T14:32:28.892] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-06T14:32:29.665] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-06T14:32:29.668] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-06T14:35:30.852] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-06T14:35:30.973] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-06T14:35:31.000] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-06T14:35:32.179] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-06T14:35:32.201] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-06T14:35:32.608] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-06T14:35:32.611] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T13:13:35.687] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T13:13:36.199] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T13:13:36.230] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T13:13:38.325] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T13:13:38.379] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T13:13:39.163] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T13:13:39.165] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T13:39:43.322] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T13:39:43.465] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T13:39:43.497] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T13:39:45.703] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T13:39:45.723] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T13:39:46.310] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T13:39:46.313] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T13:49:43.325] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T13:49:43.813] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T13:49:43.858] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T13:49:45.712] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T13:49:45.732] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T13:49:46.181] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T13:49:46.183] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T13:53:14.629] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T13:53:15.225] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T13:53:15.293] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T13:53:17.219] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T13:53:17.244] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T13:53:17.725] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T13:53:17.728] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T14:03:05.841] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T14:03:06.565] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T14:03:06.621] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T14:03:09.160] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T14:03:09.189] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T14:03:10.130] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T14:03:10.137] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T14:05:19.768] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T14:05:20.637] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T14:05:20.790] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T14:05:23.572] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T14:05:23.635] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T14:05:24.662] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T14:05:24.664] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T14:11:07.153] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T14:11:07.862] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T14:11:07.921] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T14:11:12.609] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T14:11:12.715] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T14:11:14.392] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T14:11:14.395] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T14:16:25.488] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T14:16:26.256] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T14:16:26.288] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T14:16:29.884] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T14:16:29.932] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T14:16:31.140] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T14:16:31.142] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T14:35:32.173] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T14:35:33.180] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T14:35:33.262] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T14:35:36.708] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T14:35:36.770] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T14:35:37.731] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T14:35:37.734] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T14:36:15.503] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T14:36:15.649] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T14:36:15.697] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T14:36:19.164] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T14:36:19.319] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T14:36:19.947] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T14:36:19.951] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-10T14:38:32.849] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-10T14:38:32.979] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-10T14:38:33.015] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-10T14:38:35.848] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-10T14:38:35.940] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-10T14:38:36.382] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-10T14:38:36.385] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-11T18:35:07.895] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-11T18:35:08.096] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-11T18:35:08.143] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-11T18:35:10.701] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-11T18:35:10.774] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-11T18:35:11.657] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-11T18:35:11.659] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-11T19:00:17.381] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-11T19:00:17.546] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-11T19:00:17.575] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-11T19:00:20.591] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-11T19:00:20.626] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-11T19:00:21.681] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-11T19:00:21.684] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-11T19:03:51.963] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-11T19:03:52.655] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-11T19:03:52.737] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-11T19:03:54.849] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-11T19:03:54.873] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-11T19:03:55.631] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-11T19:03:55.634] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-11T19:06:04.057] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-11T19:06:04.706] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-11T19:06:04.753] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-11T19:06:07.428] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-11T19:06:07.464] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-11T19:06:08.251] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-11T19:06:08.254] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-02-11T19:15:26.304] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-02-11T19:15:26.434] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-02-11T19:15:26.458] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-02-11T19:15:27.492] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-02-11T19:15:27.515] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-02-11T19:15:27.778] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-02-11T19:15:27.780] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-08T15:26:53.930] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-08T15:26:54.152] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-08T15:26:54.229] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-08T15:26:55.615] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-08T15:26:55.637] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-08T15:27:06.032] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-08T15:27:06.035] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-08T15:28:10.109] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-08T15:28:10.746] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-08T15:28:10.800] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-08T15:28:13.067] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-08T15:28:13.088] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-08T15:28:13.733] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-08T15:28:13.737] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-20T23:09:49.626] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-20T23:09:49.772] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-20T23:09:49.788] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-20T23:09:52.412] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-20T23:09:52.461] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-20T23:09:53.486] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-20T23:09:53.488] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-22T12:30:01.458] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-22T12:30:01.596] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-22T12:30:01.632] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-22T12:30:03.289] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-22T12:30:03.317] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-22T12:30:03.592] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-22T12:30:03.595] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-22T12:32:12.621] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-22T12:32:13.241] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-22T12:32:13.282] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-22T12:32:16.238] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-22T12:32:16.271] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-22T12:32:16.953] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-22T12:32:16.955] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-22T13:26:41.586] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-22T13:26:42.331] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-22T13:26:42.390] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-22T13:26:45.377] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-22T13:26:45.429] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-22T13:26:46.431] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-22T13:26:46.433] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-23T13:31:25.915] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-23T13:31:26.130] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-23T13:31:26.155] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-23T13:31:27.950] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-23T13:31:28.451] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-23T13:31:28.734] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-23T13:31:28.736] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-23T15:36:11.251] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-23T15:36:11.371] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-23T15:36:11.385] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-23T15:36:12.149] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-23T15:36:12.163] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-23T15:36:12.388] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-23T15:36:12.389] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-23T15:39:03.387] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-23T15:39:04.318] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-23T15:39:04.357] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-23T15:39:05.973] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-23T15:39:06.002] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-23T15:39:06.371] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-23T15:39:06.373] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-23T17:22:49.100] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-23T17:22:49.854] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-23T17:22:49.878] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-23T17:22:52.330] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-23T17:22:52.356] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-23T17:22:53.273] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-23T17:22:53.275] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-23T17:28:23.537] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-23T17:28:23.682] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-23T17:28:23.704] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-23T17:28:25.760] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-23T17:28:25.798] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-23T17:28:26.664] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-23T17:28:26.667] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-23T17:30:20.343] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-23T17:30:20.520] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-23T17:30:20.548] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-23T17:30:22.162] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-23T17:30:22.178] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-23T17:30:22.462] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-23T17:30:22.464] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-24T11:23:55.799] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-24T11:23:56.200] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-24T11:23:56.219] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-24T11:23:57.788] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-24T11:23:57.827] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-24T11:23:58.603] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-24T11:23:58.606] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T01:51:52.643] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T01:51:52.708] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T01:51:52.723] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T01:51:53.257] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T01:51:53.269] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T01:51:53.431] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T01:51:53.432] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T02:08:04.273] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T02:08:04.698] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T02:08:04.736] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T02:08:07.061] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T02:08:07.081] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T02:08:07.503] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T02:08:07.505] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T02:25:20.053] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T02:25:20.162] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T02:25:20.188] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T02:25:21.791] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T02:25:21.806] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T02:25:22.042] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T02:25:22.045] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T02:27:01.451] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T02:27:01.533] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T02:27:01.549] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T02:27:02.419] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T02:27:02.433] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T02:27:02.683] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T02:27:02.686] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T15:17:29.886] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T15:17:30.043] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T15:17:30.060] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T15:17:30.788] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T15:17:30.804] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T15:17:30.975] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T15:17:30.976] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T15:24:43.941] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T15:24:43.992] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T15:24:44.000] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T15:24:44.599] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T15:24:44.609] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T15:24:44.740] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T15:24:44.741] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T15:30:33.069] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T15:30:33.617] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T15:30:33.749] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T15:30:35.805] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T15:30:35.828] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T15:30:36.287] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T15:30:36.289] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T15:35:34.663] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T15:35:34.738] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T15:35:34.747] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T15:35:35.597] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T15:35:35.613] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T15:35:35.796] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T15:35:35.797] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T15:48:32.423] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T15:48:32.971] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T15:48:33.002] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T15:48:34.808] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T15:48:34.884] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T15:48:35.562] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T15:48:35.564] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T17:18:05.506] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T17:18:05.596] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T17:18:05.614] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T17:18:07.297] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T17:18:07.355] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T17:18:07.659] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T17:18:07.661] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-27T17:55:56.365] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-27T17:55:56.513] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-27T17:55:56.536] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-27T17:55:58.849] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-27T17:55:59.029] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-27T17:56:00.647] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-27T17:56:00.651] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-28T13:40:40.939] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-28T13:40:41.149] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-28T13:40:41.178] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-28T13:40:44.005] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-28T13:40:44.052] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-28T13:40:46.080] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-28T13:40:46.083] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-28T13:43:57.499] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-28T13:43:57.656] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-28T13:43:57.692] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-28T13:44:01.933] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-28T13:44:01.990] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-28T13:44:03.417] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-28T13:44:03.421] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-28T17:14:46.586] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-28T17:14:46.791] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-28T17:14:46.812] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-28T17:14:48.378] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-28T17:14:48.393] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-28T17:14:49.277] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-28T17:14:49.280] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-03-28T17:18:11.220] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-03-28T17:18:11.314] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-03-28T17:18:11.327] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-03-28T17:18:12.579] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-03-28T17:18:12.617] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-03-28T17:18:13.410] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-03-28T17:18:13.413] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-09T12:09:57.507] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-09T12:09:58.049] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-09T12:09:58.071] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-09T12:09:59.547] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-09T12:09:59.578] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-09T12:10:04.770] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-09T12:10:04.773] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-09T12:25:47.388] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-09T12:25:47.495] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-09T12:25:47.523] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-09T12:25:49.207] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-09T12:25:49.233] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-09T12:25:49.481] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-09T12:25:49.484] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-11T17:21:50.624] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-11T17:21:50.700] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-11T17:21:50.733] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-11T17:21:52.457] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-11T17:21:52.521] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-11T17:21:52.995] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-11T17:21:52.997] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-11T17:29:45.229] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-11T17:29:45.875] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-11T17:29:45.903] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-11T17:29:47.596] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-11T17:29:47.617] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-11T17:29:48.386] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-11T17:29:48.389] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-11T17:31:53.592] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-11T17:31:54.209] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-11T17:31:54.234] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-11T17:31:56.249] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-11T17:31:56.277] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-11T17:31:56.737] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-11T17:31:56.741] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-11T17:37:45.610] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-11T17:37:46.153] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-11T17:37:46.213] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-11T17:37:48.093] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-11T17:37:48.122] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-11T17:37:48.662] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-11T17:37:48.665] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-11T17:49:06.271] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-11T17:49:06.402] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-11T17:49:06.424] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-11T17:49:08.972] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-11T17:49:09.035] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-11T17:49:09.929] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-11T17:49:09.935] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-11T17:50:40.896] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-11T17:50:41.034] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-11T17:50:41.054] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-11T17:50:42.830] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-11T17:50:42.871] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-11T17:50:44.792] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-11T17:50:44.795] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-11T17:55:19.127] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-11T17:55:19.334] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-11T17:55:19.357] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-11T17:55:21.716] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-11T17:55:21.736] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-11T17:55:22.155] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-11T17:55:22.157] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-13T14:55:04.508] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-13T14:55:04.795] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-13T14:55:04.821] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-13T14:55:06.414] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-13T14:55:06.477] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-13T14:55:06.878] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-13T14:55:06.880] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-13T14:59:24.524] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-13T14:59:25.269] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-13T14:59:25.292] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-13T14:59:26.915] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-13T14:59:26.981] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-13T14:59:27.827] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-13T14:59:27.830] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-13T15:02:28.422] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-04-13T15:02:28.537] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-04-13T15:02:29.167] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-04-13T15:02:31.146] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-04-13T15:02:31.186] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-04-13T15:02:31.657] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-04-13T15:02:31.660] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-04-13T23:59:00.420] [WARN] logger - 11点59分进行API得数据报表统计  ==== 开始
+[2023-04-13T23:59:00.920] [WARN] logger - 11点59分进行API得数据报表统计  ==== 结束
+[2023-04-14T00:00:00.022] [WARN] logger - 每日凌晨清楚玩家的登陆和新增
+[2023-05-02T14:17:44.557] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T14:17:44.686] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T14:17:44.714] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T14:17:46.446] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T14:17:46.482] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T14:17:53.438] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T14:17:53.440] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-02T14:23:18.484] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T14:23:18.615] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T14:23:18.628] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T14:23:19.430] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T14:23:19.445] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T14:23:19.735] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T14:23:19.739] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-02T14:24:51.277] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T14:24:51.901] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T14:24:51.987] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T14:24:55.273] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T14:24:55.299] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T14:24:55.963] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T14:24:55.966] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-02T15:13:12.395] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T15:13:12.578] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T15:13:12.612] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T15:13:15.718] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T15:13:15.741] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T15:13:16.431] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T15:13:16.436] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-02T15:45:38.045] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T15:45:38.317] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T15:45:38.340] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T15:45:40.081] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T15:45:40.144] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T15:45:40.429] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T15:45:40.431] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-02T15:50:29.273] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T15:50:29.399] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T15:50:29.424] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T15:50:30.782] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T15:50:30.797] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T15:50:31.256] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T15:50:31.259] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-02T15:52:52.772] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T15:52:53.484] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T15:52:53.538] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T15:52:56.527] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T15:52:56.552] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T15:52:57.159] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T15:52:57.162] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-02T15:56:24.458] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-02T15:56:24.573] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-02T15:56:24.605] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-02T15:56:28.100] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-02T15:56:28.162] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-02T15:56:29.032] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-02T15:56:29.035] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-25T11:52:53.837] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-25T11:52:54.258] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-25T11:52:54.281] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-25T11:52:55.661] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-25T11:52:55.706] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-25T11:52:56.092] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-25T11:52:56.095] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-25T12:23:37.700] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-25T12:23:38.045] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-25T12:23:38.070] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-25T12:23:40.029] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-25T12:23:40.047] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-25T12:23:40.426] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-25T12:23:40.428] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-25T12:33:07.655] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-25T12:33:07.741] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-25T12:33:07.755] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-25T12:33:08.703] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-25T12:33:08.717] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-25T12:33:09.214] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-25T12:33:09.216] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-25T12:38:04.979] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-25T12:38:05.176] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-25T12:38:05.212] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-25T12:38:08.136] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-25T12:38:08.183] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-25T12:38:08.942] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-25T12:38:08.944] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-29T11:44:10.419] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-29T11:44:11.445] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-29T11:44:12.626] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-29T11:44:16.651] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-29T11:44:16.836] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-29T11:44:18.657] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-29T11:44:18.661] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始
+[2023-05-30T11:38:35.349] [WARN] logger - mysql | 服务 schedule-server-1 | 创建连接池 | 成功
+[2023-05-30T11:38:35.462] [WARN] logger - 开始执行大厅方面的定时任务
+[2023-05-30T11:38:35.475] [WARN] logger - 初始化vip等级、充值奖励、周奖励、月奖励配置信息
+[2023-05-30T11:38:36.410] [WARN] logger - 每5分钟校验上下分预警和预警
+[2023-05-30T11:38:36.431] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表 === 开始
+[2023-05-30T11:38:36.693] [WARN] logger - 启动服务器的时候先校验当前月的数据库存在的平台是否存在这些表  ==== 结束
+[2023-05-30T11:38:36.696] [WARN] logger - 每半个小时进行一次在线玩家剔除--开始

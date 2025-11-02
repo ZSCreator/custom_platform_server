@@ -1,0 +1,24 @@
+[2022-08-08T16:32:36.919] [WARN] logger - mysql | 服务 TeenPatti-server-1 | 创建连接池 | 成功
+[2022-08-08T16:32:36.984] [WARN] logger - TeenPatti-server-1 TeenPatti 配服务器启动之前
+[2022-08-08T16:32:37.058] [WARN] logger - 重置当前服务器人数 TeenPatti-server-1
+[2022-08-08T16:32:37.572] [WARN] logger - TeenPatti-server-1 TeenPatti !!afterStartup
+[2022-08-08T16:33:06.533] [WARN] logger - TeenPatti-server-1 TeenPatti 所有服务器启动之后
+[2022-08-08T17:44:17.928] [WARN] logger - 房间销毁 16
+[2022-08-08T17:44:17.930] [WARN] logger - 房间销毁结束 16
+[2022-08-08T23:02:27.764] [WARN] logger - 房间销毁 16
+[2022-08-08T23:02:27.765] [WARN] logger - 房间销毁结束 16
+[2022-08-08T23:24:07.860] [WARN] logger - 房间销毁 16
+[2022-08-08T23:24:07.860] [WARN] logger - 房间销毁结束 16
+[2022-08-08T23:28:47.869] [WARN] logger - 房间销毁 16
+[2022-08-08T23:28:47.870] [WARN] logger - 房间销毁结束 16
+[2022-08-09T00:32:43.095] [ERROR] pinus-rpc - mqtt rpc client TeenPatti-server-1 checkKeepAlive timeout from remote server control-server-1 for 20000 lastPing: 1659976333093 lastPong: 1659976333092Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at MailBox.checkKeepAlive (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:222:28)
+    at Timeout._onTimeout (D:\backService\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:207:18)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-08-09T11:32:07.874] [WARN] logger - mysql | 服务 TeenPatti-server-1 | 创建连接池 | 成功
+[2022-08-09T11:32:07.951] [WARN] logger - TeenPatti-server-1 TeenPatti 配服务器启动之前
+[2022-08-09T11:32:08.300] [WARN] logger - 重置当前服务器人数 TeenPatti-server-1
+[2022-08-09T11:32:08.927] [WARN] logger - TeenPatti-server-1 TeenPatti !!afterStartup
+[2022-08-09T11:32:27.776] [WARN] logger - TeenPatti-server-1 TeenPatti 所有服务器启动之后

@@ -1,0 +1,12 @@
+[
+  {
+    "nid": "60",
+    "id": 0,
+    "name": "CashSlot",
+    "lowBet": 0,
+    "capBet": 0,
+    "allinMaxNum": 0,
+    "entryCond": 500,
+    "ChipList":[100, 400, 1000, 2000, 4000,10000]
+  }
+]

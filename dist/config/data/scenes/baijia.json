@@ -1,0 +1,32 @@
+[
+  {
+    "nid": "8",
+    "id": 0,
+    "name": "荣耀厅",
+    "entryCond": 0,
+    "lowBet": 2000,
+    "tallBet": 50000,
+    "ShangzhuangMinNum": 200000,
+    "ChipList":[100, 1000, 5000, 10000, 50000]
+  },
+  {
+    "nid": "8",
+    "id": 1,
+    "name": "传奇厅",
+    "entryCond": 0,
+    "lowBet": 10000,
+    "tallBet": 100000,
+    "ShangzhuangMinNum": 500000,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  },
+  {
+    "nid": "8",
+    "id": 2,
+    "name": "尊享厅",
+    "entryCond": 0,
+    "lowBet": 20000,
+    "tallBet": 100000,
+    "ShangzhuangMinNum": 1000000,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  }
+]

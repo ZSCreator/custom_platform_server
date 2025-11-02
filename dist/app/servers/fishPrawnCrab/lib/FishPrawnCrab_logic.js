@@ -1,0 +1,114 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.genLotteryResult = exports.buildRecordResult = exports.getPlayerWinGold = exports.getWinBetArea = exports.getDiceResult = void 0;
+const FishPrawnCrabConst = require("./FishPrawnCrabConst");
+function getDiceResult() {
+    let diceResult = [];
+    const diceArea = FishPrawnCrabConst.DICE_AREA;
+    let num = 3;
+    for (let i = 1; i <= num; i++) {
+        let index = Math.floor((Math.random() * diceArea.length));
+        diceResult.push(diceArea[index]);
+    }
+    return diceResult;
+}
+exports.getDiceResult = getDiceResult;
+;
+function getWinBetArea(diceResult) {
+    let winArea = [];
+    const diceArea = FishPrawnCrabConst.DICE_AREA;
+    const doubleArea = FishPrawnCrabConst.DOUBLE_AREA;
+    if (diceResult.length == 0 || diceResult.length > 3) {
+        return winArea;
+    }
+    for (let i = 0; i <= 2; i++) {
+        if (!winArea.includes(diceResult[i]) && diceArea.includes(diceResult[i])) {
+            winArea.push(diceResult[i]);
+            if (i <= 1) {
+                for (let j = 1; j <= 2; j++) {
+                    const doubleDice = diceResult[i] + '_' + diceResult[i + j];
+                    if (!doubleArea.includes(doubleDice)) {
+                        const doubleDice1 = diceResult[i + j] + '_' + diceResult[i];
+                        if (doubleArea.includes(doubleDice1) && !winArea.includes(doubleDice1)) {
+                            winArea.push(doubleDice1);
+                        }
+                    }
+                    else if (!winArea.includes(doubleDice)) {
+                        winArea.push(doubleDice);
+                    }
+                }
+            }
+        }
+    }
+    if (winArea.length == 1) {
+        winArea.push(FishPrawnCrabConst.AREA.ONE);
+    }
+    return winArea;
+}
+exports.getWinBetArea = getWinBetArea;
+;
+function getPlayerWinGold(winArea, result) {
+    const resultOdds = [];
+    const diceArea = FishPrawnCrabConst.DICE_AREA;
+    const doubleArea = FishPrawnCrabConst.DOUBLE_AREA;
+    if (winArea.length == 2) {
+        for (let item of winArea) {
+            if (item == FishPrawnCrabConst.AREA.ONE) {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.one });
+            }
+            else {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.three });
+            }
+        }
+    }
+    if (winArea.length == 3) {
+        const prev = statisticalFieldNumber(result);
+        for (let item of winArea) {
+            if (item == FishPrawnCrabConst.AREA.ONE) {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.one });
+            }
+            else if (diceArea.includes(item) && prev[item] == 2) {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.double });
+            }
+            else if (diceArea.includes(item) && prev[item] == 1) {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.single });
+            }
+            else if (doubleArea.includes(item)) {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.doubleTwo });
+            }
+        }
+    }
+    if (winArea.length == 6) {
+        for (let item of winArea) {
+            if (diceArea.includes(item)) {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.single });
+            }
+            else if (doubleArea.includes(item)) {
+                resultOdds.push({ name: item, odds: FishPrawnCrabConst.DICE_ODDS.doubleSingle });
+            }
+        }
+    }
+    return resultOdds;
+}
+exports.getPlayerWinGold = getPlayerWinGold;
+function statisticalFieldNumber(arr) {
+    return arr.reduce(function (prev, next) {
+        prev[next] = (prev[next] + 1) || 1;
+        return prev;
+    }, {});
+}
+function buildRecordResult(result) {
+    let one = result[0];
+    let two = result[1];
+    let three = result[2];
+    return one + '_' + two + '_' + three;
+}
+exports.buildRecordResult = buildRecordResult;
+function genLotteryResult() {
+    const result = getDiceResult();
+    const winArea = getWinBetArea(result);
+    const winAreaOdds = getPlayerWinGold(winArea, result);
+    return { result, winArea, winAreaOdds };
+}
+exports.genLotteryResult = genLotteryResult;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRmlzaFByYXduQ3JhYl9sb2dpYy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL2FwcC9zZXJ2ZXJzL2Zpc2hQcmF3bkNyYWIvbGliL0Zpc2hQcmF3bkNyYWJfbG9naWMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsMkRBQTREO0FBTzVELFNBQWdCLGFBQWE7SUFDekIsSUFBSSxVQUFVLEdBQUcsRUFBRSxDQUFDO0lBQ3BCLE1BQU0sUUFBUSxHQUFHLGtCQUFrQixDQUFDLFNBQVMsQ0FBQztJQUM5QyxJQUFJLEdBQUcsR0FBRyxDQUFDLENBQUU7SUFDYixLQUFJLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLElBQUcsR0FBRyxFQUFDLENBQUMsRUFBRSxFQUFDO1FBQ3ZCLElBQUksS0FBSyxHQUFHLElBQUksQ0FBQyxLQUFLLENBQUMsQ0FBQyxJQUFJLENBQUMsTUFBTSxFQUFFLEdBQUMsUUFBUSxDQUFDLE1BQU0sQ0FBQyxDQUFDLENBQUM7UUFDeEQsVUFBVSxDQUFDLElBQUksQ0FBQyxRQUFRLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQztLQUNwQztJQUVELE9BQU8sVUFBVSxDQUFDO0FBRXRCLENBQUM7QUFYRCxzQ0FXQztBQUFBLENBQUM7QUFZRixTQUFnQixhQUFhLENBQUMsVUFBcUI7SUFDL0MsSUFBSSxPQUFPLEdBQUcsRUFBRSxDQUFDO0lBQ2pCLE1BQU0sUUFBUSxHQUFHLGtCQUFrQixDQUFDLFNBQVMsQ0FBQztJQUM5QyxNQUFNLFVBQVUsR0FBRyxrQkFBa0IsQ0FBQyxXQUFXLENBQUM7SUFDbEQsSUFBRyxVQUFVLENBQUMsTUFBTSxJQUFJLENBQUMsSUFBSSxVQUFVLENBQUMsTUFBTSxHQUFHLENBQUMsRUFBRTtRQUNoRCxPQUFPLE9BQU8sQ0FBQztLQUNsQjtJQUNELEtBQUksSUFBSSxDQUFDLEdBQUcsQ0FBQyxFQUFHLENBQUMsSUFBRyxDQUFDLEVBQUcsQ0FBQyxFQUFFLEVBQUM7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

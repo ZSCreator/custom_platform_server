@@ -1,0 +1,61 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const RDSClient_1 = require("../../app/common/dao/mysql/lib/RDSClient");
+const connectionManager_1 = require("../../app/common/dao/mysql/lib/connectionManager");
+RDSClient_1.RDSClient.demoInit();
+async function clean() {
+    console.warn(`开始执行机器人头像`);
+    let sql1 = `WHEN "head1" THEN "head40" 
+                WHEN "head2" THEN "head39" 
+                WHEN "head3" THEN "head38" 
+                WHEN "head4" THEN "head37" 
+                WHEN "head5" THEN "head36" 
+                WHEN "head6" THEN "head35" 
+                WHEN "head7" THEN "head34" 
+                WHEN "head8" THEN "head33" 
+                WHEN "head9" THEN "head32" 
+                WHEN "head10" THEN "head31" 
+                WHEN "head11" THEN "head30" `;
+    let sql2 = `WHEN "head1" THEN "head29" 
+                WHEN "head2" THEN "head28" 
+                WHEN "head3" THEN "head27" 
+                WHEN "head4" THEN "head26" 
+                WHEN "head5" THEN "head25" 
+                WHEN "head6" THEN "head24" 
+                WHEN "head7" THEN "head23" 
+                WHEN "head8" THEN "head22" 
+                WHEN "head9" THEN "head21" 
+                WHEN "head10" THEN "head20" 
+                WHEN "head11" THEN "head19" `;
+    let sql3 = `WHEN "head1" THEN "head18" 
+                WHEN "head2" THEN "head17" 
+                WHEN "head3" THEN "head16" 
+                WHEN "head4" THEN "head15" 
+                WHEN "head5" THEN "head14" 
+                WHEN "head6" THEN "head13" 
+                WHEN "head7" THEN "head12" 
+                WHEN "head8" THEN "head22" 
+                WHEN "head9" THEN "head21" 
+                WHEN "head10" THEN "head20" 
+                WHEN "head11" THEN "head19" `;
+    for (let i = 0; i <= 30; i++) {
+        console.warn(`开始执行次数${i}`);
+        let length = 1000 + 180 * i;
+        let idMin = length + 180 * i;
+        let idMax = length + (180 * (i + 1));
+        const sqlxx = [sql1, sql2, sql3];
+        let index = Math.floor((Math.random() * sqlxx.length));
+        let sql = `UPDATE Sp_Robot
+              SET Sp_Robot.headurl = CASE headurl 
+                 ${sqlxx[index]}
+                END
+            WHERE Sp_Robot.headurl in ("head1","head2","head3","head4","head5","head6","head7","head8","head9","head10","head11") AND Sp_Robot.id > ${idMin} AND Sp_Robot.id < ${idMax}`;
+        await connectionManager_1.default.getConnection(false)
+            .query(sql);
+    }
+    console.warn(`执行完成修改机器人头像`);
+    process.exit();
+    return;
+}
+setTimeout(clean, 2000);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2hhbmdlUm9ib3RIZWFkLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vdG9vbHMvbW9uZ2RiVG9NeXNxbC9jaGFuZ2VSb2JvdEhlYWQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSx3RUFBcUU7QUFDckUsd0ZBQWlGO0FBSWpGLHFCQUFTLENBQUMsUUFBUSxFQUFFLENBQUM7QUFDckIsS0FBSyxVQUFVLEtBQUs7SUFDaEIsT0FBTyxDQUFDLElBQUksQ0FBQyxXQUFXLENBQUMsQ0FBQztJQUMxQixJQUFJLElBQUksR0FBRTs7Ozs7Ozs7Ozs2Q0FVK0IsQ0FBQztJQUMxQyxJQUFJLElBQUksR0FBRTs7Ozs7Ozs7Ozs2Q0FVK0IsQ0FBQztJQUMxQyxJQUFJLElBQUksR0FBRTs7Ozs7Ozs7Ozs2Q0FVK0IsQ0FBQztJQUMxQyxLQUFJLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLElBQUksRUFBRSxFQUFFLENBQUMsRUFBRSxFQUFDO1FBQ3hCLE9BQU8sQ0FBQyxJQUFJLENBQUMsU0FBUyxDQUFDLEVBQUUsQ0FBQyxDQUFDO1FBQzNCLElBQUksTUFBTSxHQUFHLElBQUksR0FBRyxHQUFHLEdBQUcsQ0FBQyxDQUFDO1FBQzVCLElBQUksS0FBSyxHQUFHLE1BQU0sR0FBSSxHQUFHLEdBQUcsQ0FBQyxDQUFDO1FBQzlCLElBQUksS0FBSyxHQUFHLE1BQU0sR0FBRyxDQUFFLEdBQUcsR0FBRyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxDQUFDO1FBQ3RDLE1BQU0sS0FBSyxHQUFJLENBQUMsSUFBSSxFQUFFLElBQUksRUFBRSxJQUFJLENBQUMsQ0FBQztRQUNsQyxJQUFJLEtBQUssR0FBRyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsSUFBSSxDQUFDLE1BQU0sRUFBRSxHQUFDLEtBQUssQ0FBQyxNQUFNLENBQUMsQ0FBQyxDQUFDO1FBQ3JELElBQUksR0FBRyxHQUFHOzttQkFFQyxLQUFLLENBQUMsS0FBSyxDQUFDOztzSkFFdUgsS0FBSyxzQkFBc0IsS0FBSyxFQUFFLENBQUM7UUFDakwsTUFBUSwyQkFBaUIsQ0FBQyxhQUFhLENBQUMsS0FBSyxDQUFDO2FBQ3pDLEtBQUssQ0FBQyxHQUFHLENBQUMsQ0FBQztLQUNuQjtJQUNELE9BQU8sQ0FBQyxJQUFJLENBQUMsYUFBYSxDQUFDLENBQUM7SUFDNUIsT0FBTyxDQUFDLElBQUksRUFBRSxDQUFDO0lBQ2YsT0FBTztBQUNYLENBQUM7QUFDRCxVQUFVLENBQUMsS0FBSyxFQUFFLElBQUksQ0FBQyxDQUFDIn0=

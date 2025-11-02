@@ -1,0 +1,11 @@
+[
+  {
+    "nid": "54",
+    "id": 0,
+    "name": "麻辣火锅",
+    "entryCond": 500,
+    "ShangzhuangMinNum": 200000,
+    "lowBet": 100,
+    "tallBet": 50000
+  }
+]

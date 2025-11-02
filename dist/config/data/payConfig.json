@@ -1,0 +1,6 @@
+[
+    { "id": "101",  "name":"ApplyQrcode","url": "http://qrcode.yh9228.com/applyQrcode"},
+    { "id": "102",  "name":"PayBackUrl","url": "http://103.246.246.195:3320/shopPayCallback"},
+    { "id": "103",  "name":"RecycleQrcode","url": "http://qrcode.yh9228.com/recycleQrcode"},
+    { "id": "104",  "name":"CodeCenterPic","url": "http://qr.topscan.com/api.php"}
+]

@@ -1,0 +1,622 @@
+[2022-08-02T10:38:05.671] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-08-02T10:38:05.750] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-08-02T10:38:05.959] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-08-02T10:38:06.349] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-02T10:38:06.543] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-02T10:38:43.627] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-08-02T10:40:04.701] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-08-02T10:40:04.783] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-08-02T10:40:04.847] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-08-02T10:40:05.369] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-02T10:40:05.566] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-02T10:40:24.325] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-08-02T11:00:39.407] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-08-02T11:00:39.534] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-08-02T11:00:39.601] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-08-02T11:00:39.709] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-02T11:00:39.838] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-02T11:01:02.261] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-08-04T17:46:39.108] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-08-04T17:46:39.185] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-08-04T17:46:39.275] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-08-04T17:46:39.798] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-04T17:46:43.708] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-04T17:47:29.829] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-08-04T17:47:29.896] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-08-04T17:47:29.996] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-08-04T17:47:30.362] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-04T17:47:30.539] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-04T17:48:02.146] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-08-08T16:21:32.973] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-08-08T16:21:33.076] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-08-08T16:21:33.186] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-08-08T16:21:33.739] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-08T16:21:33.867] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-08-08T16:22:02.800] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-10-15T11:40:42.065] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-10-15T11:40:42.092] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-10-15T11:40:42.647] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-10-15T11:40:42.728] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:40:42.806] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:41:18.523] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-10-15T11:46:46.989] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-10-15T11:46:47.022] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-10-15T11:46:47.084] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-10-15T11:46:47.175] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:46:47.298] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:47:08.985] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-10-15T11:49:39.951] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-10-15T11:49:40.077] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-10-15T11:49:40.207] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-10-15T11:49:41.260] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:49:41.682] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:50:10.130] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-10-15T11:52:20.980] [WARN] logger - Rummy 0 608
+[2022-10-15T11:56:31.424] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-10-15T11:56:31.608] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-10-15T11:56:31.758] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-10-15T11:56:32.395] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:56:32.583] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T11:56:50.256] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-10-15T11:58:36.734] [WARN] logger - Rummy 0 175
+[2022-10-15T11:58:39.687] [WARN] logger - Rummy 0 1465
+[2022-10-15T12:02:08.795] [WARN] logger - Rummy 0 1188
+[2022-10-15T12:04:02.880] [WARN] logger - Rummy 0 175
+[2022-10-15T12:12:27.148] [WARN] logger - Rummy 0 673
+[2022-10-15T12:15:52.481] [WARN] logger - 房间销毁 84
+[2022-10-15T12:15:52.482] [WARN] logger - 房间销毁结束 84
+[2022-10-15T12:17:36.278] [WARN] logger - Rummy 0 865
+[2022-10-15T12:19:22.316] [WARN] logger - Rummy 0 745
+[2022-10-15T12:21:59.385] [WARN] logger - Rummy 0 672
+[2022-10-15T12:25:38.480] [WARN] logger - Rummy 0 1671
+[2022-10-15T12:33:14.466] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-10-15T12:33:14.577] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-10-15T12:33:14.683] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-10-15T12:33:15.257] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T12:33:15.382] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-10-15T12:33:33.228] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-12-05T12:06:37.487] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-05T12:06:37.533] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-05T12:06:37.574] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-05T12:06:37.832] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-05T12:06:37.947] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-05T12:06:51.129] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-12-23T15:01:47.518] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T15:01:47.594] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T15:01:48.563] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T15:01:49.069] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T15:01:49.239] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T15:02:03.301] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-12-23T15:21:27.203] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T15:21:27.230] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T15:21:27.276] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T15:21:27.563] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T15:21:27.638] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T15:21:27.718] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-12-23T15:27:17.482] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T15:27:17.591] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T15:27:18.305] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T15:27:18.871] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T15:27:18.972] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T15:35:48.852] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T15:35:48.899] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T15:35:49.064] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T15:35:49.638] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T15:35:49.849] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:02:52.960] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T16:02:53.014] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T16:02:53.137] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T16:02:53.238] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:02:53.357] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:02:54.526] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-12-23T16:04:00.362] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T16:04:00.403] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T16:04:00.478] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T16:04:00.862] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:04:00.948] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:04:01.053] [WARN] logger - Rummy-server-1 Rummy|afterStartAll
+[2022-12-23T16:05:48.938] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T16:05:48.988] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T16:05:49.056] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T16:05:49.467] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:05:49.554] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:19:36.980] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-23T16:19:37.081] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-23T16:19:37.350] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-23T16:19:38.082] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-23T16:19:38.514] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-24T12:10:41.406] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-24T12:10:41.451] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-24T12:10:41.819] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-24T12:10:42.333] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-24T12:10:42.449] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-24T12:56:53.870] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-24T12:56:53.958] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-24T12:56:54.123] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-24T12:56:54.663] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-24T12:56:54.860] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-24T13:01:11.816] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2022-12-24T13:01:11.865] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2022-12-24T13:01:12.046] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2022-12-24T13:01:12.642] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2022-12-24T13:01:12.924] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-11T11:21:05.931] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-11T11:21:06.054] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-11T11:21:06.294] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-11T11:21:06.782] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-11T11:21:07.914] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-13T15:26:54.372] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-13T15:26:54.427] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-13T15:26:54.514] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-13T15:26:55.006] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-13T15:26:55.174] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-13T15:29:02.631] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-13T15:29:02.679] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-13T15:29:02.781] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-13T15:29:03.230] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-13T15:29:03.331] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-13T15:34:30.680] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-13T15:34:30.732] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-13T15:34:30.861] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-13T15:34:31.444] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-13T15:34:31.564] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-18T11:07:12.919] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-18T11:07:12.991] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-18T11:07:13.369] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-18T11:07:13.507] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-18T11:07:13.717] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-18T11:12:22.810] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-18T11:12:22.880] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-18T11:12:23.005] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-18T11:12:23.111] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-18T11:12:23.411] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T11:56:02.680] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-28T11:56:02.783] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-28T11:56:03.038] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-28T11:56:03.544] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T11:56:04.129] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T12:00:40.535] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-28T12:00:40.596] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-28T12:00:40.682] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-28T12:00:41.274] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T12:00:41.407] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T12:02:30.588] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-28T12:02:30.640] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-28T12:02:30.692] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-28T12:02:30.794] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T12:02:30.877] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T12:06:48.204] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-28T12:06:48.252] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-28T12:06:48.305] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-28T12:06:48.390] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-28T12:06:48.462] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T12:12:39.283] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-29T12:12:39.326] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-29T12:12:39.440] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-29T12:12:39.745] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T12:12:39.915] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T15:22:01.251] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-29T15:22:01.310] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-29T15:22:01.416] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-29T15:22:01.954] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T15:22:02.153] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T16:06:09.399] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-29T16:06:09.475] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-29T16:06:09.593] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-29T16:06:10.248] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T16:06:10.551] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T16:08:58.165] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-29T16:08:58.283] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-29T16:08:58.399] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-29T16:08:59.158] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T16:08:59.365] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T17:00:43.835] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-29T17:00:43.918] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-29T17:00:44.043] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-29T17:00:44.939] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-29T17:00:45.222] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T15:35:54.138] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-30T15:35:54.191] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-30T15:35:54.297] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-30T15:35:54.779] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T15:35:54.901] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T16:29:38.116] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-30T16:29:38.163] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-30T16:29:38.264] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-30T16:29:38.912] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T16:29:39.095] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T16:36:39.291] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-30T16:36:39.378] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-30T16:36:39.585] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-30T16:36:40.199] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T16:36:40.478] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T17:02:04.440] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-30T17:02:04.524] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-30T17:02:04.644] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-30T17:02:05.224] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T17:02:05.525] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T18:04:43.505] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-30T18:04:43.571] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-30T18:04:43.680] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-30T18:04:44.153] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T18:04:44.276] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T18:31:49.416] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-30T18:31:49.476] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-30T18:31:50.222] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-30T18:31:50.858] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-30T18:31:51.042] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T10:23:43.552] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-31T10:23:43.573] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-31T10:23:43.652] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-31T10:23:43.699] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T10:23:43.753] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T13:19:41.508] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-31T13:19:41.560] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-31T13:19:41.633] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-31T13:19:42.101] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T13:19:42.236] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T13:25:42.490] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-31T13:25:42.541] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-31T13:25:42.622] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-31T13:25:43.334] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T13:25:43.504] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T13:40:41.168] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-01-31T13:40:41.313] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-01-31T13:40:41.598] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-01-31T13:40:42.444] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-01-31T13:40:42.742] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T13:47:58.158] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-06T13:47:58.253] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-06T13:47:58.841] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-06T13:47:58.937] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T13:48:00.150] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T13:48:35.260] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-06T13:48:35.316] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-06T13:48:35.494] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-06T13:48:35.626] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T13:48:35.774] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T13:58:20.671] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-06T13:58:20.746] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-06T13:58:20.848] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-06T13:58:21.020] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T13:58:21.160] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T14:07:23.434] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-06T14:07:23.475] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-06T14:07:23.544] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-06T14:07:23.965] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T14:07:24.050] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T14:32:27.005] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-06T14:32:27.103] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-06T14:32:27.270] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-06T14:32:27.921] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T14:32:28.126] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T14:35:32.172] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-06T14:35:32.227] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-06T14:35:32.307] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-06T14:35:32.429] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-06T14:35:32.548] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:13:33.663] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T13:13:33.747] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T13:13:34.154] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T13:13:34.312] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:13:35.446] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:39:44.646] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T13:39:44.714] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T13:39:44.810] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T13:39:45.391] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:39:45.561] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:49:43.150] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T13:49:43.204] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T13:49:43.313] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T13:49:43.769] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:49:43.931] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:53:14.763] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T13:53:14.885] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T13:53:15.098] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T13:53:15.663] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T13:53:15.842] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:03:04.687] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T14:03:04.784] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T14:03:05.323] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T14:03:05.943] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:03:06.344] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:05:19.545] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T14:05:19.671] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T14:05:19.946] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T14:05:20.788] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:05:21.165] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:11:09.302] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T14:11:09.374] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T14:11:09.586] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T14:11:10.178] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:11:10.538] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:16:26.826] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T14:16:26.889] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T14:16:27.039] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T14:16:27.709] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:16:27.984] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:35:35.213] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T14:35:35.309] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T14:35:35.415] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T14:35:36.216] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:35:36.452] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:36:17.198] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T14:36:17.310] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T14:36:17.468] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T14:36:17.655] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:36:18.013] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:38:34.120] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-10T14:38:34.200] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-10T14:38:34.285] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-10T14:38:34.437] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-10T14:38:34.581] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T18:35:07.738] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-11T18:35:07.827] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-11T18:35:08.351] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-11T18:35:08.510] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T18:35:09.868] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:00:20.189] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-11T19:00:20.296] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-11T19:00:20.411] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-11T19:00:21.031] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:00:21.192] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:03:51.463] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-11T19:03:51.520] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-11T19:03:51.622] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-11T19:03:52.172] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:03:52.796] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:06:03.681] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-11T19:06:03.745] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-11T19:06:03.851] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-11T19:06:04.416] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:06:04.954] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:15:28.292] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-02-11T19:15:28.405] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-02-11T19:15:28.487] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-02-11T19:15:28.939] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-02-11T19:15:29.035] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-08T15:26:53.939] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-08T15:26:54.027] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-08T15:26:54.404] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-08T15:26:54.523] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-08T15:26:54.875] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-08T15:28:09.073] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-08T15:28:09.138] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-08T15:28:09.213] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-08T15:28:09.740] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-08T15:28:10.447] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-20T23:09:52.693] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-20T23:09:52.773] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-20T23:09:53.032] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-20T23:09:53.782] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-20T23:09:53.933] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-22T12:30:01.031] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-22T12:30:01.083] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-22T12:30:01.158] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-22T12:30:01.275] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-22T12:30:01.640] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-22T12:32:14.465] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-22T12:32:14.533] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-22T12:32:14.665] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-22T12:32:15.272] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-22T12:32:15.445] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-22T13:26:43.057] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-22T13:26:43.126] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-22T13:26:43.349] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-22T13:26:43.886] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-22T13:26:44.080] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T13:31:30.181] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-23T13:31:30.239] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-23T13:31:30.343] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-23T13:31:30.883] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T13:31:31.002] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T15:36:14.251] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-23T15:36:14.284] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-23T15:36:14.335] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-23T15:36:14.688] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T15:36:14.766] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T15:39:02.284] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-23T15:39:02.324] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-23T15:39:02.408] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-23T15:39:02.528] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T15:39:02.771] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T17:22:50.077] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-23T17:22:50.157] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-23T17:22:50.351] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-23T17:22:50.912] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T17:22:51.105] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T17:28:29.915] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-23T17:28:29.967] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-23T17:28:30.055] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-23T17:28:30.682] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T17:28:30.834] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T17:30:19.844] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-23T17:30:19.891] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-23T17:30:20.000] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-23T17:30:20.096] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-23T17:30:20.220] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-24T11:23:56.732] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-24T11:23:56.768] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-24T11:23:56.848] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-24T11:23:57.355] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-24T11:23:57.527] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T01:51:51.649] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T01:51:51.685] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T01:51:51.766] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T01:51:52.086] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T01:51:52.150] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T02:08:05.824] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T02:08:05.887] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T02:08:06.030] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T02:08:06.562] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T02:08:06.674] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T02:25:19.197] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T02:25:19.227] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T02:25:19.301] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T02:25:19.376] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T02:25:19.457] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T02:27:02.301] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T02:27:02.343] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T02:27:02.398] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T02:27:02.481] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T02:27:02.570] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:17:33.586] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T15:17:33.635] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T15:17:33.747] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T15:17:34.202] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:17:34.375] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:24:45.320] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T15:24:45.362] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T15:24:45.429] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T15:24:46.030] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:24:46.263] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:30:33.289] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T15:30:33.358] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T15:30:33.516] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T15:30:34.089] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:30:34.287] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:35:36.676] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T15:35:36.708] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T15:35:36.772] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T15:35:37.211] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:35:37.364] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:48:30.695] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T15:48:30.725] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T15:48:30.771] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T15:48:30.849] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T15:48:30.961] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T17:18:04.932] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T17:18:05.003] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T17:18:05.105] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T17:18:05.193] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T17:18:05.348] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T17:55:57.137] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-27T17:55:57.188] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-27T17:55:57.278] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-27T17:55:57.386] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-27T17:55:57.545] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T13:40:44.991] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-28T13:40:45.105] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-28T13:40:45.280] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-28T13:40:46.296] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T13:40:46.566] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T13:43:58.585] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-28T13:43:58.657] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-28T13:43:59.402] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-28T13:44:00.290] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T13:44:00.521] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T17:14:47.350] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-28T17:14:47.414] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-28T17:14:47.490] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-28T17:14:47.595] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T17:14:47.729] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T17:18:12.824] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-03-28T17:18:12.872] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-03-28T17:18:12.952] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-03-28T17:18:13.134] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-03-28T17:18:13.325] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-09T12:09:56.072] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-09T12:09:56.149] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-09T12:09:56.398] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-09T12:09:56.508] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-09T12:09:56.718] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-09T12:25:47.810] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-09T12:25:47.863] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-09T12:25:47.929] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-09T12:25:48.042] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-09T12:25:48.181] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:21:55.122] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-11T17:21:55.170] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-11T17:21:55.255] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-11T17:21:55.800] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:21:55.918] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:29:45.653] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-11T17:29:45.711] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-11T17:29:45.828] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-11T17:29:46.383] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:29:46.494] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:31:54.723] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-11T17:31:54.773] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-11T17:31:54.871] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-11T17:31:55.367] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:31:55.487] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:37:46.554] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-11T17:37:46.614] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-11T17:37:46.711] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-11T17:37:47.320] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:37:47.484] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:49:07.723] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-11T17:49:07.785] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-11T17:49:07.864] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-11T17:49:08.553] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:49:08.807] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:50:42.979] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-11T17:50:43.094] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-11T17:50:43.241] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-11T17:50:44.066] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:50:44.318] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:55:19.552] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-11T17:55:19.622] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-11T17:55:19.697] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-11T17:55:19.862] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-11T17:55:19.993] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-13T14:55:15.445] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-13T14:55:15.541] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-13T14:55:15.640] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-13T14:55:16.425] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-13T14:55:16.715] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-13T14:59:23.050] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-13T14:59:23.090] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-13T14:59:23.159] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-13T14:59:23.291] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-13T14:59:23.407] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-13T15:02:30.272] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-04-13T15:02:30.319] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-04-13T15:02:30.391] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-04-13T15:02:30.970] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-04-13T15:02:31.145] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T14:17:43.885] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T14:17:43.976] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T14:17:44.084] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T14:17:44.205] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T14:17:44.485] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T14:23:21.301] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T14:23:21.392] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T14:23:21.513] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T14:23:21.973] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T14:23:22.076] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T14:24:51.916] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T14:24:51.999] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T14:24:52.098] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T14:24:53.028] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T14:24:53.590] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:13:20.333] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T15:13:20.413] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T15:13:20.557] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T15:13:21.500] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:13:21.668] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:45:43.833] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T15:45:43.881] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T15:45:43.989] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T15:45:44.718] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:45:44.864] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:50:30.782] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T15:50:30.833] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T15:50:30.905] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T15:50:31.063] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:50:31.173] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:52:53.067] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T15:52:53.185] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T15:52:53.545] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T15:52:54.396] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:52:55.019] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:56:27.898] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-02T15:56:27.960] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-02T15:56:28.072] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-02T15:56:28.703] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-02T15:56:28.831] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-25T11:52:52.481] [WARN] logger - mysql | 服务 Rummy-server-1 | 创建连接池 | 成功
+[2023-05-25T11:52:52.538] [WARN] logger - Rummy-server-1 Rummy|beforeStartup
+[2023-05-25T11:52:52.715] [WARN] logger - 重置当前服务器人数 Rummy-server-1
+[2023-05-25T11:52:53.236] [WARN] logger - Rummy-server-1 Rummy|afterStartup
+[2023-05-25T11:52:53.479] [WARN] logger - Rummy-server-1 Rummy|afterStartup

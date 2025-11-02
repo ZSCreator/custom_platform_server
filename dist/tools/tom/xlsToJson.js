@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const xlsx = require("xlsx");
+const fs = require("fs");
+let WorkBook = xlsx.readFile("F:\\work_space\\seetook\\Backend\\golden_sands\\游戏翻译合集9语言.xlsx");
+let sheetNames = WorkBook.SheetNames;
+let sheet = WorkBook.Sheets[sheetNames[0]];
+let data = xlsx.utils.sheet_to_json(sheet);
+let Net_Message = {};
+let id_game_name = {};
+for (const It of data) {
+    let k = It["id"];
+    delete It["id"];
+    if (k.substring(0, 12) == "id_game_name") {
+        let arr = k.split("-");
+        id_game_name[arr[1]] = It;
+    }
+    else {
+        Net_Message[k] = It;
+    }
+}
+Net_Message["id_game_name"] = id_game_name;
+fs.writeFileSync('tom.json', JSON.stringify(Net_Message));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoieGxzVG9Kc29uLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vdG9vbHMvdG9tL3hsc1RvSnNvbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDZCQUE2QjtBQUM3Qix5QkFBMEI7QUFJMUIsSUFBSSxRQUFRLEdBQUcsSUFBSSxDQUFDLFFBQVEsQ0FBQyxnRUFBZ0UsQ0FBQyxDQUFDO0FBQy9GLElBQUksVUFBVSxHQUFHLFFBQVEsQ0FBQyxVQUFVLENBQUM7QUFDckMsSUFBSSxLQUFLLEdBQUcsUUFBUSxDQUFDLE1BQU0sQ0FBQyxVQUFVLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQztBQUUzQyxJQUFJLElBQUksR0FBRyxJQUFJLENBQUMsS0FBSyxDQUFDLGFBQWEsQ0FBQyxLQUFLLENBQUMsQ0FBQztBQUszQyxJQUFJLFdBQVcsR0FBRyxFQUFFLENBQUE7QUFDcEIsSUFBSSxZQUFZLEdBQUcsRUFBRSxDQUFBO0FBQ3JCLEtBQUssTUFBTSxFQUFFLElBQUksSUFBSSxFQUFFO0lBQ25CLElBQUksQ0FBQyxHQUFXLEVBQUUsQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUN6QixPQUFPLEVBQUUsQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUNoQixJQUFJLENBQUMsQ0FBQyxTQUFTLENBQUMsQ0FBQyxFQUFFLEVBQUUsQ0FBQyxJQUFJLGNBQWMsRUFBRTtRQUN0QyxJQUFJLEdBQUcsR0FBRyxDQUFDLENBQUMsS0FBSyxDQUFDLEdBQUcsQ0FBQyxDQUFDO1FBQ3ZCLFlBQVksQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUMsR0FBRyxFQUFFLENBQUE7S0FDNUI7U0FBTTtRQUNILFdBQVcsQ0FBQyxDQUFDLENBQUMsR0FBRyxFQUFFLENBQUM7S0FDdkI7Q0FDSjtBQUNELFdBQVcsQ0FBQyxjQUFjLENBQUMsR0FBRyxZQUFZLENBQUM7QUFDM0MsRUFBRSxDQUFDLGFBQWEsQ0FBQyxVQUFVLEVBQUUsSUFBSSxDQUFDLFNBQVMsQ0FBQyxXQUFXLENBQUMsQ0FBQyxDQUFDIn0=

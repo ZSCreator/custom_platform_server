@@ -1,0 +1,11 @@
+[
+  {
+    "nid": "11",
+    "id": 0,
+    "name": "皇家连环炮",
+    "entryCond": 500,
+    "lowBet": 100,
+    "tallBet": 50000,
+    "ShangzhuangMinNum": 200000
+  }
+]

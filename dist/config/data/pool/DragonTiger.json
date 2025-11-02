@@ -1,0 +1,53 @@
+[
+  {
+    "nid": "42",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "龙虎斗",
+    "id":0,
+    "sceneName": "荣耀厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 50000,
+    "maxAmount": 5000000,
+    "maxParameter": 100000,
+    "maxAmountInStore": 10000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 1000
+  },
+  {
+    "nid": "42",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "龙虎斗",
+    "id":1,
+    "sceneName": "传奇厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 100000,
+    "maxAmount": 10000000,
+    "maxParameter": 200000,
+    "maxAmountInStore": 20000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 2000
+  },
+  {
+    "nid": "42",
+    "minBonusPoolCorrectedValue": 0.75,
+    "maxBonusPoolCorrectedValue": 1.25,
+    "gameName": "龙虎斗",
+    "id":2,
+    "sceneName": "尊享厅",
+    "amount": 0,
+    "initAmount": 0,
+    "minAmount": 0,
+    "minParameter": 250000,
+    "maxAmount": 25000000,
+    "maxParameter": 500000,
+    "maxAmountInStore": 50000000,
+    "maxAmountInStoreSwitch": false,
+    "personalReferenceValue": 5000
+  }
+]

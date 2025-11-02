@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.award = void 0;
+exports.award = {
+    "A": [2],
+    "K": [2],
+    "Q": [2],
+    "J": [2],
+    "E": [15],
+    "F": [12],
+    "G": [9],
+    "H": [6],
+    "I": [3],
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXdhcmQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9hcHAvc2VydmVycy9nZW1zL2xpYi9jb25maWcvYXdhcmQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQWEsUUFBQSxLQUFLLEdBQUc7SUFDbkIsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0lBQ1IsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0lBQ1IsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0lBQ1IsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0lBQ1IsR0FBRyxFQUFFLENBQUMsRUFBRSxDQUFDO0lBQ1QsR0FBRyxFQUFFLENBQUMsRUFBRSxDQUFDO0lBQ1QsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0lBQ1IsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0lBQ1IsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0NBR1QsQ0FBQyJ9

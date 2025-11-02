@@ -1,0 +1,37 @@
+[
+    {
+      "nid": "5",
+      "id": 0,
+      "name": "体验场",
+      "entryCond": 500,
+      "lowBet": 100
+    },
+    {
+      "nid": "5",
+      "id": 1,
+      "name": "初级场",
+      "entryCond": 1000,
+      "lowBet": 1000
+    },
+    {
+      "nid": "5",
+      "id": 2,
+      "name": "中级场",
+      "entryCond": 2000,
+      "lowBet": 2000
+    },
+    {
+      "nid": "5",
+      "id": 3,
+      "name": "高级场",
+      "entryCond": 5000,
+      "lowBet": 5000
+    },
+    {
+      "nid": "5",
+      "id": 4,
+      "name": "至尊场",
+      "entryCond": 10000,
+      "lowBet": 10000
+    }
+  ]

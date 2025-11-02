@@ -1,0 +1,32 @@
+[
+  {
+    "nid": "81",
+    "id": 0,
+    "name": "10包1倍场",
+    "entryCond": 1000,
+    "lowBet": 1000,
+    "capBet": 50000,
+    "allinMaxNum": 0,
+    "redParketNum": 10,
+    "realPlayerMineNum": 6,
+    "lossRation": 1,
+    "maxMineNum": 6,
+    "robotGrabRedPacketMin": 4,
+    "robotGrabRedPacketMax": 8
+  },
+  {
+    "nid": "81",
+    "id": 1,
+    "name": "7包1.5倍场",
+    "entryCond": 1000,
+    "lowBet": 1000,
+    "capBet": 50000,
+    "allinMaxNum": 0,
+    "redParketNum": 7,
+    "realPlayerMineNum": 6,
+    "lossRation": 1.5,
+    "maxMineNum": 6,
+    "robotGrabRedPacketMin": 2,
+    "robotGrabRedPacketMax": 5
+  }
+]

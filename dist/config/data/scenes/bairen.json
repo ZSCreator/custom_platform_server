@@ -1,0 +1,24 @@
+[
+  {
+    "nid": "9",
+    "id": 0,
+    "name": "荣耀厅",
+    "entryCond": 0,
+    "ShangzhuangMinNum": 500000,
+    "lowBet": 2000,
+    "tallBet": 50000,
+    "compensate": 5,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  },
+  {
+    "nid": "9",
+    "id": 1,
+    "name": "传奇厅",
+    "entryCond": 0,
+    "ShangzhuangMinNum": 1000000,
+    "lowBet": 10000,
+    "tallBet": 100000,
+    "compensate": 10,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  }
+]

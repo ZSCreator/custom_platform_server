@@ -1,0 +1,65 @@
+{
+    let Banker = {
+        robOdds: 5,
+        gold: 80,
+        profit: 0
+    };
+    let curPlayers = [
+        { isWin: true, profit: 0, gold: 20, bet: 50 },
+        { isWin: true, profit: 0, gold: 60, bet: 60 },
+        { isWin: true, profit: 0, gold: 200, bet: 500 },
+    ];
+    {
+        let totalWin = 0;
+        for (const pl of curPlayers) {
+            if (pl.isWin) {
+                let mloseGold = pl.bet;
+                pl.profit = -mloseGold;
+                totalWin += mloseGold;
+            }
+        }
+        let initialWin = totalWin;
+        if (totalWin > Banker.gold) {
+            totalWin = Banker.gold;
+        }
+        let temp_totalWin = totalWin;
+        for (const pl of curPlayers) {
+            if (pl.isWin) {
+                pl.profit = -Math.abs((pl.profit / initialWin) * temp_totalWin);
+                let diffNum = Math.abs(pl.profit) - pl.gold;
+                if (diffNum > 0) {
+                    pl.profit = -pl.gold;
+                    totalWin -= diffNum;
+                }
+            }
+        }
+        Banker.profit += totalWin;
+        console.warn(initialWin, totalWin);
+        let totalLoss = 0;
+        for (const pl of curPlayers) {
+            if (!pl.isWin) {
+                pl.profit = pl.bet;
+                let diffNum = Math.abs(pl.profit) - pl.gold;
+                if (diffNum > 0) {
+                    pl.profit = pl.gold;
+                }
+                totalLoss -= pl.profit;
+            }
+        }
+        console.warn("=====", curPlayers);
+        let initialLoss = totalLoss;
+        if (Math.abs(totalLoss) > (Banker.gold + totalWin)) {
+            totalLoss = -(Banker.gold + totalWin);
+        }
+        for (const pl of curPlayers) {
+            if (!pl.isWin) {
+                pl.profit = Math.abs((pl.profit / initialLoss) * totalLoss);
+            }
+        }
+        Banker.profit = totalWin + totalLoss;
+    }
+    console.warn("=====================================");
+    console.warn(Banker);
+    console.warn(curPlayers);
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2FuZ29uZy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Rvb2xzL3RvbS9zYW5nb25nLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0lBQ0ksSUFBSSxNQUFNLEdBQUc7UUFDVCxPQUFPLEVBQUUsQ0FBQztRQUNWLElBQUksRUFBRSxFQUFFO1FBQ1IsTUFBTSxFQUFFLENBQUM7S0FDWixDQUFBO0lBQ0QsSUFBSSxVQUFVLEdBQUc7UUFDYixFQUFFLEtBQUssRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFFLENBQUMsRUFBRSxJQUFJLEVBQUUsRUFBRSxFQUFFLEdBQUcsRUFBRSxFQUFFLEVBQUU7UUFDN0MsRUFBRSxLQUFLLEVBQUUsSUFBSSxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsSUFBSSxFQUFFLEVBQUUsRUFBRSxHQUFHLEVBQUUsRUFBRSxFQUFFO1FBQzdDLEVBQUUsS0FBSyxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUUsQ0FBQyxFQUFFLElBQUksRUFBRSxHQUFHLEVBQUUsR0FBRyxFQUFFLEdBQUcsRUFBRTtLQUNsRCxDQUFBO0lBR0Q7UUFFSSxJQUFJLFFBQVEsR0FBRyxDQUFDLENBQUM7UUFFakIsS0FBSyxNQUFNLEVBQUUsSUFBSSxVQUFVLEVBQUU7WUFDekIsSUFBSSxFQUFFLENBQUMsS0FBSyxFQUFFO2dCQUNWLElBQUksU0FBUyxHQUFHLEVBQUUsQ0FBQyxHQUFHLENBQUM7Z0JBRXZCLEVBQUUsQ0FBQyxNQUFNLEdBQUcsQ0FBRSxTQUFTLENBQUM7Z0JBQ3hCLFFBQVEsSUFBSSxTQUFTLENBQUM7YUFDekI7U0FDSjtRQUVELElBQUksVUFBVSxHQUFHLFFBQVEsQ0FBQztRQUUxQixJQUFJLFFBQVEsR0FBRyxNQUFNLENBQUMsSUFBSSxFQUFFO1lBQ3hCLFFBQVEsR0FBRyxNQUFNLENBQUMsSUFBSSxDQUFDO1NBQzFCO1FBRUQsSUFBSSxhQUFhLEdBQUcsUUFBUSxDQUFDO1FBRTdCLEtBQUssTUFBTSxFQUFFLElBQUksVUFBVSxFQUFFO1lBQ3pCLElBQUksRUFBRSxDQUFDLEtBQUssRUFBRTtnQkFDVixFQUFFLENBQUMsTUFBTSxHQUFHLENBQUMsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxNQUFNLEdBQUcsVUFBVSxDQUFDLEdBQUcsYUFBYSxDQUFDLENBQUM7Z0JBQ2hFLElBQUksT0FBTyxHQUFHLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLE1BQU0sQ0FBQyxHQUFHLEVBQUUsQ0FBQyxJQUFJLENBQUM7Z0JBQzVDLElBQUksT0FBTyxHQUFHLENBQUMsRUFBRTtvQkFDYixFQUFFLENBQUMsTUFBTSxHQUFHLENBQUMsRUFBRSxDQUFDLElBQUksQ0FBQztvQkFDckIsUUFBUSxJQUFJLE9BQU8sQ0FBQztpQkFDdkI7YUFDSjtTQUNKO1FBQ0QsTUFBTSxDQUFDLE1BQU0sSUFBSSxRQUFRLENBQUM7UUFDMUIsT0FBTyxDQUFDLElBQUksQ0FBQyxVQUFVLEVBQUUsUUFBUSxDQUFDLENBQUM7UUFJbkMsSUFBSSxTQUFTLEdBQUcsQ0FBQyxDQUFDO1FBQ2xCLEtBQUssTUFBTSxFQUFFLElBQUksVUFBVSxFQUFFO1lBQ3pCLElBQUksQ0FBQyxFQUFFLENBQUMsS0FBSyxFQUFFO2dCQUNYLEVBQUUsQ0FBQyxNQUFNLEdBQUcsRUFBRSxDQUFDLEdBQUcsQ0FBQztnQkFDbkIsSUFBSSxPQUFPLEdBQUcsSUFBSSxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsTUFBTSxDQUFDLEdBQUcsRUFBRSxDQUFDLElBQUksQ0FBQztnQkFDNUMsSUFBSSxPQUFPLEdBQUcsQ0FBQyxFQUFFO29CQUNiLEVBQUUsQ0FBQyxNQUFNLEdBQUcsRUFBRSxDQUFDLElBQUksQ0FBQztpQkFFdkI7Z0JBQ0QsU0FBUyxJQUFJLEVBQUUsQ0FBQyxNQUFNLENBQUM7YUFDMUI7U0FDSjtRQUNELE9BQU8sQ0FBQyxJQUFJLENBQUMsT0FBTyxFQUFFLFVBQVUsQ0FBQyxDQUFDO1FBRWxDLElBQUksV0FBVyxHQUFHLFNBQVMsQ0FBQztRQUU1QixJQUFJLElBQUksQ0FBQyxHQUFHLENBQUMsU0FBUyxDQUFDLEdBQUcsQ0FBQyxNQUFNLENBQUMsSUFBSSxHQUFHLFFBQVEsQ0FBQyxFQUFFO1lBQ2hELFNBQVMsR0FBRyxDQUFDLENBQUMsTUFBTSxDQUFDLElBQUksR0FBRyxRQUFRLENBQUMsQ0FBQztTQUN6QztRQUdELEtBQUssTUFBTSxFQUFFLElBQUksVUFBVSxFQUFFO1lBQ3pCLElBQUksQ0FBQyxFQUFFLENBQUMsS0FBSyxFQUFFO2dCQUNYLEVBQUUsQ0FBQyxNQUFNLEdBQUcsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxNQUFNLEdBQUcsV0FBVyxDQUFDLEdBQUcsU0FBUyxDQUFDLENBQUM7YUFDL0Q7U0FDSjtRQUNELE1BQU0sQ0FBQyxNQUFNLEdBQUcsUUFBUSxHQUFHLFNBQVMsQ0FBQztLQUN4QztJQUNELE9BQU8sQ0FBQyxJQUFJLENBQUMsdUNBQXVDLENBQUMsQ0FBQTtJQUNyRCxPQUFPLENBQUMsSUFBSSxDQUFDLE1BQU0sQ0FBQyxDQUFDO0lBQ3JCLE9BQU8sQ0FBQyxJQUFJLENBQUMsVUFBVSxDQUFDLENBQUM7Q0FDNUIifQ==

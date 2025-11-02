@@ -1,0 +1,35 @@
+[
+  {
+    "nid": "17",
+    "id": 0,
+    "name": "荣耀厅",
+    "entryCond": 0,
+    "lowBet": 2000,
+    "tallBet": 1000000,
+    "capBet": 1000000,
+    "roomUserLimit": 100,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  },
+  {
+    "nid": "17",
+    "id": 1,
+    "name": "传奇厅",
+    "entryCond": 0,
+    "lowBet": 10000,
+    "tallBet": 2000000,
+    "capBet": 2000000,
+    "roomUserLimit": 100,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  },
+  {
+    "nid": "17",
+    "id": 2,
+    "name": "尊享厅",
+    "entryCond": 0,
+    "lowBet": 20000,
+    "tallBet": 5000000,
+    "capBet": 5000000,
+    "roomUserLimit": 100,
+    "ChipList":[1000, 5000, 10000, 50000, 100000]
+  }
+]

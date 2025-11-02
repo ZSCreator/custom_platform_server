@@ -1,0 +1,19 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const lotteryUtil = require("../../app/servers/DragonTiger/lib/util/lotteryUtil");
+let ret = lotteryUtil.lottery();
+let roomCurrSumBet = 500;
+let ret1 = Math.floor(roomCurrSumBet / 300);
+console.warn(ret1);
+let recommendBet = [Math.floor(roomCurrSumBet / 300) * 100, Math.floor(roomCurrSumBet * 2 / 300) * 100, roomCurrSumBet];
+console.warn(recommendBet);
+{
+    let msg = { betNum: NaN };
+    if (typeof msg.betNum != "number" || msg.betNum < 0) {
+        console.warn(typeof msg.betNum);
+    }
+    else {
+        console.warn(111);
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZHQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi90b29scy90b20vZHQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFDQSxrRkFBbUY7QUFHbkYsSUFBSSxHQUFHLEdBQUcsV0FBVyxDQUFDLE9BQU8sRUFBRSxDQUFDO0FBQ2hDLElBQUksY0FBYyxHQUFHLEdBQUcsQ0FBQztBQUN6QixJQUFJLElBQUksR0FBRyxJQUFJLENBQUMsS0FBSyxDQUFDLGNBQWMsR0FBRyxHQUFHLENBQUMsQ0FBQztBQUM1QyxPQUFPLENBQUMsSUFBSSxDQUFDLElBQUksQ0FBQyxDQUFDO0FBQ25CLElBQUksWUFBWSxHQUFHLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxjQUFjLEdBQUcsR0FBRyxDQUFDLEdBQUcsR0FBRyxFQUFFLElBQUksQ0FBQyxLQUFLLENBQUMsY0FBYyxHQUFHLENBQUMsR0FBRyxHQUFHLENBQUMsR0FBRyxHQUFHLEVBQUUsY0FBYyxDQUFDLENBQUM7QUFDeEgsT0FBTyxDQUFDLElBQUksQ0FBQyxZQUFZLENBQUMsQ0FBQztBQUMzQjtJQUNJLElBQUksR0FBRyxHQUFHLEVBQUUsTUFBTSxFQUFFLEdBQUcsRUFBRSxDQUFBO0lBQ3pCLElBQUksT0FBTyxHQUFHLENBQUMsTUFBTSxJQUFJLFFBQVEsSUFBSSxHQUFHLENBQUMsTUFBTSxHQUFHLENBQUMsRUFBRTtRQUNqRCxPQUFPLENBQUMsSUFBSSxDQUFDLE9BQU8sR0FBRyxDQUFDLE1BQU0sQ0FBQyxDQUFBO0tBQ2xDO1NBQU07UUFDSCxPQUFPLENBQUMsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFBO0tBQ3BCO0NBRUoifQ==

@@ -1,0 +1,623 @@
+[2022-08-02T10:38:18.815] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-02T10:38:19.944] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-02T10:38:27.861] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-02T10:40:02.280] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-02T10:40:02.378] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-02T10:40:02.641] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-02T11:00:40.907] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-02T11:00:41.522] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-02T11:00:41.873] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-04T17:46:48.814] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-04T17:46:49.481] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-04T17:47:29.297] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-04T17:47:29.848] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-04T17:47:30.151] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-06T17:04:39.578] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-06T17:04:40.098] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-06T17:04:44.748] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-06T17:11:53.465] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-06T17:11:53.607] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-06T17:11:53.877] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-06T17:20:49.475] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-06T17:20:49.561] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-06T17:20:49.897] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-08T14:38:57.311] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-08T14:38:58.220] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-08T14:39:03.019] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-08T15:35:33.250] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-08T15:35:33.435] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-08T15:35:34.042] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-08T16:21:31.154] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-08T16:21:31.567] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-08T16:21:31.782] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-08T16:32:38.193] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-08T16:32:38.778] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-08T16:32:40.915] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T11:32:21.992] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T11:32:22.440] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T11:32:25.825] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T11:51:32.103] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T11:52:15.279] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T11:52:15.885] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T11:52:17.160] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T12:45:40.720] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T12:45:40.816] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T12:45:41.028] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T13:08:41.778] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T13:08:41.843] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T13:08:42.026] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T13:10:30.152] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T13:10:30.925] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T13:10:31.503] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T13:21:58.574] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T13:21:59.317] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T13:21:59.858] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T13:56:18.767] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T13:56:19.357] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T13:56:19.645] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-09T16:16:01.481] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-09T16:16:01.609] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-09T16:16:01.948] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T13:45:48.710] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T13:45:49.593] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T13:45:55.327] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T13:52:06.450] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T13:52:07.123] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T13:52:07.591] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T13:56:04.860] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T13:56:05.452] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T13:56:05.966] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T14:00:14.996] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T14:00:15.163] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T14:00:15.656] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T14:05:28.327] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T14:05:29.414] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T14:05:30.019] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T14:12:18.600] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T14:12:19.256] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T14:12:19.648] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T14:16:15.192] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T14:16:15.319] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T14:16:15.653] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-10T14:23:52.745] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-10T14:23:52.851] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-10T14:23:53.196] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-12T15:15:46.228] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-12T15:15:46.921] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-12T15:15:53.072] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-12T15:48:55.955] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-12T15:48:56.560] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-12T15:48:56.916] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-12T16:40:04.253] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-12T16:40:04.830] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-12T16:40:05.171] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-13T12:45:03.524] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-13T12:45:04.193] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-13T12:45:11.890] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-13T15:19:45.012] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-13T15:19:45.648] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-13T15:19:47.994] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-13T15:28:06.601] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-13T15:28:06.772] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-13T15:28:07.160] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-13T15:43:06.305] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-13T15:43:06.968] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-13T15:43:07.486] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-14T12:31:15.791] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-14T12:31:16.497] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-14T12:31:23.581] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-14T12:34:36.385] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-14T12:34:36.860] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-14T12:34:37.089] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-14T14:14:23.134] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-14T14:14:23.780] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-14T14:14:24.298] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-14T14:50:40.238] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-14T14:50:40.858] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-14T14:50:41.366] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-14T19:23:54.116] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-14T19:23:54.858] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-14T19:24:00.873] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-15T17:43:46.583] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-15T17:43:47.712] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-15T17:43:52.901] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-15T17:45:04.964] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-15T17:45:05.549] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-15T17:45:05.903] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-25T22:22:48.039] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-25T22:22:48.598] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-25T22:22:54.823] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-25T22:24:56.576] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-25T22:24:57.404] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-25T22:24:57.819] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-25T22:26:01.809] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-25T22:26:02.403] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-25T22:26:02.804] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-25T22:35:45.071] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-25T22:35:45.727] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-25T22:35:46.222] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-25T22:37:16.073] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-25T22:37:16.717] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-25T22:37:17.136] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-25T22:38:35.644] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-25T22:38:35.765] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-25T22:38:36.215] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-31T10:40:19.175] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-31T10:40:19.797] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-31T10:40:27.456] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-31T10:42:30.389] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-31T10:42:31.215] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-31T10:42:31.753] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-31T10:49:39.199] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-31T10:49:39.715] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-31T10:49:39.981] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-31T13:02:49.721] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-31T13:02:50.433] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-31T13:02:55.843] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-31T13:45:39.139] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-31T13:45:39.878] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-31T13:45:40.428] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-08-31T14:12:36.118] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-08-31T14:12:37.717] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-08-31T14:12:38.337] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-01T00:00:38.065] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-01T00:00:38.587] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-01T00:00:40.232] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-01T00:04:22.756] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-01T00:04:23.326] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-01T00:04:23.651] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-01T00:15:18.122] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-01T00:15:18.230] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-01T00:15:18.613] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-01T11:59:34.091] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-01T11:59:34.808] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-01T11:59:39.573] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-01T12:01:38.355] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-01T12:01:38.931] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-01T12:01:39.230] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-01T12:03:18.897] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-01T12:03:19.070] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-01T12:03:19.453] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-02T23:25:45.982] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-02T23:26:18.323] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-02T23:26:18.765] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-02T23:26:20.014] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-02T23:31:43.476] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-02T23:31:44.095] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-02T23:31:44.487] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T16:30:23.445] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T16:30:24.124] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T16:30:30.280] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T16:39:25.840] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T16:39:25.938] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T16:39:26.201] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T16:47:54.001] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T16:47:55.689] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T16:47:56.615] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T17:46:52.786] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T17:46:52.920] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T17:46:53.361] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T17:55:01.884] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T17:55:03.623] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T17:55:04.919] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T17:57:48.730] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T17:57:50.016] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T17:57:51.229] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T18:02:17.364] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T18:02:18.600] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T18:02:19.617] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T18:46:29.720] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T18:46:30.058] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T18:46:30.675] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-08T18:58:18.990] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-09-08T18:58:20.578] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-08T18:58:21.312] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-09T11:22:35.371] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:35.624] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-09T11:22:38.721] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-09-09T11:23:07.211] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:23:07.684] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-09-09T11:23:07.968] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-10-15T11:40:57.529] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-10-15T11:40:58.127] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-10-15T11:41:03.627] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-10-15T11:46:48.059] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-10-15T11:46:49.212] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-10-15T11:46:49.575] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-10-15T11:49:37.756] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-10-15T11:49:38.734] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-10-15T11:49:39.629] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-10-15T11:56:31.149] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-10-15T11:56:32.135] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-10-15T11:56:32.594] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-10-15T12:33:15.742] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-10-15T12:33:16.675] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-10-15T12:33:18.843] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-05T12:06:46.312] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-05T12:06:46.578] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-05T12:06:48.871] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T15:01:58.827] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T15:01:59.093] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T15:02:01.620] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T15:21:25.602] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T15:21:25.709] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T15:21:25.911] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T15:27:19.016] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T15:27:19.400] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T15:27:19.584] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T15:35:49.596] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T15:35:50.142] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T15:35:50.315] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T16:02:52.989] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T16:02:53.174] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T16:02:53.679] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T16:03:58.642] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T16:03:58.841] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T16:03:59.242] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T16:05:47.438] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T16:05:47.543] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T16:05:47.726] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-23T16:19:37.683] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-23T16:19:38.483] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-23T16:19:38.818] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-24T12:56:54.523] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-24T12:56:55.089] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-24T12:56:55.391] [WARN] logger - 启动Rpc下分通知服务------完成
+[2022-12-24T13:01:11.081] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2022-12-24T13:01:11.247] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2022-12-24T13:01:11.653] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-11T11:21:25.494] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-11T11:21:26.321] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-11T11:21:30.282] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-13T15:27:03.337] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-13T15:27:03.668] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-13T15:27:06.210] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-13T15:29:01.772] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-13T15:29:01.933] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-13T15:29:02.375] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-13T15:34:29.858] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-13T15:34:30.600] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-13T15:34:31.036] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-18T11:07:26.674] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-18T11:07:27.402] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-18T11:07:30.091] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-18T11:12:21.725] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-18T11:12:21.811] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-18T11:12:22.014] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-28T11:56:12.941] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-28T11:56:13.212] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-28T11:56:16.113] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-28T12:00:40.026] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-28T12:00:40.594] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-28T12:00:41.032] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-28T12:02:30.599] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-28T12:02:30.705] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-28T12:02:30.981] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-28T12:06:47.118] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-28T12:06:47.252] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-28T12:06:47.554] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-29T12:12:48.543] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-29T12:12:48.761] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-29T12:12:50.978] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-29T15:22:08.128] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-29T15:22:08.485] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-29T15:22:11.327] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-29T16:06:12.221] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-29T16:06:12.948] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-29T16:06:15.553] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-29T16:08:53.919] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-29T16:08:54.700] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-29T16:08:56.598] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-29T17:00:45.835] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-29T17:00:46.727] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-29T17:00:48.762] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-30T15:36:03.610] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-30T15:36:03.977] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-30T15:36:06.627] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-30T16:29:41.947] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-30T16:29:42.537] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-30T16:29:44.905] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-30T16:36:40.028] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-30T16:36:40.689] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-30T16:36:41.082] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-30T17:02:05.497] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-30T17:02:06.111] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-30T17:02:06.490] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-30T18:04:51.042] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-30T18:04:51.418] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-30T18:04:53.767] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-30T18:31:50.586] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-30T18:31:51.294] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-30T18:31:51.637] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-31T10:23:53.343] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-31T10:23:53.573] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-31T10:23:55.571] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-31T13:19:45.382] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-31T13:19:46.010] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-31T13:19:48.617] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-31T13:25:40.907] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-31T13:25:41.069] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-31T13:25:41.478] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-01-31T13:40:40.638] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-01-31T13:40:41.810] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-01-31T13:40:42.339] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-06T13:48:12.079] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-06T13:48:37.834] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-06T13:48:38.294] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-06T13:48:40.836] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-06T13:58:21.651] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-06T13:58:22.290] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-06T13:58:22.650] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-06T14:07:21.599] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-06T14:07:21.753] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-06T14:07:22.094] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-06T14:32:24.193] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-06T14:32:24.320] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-06T14:32:24.824] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-06T14:35:33.146] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-06T14:35:33.889] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-06T14:35:34.153] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T13:13:49.523] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T13:13:50.261] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T13:13:53.216] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T13:39:42.748] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T13:39:42.901] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T13:39:43.276] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T13:49:43.681] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T13:49:44.346] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T13:49:44.662] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T13:53:14.640] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T13:53:15.359] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T13:53:15.716] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T14:03:06.612] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T14:03:07.429] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T14:03:07.874] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T14:05:20.160] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T14:05:21.144] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T14:05:21.749] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T14:11:09.060] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T14:11:09.845] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T14:11:10.281] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T14:16:26.687] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T14:16:27.491] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T14:16:27.976] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T14:35:33.354] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T14:35:34.265] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T14:35:34.835] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T14:36:18.094] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T14:36:18.305] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T14:36:18.924] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-10T14:38:32.855] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-10T14:38:32.996] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-10T14:38:33.420] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-11T18:35:25.458] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-11T18:35:25.936] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-11T18:35:29.134] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-11T19:00:19.034] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-11T19:00:19.721] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-11T19:00:20.143] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-11T19:03:52.822] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-11T19:03:53.538] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-11T19:03:53.926] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-11T19:06:04.991] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-11T19:06:05.770] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-11T19:06:06.176] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-02-11T19:15:26.485] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-02-11T19:15:26.650] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-02-11T19:15:26.990] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-08T15:27:13.899] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-08T15:27:14.245] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-08T15:27:17.159] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-08T15:28:10.195] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-08T15:28:10.836] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-08T15:28:11.257] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-20T23:10:05.724] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-20T23:10:06.214] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-20T23:10:09.175] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-22T12:30:16.022] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-22T12:30:16.324] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-22T12:30:18.944] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-22T12:32:13.715] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-22T12:32:14.501] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-22T12:32:14.861] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-22T13:26:42.965] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-22T13:26:43.743] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-22T13:26:44.109] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-23T13:31:39.391] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-23T13:31:39.747] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-23T13:31:42.436] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-23T15:36:11.548] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-23T15:36:11.653] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-23T15:36:11.853] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-23T15:39:03.434] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-23T15:39:04.429] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-23T15:39:04.790] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-23T17:22:48.761] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-23T17:22:49.621] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-23T17:22:50.068] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-23T17:28:32.906] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-23T17:28:33.464] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-23T17:28:35.541] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-23T17:30:20.800] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-23T17:30:20.935] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-23T17:30:21.325] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-24T11:24:11.142] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-24T11:24:11.541] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-24T11:24:14.437] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T01:52:03.574] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T01:52:03.828] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T01:52:06.543] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T02:08:03.841] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T02:08:04.291] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T02:08:04.572] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T02:25:20.209] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T02:25:20.367] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T02:25:20.634] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T02:27:02.340] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T02:27:02.446] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T02:27:02.713] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T15:17:30.209] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T15:17:30.329] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T15:17:30.528] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T15:24:46.341] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T15:24:46.837] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T15:24:47.104] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T15:30:33.251] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T15:30:33.918] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T15:30:34.229] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T15:35:36.579] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T15:35:37.031] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T15:35:37.328] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T15:48:31.359] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T15:48:32.099] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T15:48:32.568] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T17:18:05.808] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T17:18:05.939] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T17:18:06.260] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-27T17:55:57.469] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-27T17:55:57.659] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-27T17:55:58.023] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-28T13:40:46.790] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-28T13:40:47.799] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-28T13:40:52.615] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-28T13:43:58.053] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-28T13:43:58.266] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-28T13:43:58.972] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-28T17:14:52.410] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-28T17:14:53.023] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-28T17:14:54.564] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-03-28T17:18:12.144] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-03-28T17:18:12.300] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-03-28T17:18:12.649] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-09T12:10:09.610] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-09T12:10:09.906] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-09T12:10:12.417] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-09T12:25:46.919] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-09T12:25:47.022] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-09T12:25:47.351] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-11T17:22:04.070] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-11T17:22:04.451] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-11T17:22:06.901] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-11T17:29:44.738] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-11T17:29:45.428] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-11T17:29:46.630] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-11T17:31:52.682] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-11T17:31:53.424] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-11T17:31:53.835] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-11T17:37:46.893] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-11T17:37:47.501] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-11T17:37:47.881] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-11T17:49:09.044] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-11T17:49:09.720] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-11T17:49:10.074] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-11T17:50:42.916] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-11T17:50:43.902] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-11T17:50:44.317] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-11T17:55:19.344] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-11T17:55:19.507] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-11T17:55:19.903] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-13T14:55:21.461] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-13T14:55:22.396] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-13T14:55:25.925] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-13T14:59:25.541] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-13T14:59:26.167] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-13T14:59:26.476] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-04-13T15:02:29.496] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-04-13T15:02:30.100] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-04-13T15:02:30.391] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T14:17:58.046] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T14:17:58.410] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T14:18:01.270] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T14:23:21.300] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T14:23:21.831] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T14:23:22.099] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T14:24:52.732] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T14:24:53.594] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T14:24:54.037] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T15:13:20.677] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T15:13:21.548] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T15:13:24.605] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T15:45:43.440] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T15:45:44.279] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T15:45:45.832] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T15:50:30.815] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T15:50:30.955] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T15:50:31.362] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T15:52:53.800] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T15:52:54.836] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T15:52:55.354] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-02T15:56:27.844] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-02T15:56:28.527] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-02T15:56:28.943] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-25T11:53:06.279] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-25T11:53:06.533] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-25T11:53:09.472] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-25T12:23:38.084] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-25T12:23:38.805] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-25T12:23:39.129] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-25T12:33:10.356] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-25T12:33:10.722] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-25T12:33:10.927] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-25T12:38:08.147] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-25T12:38:08.696] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-25T12:38:09.031] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-29T11:44:49.361] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-29T11:44:50.406] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-29T11:44:56.482] [WARN] logger - 启动Rpc下分通知服务------完成
+[2023-05-30T11:38:52.605] [WARN] logger - mysql | 服务 checkPlayerInGame-server-1 | 创建连接池 | 成功
+[2023-05-30T11:38:52.922] [WARN] logger - 启动Rpc下分通知服务-----开始
+[2023-05-30T11:38:55.736] [WARN] logger - 启动Rpc下分通知服务------完成

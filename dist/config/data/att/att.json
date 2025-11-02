@@ -1,0 +1,12 @@
+[
+  {"id":0,"name":"皇家同花顺","multiple":100},
+  {"id":1,"name":"同花顺","multiple":50},
+  {"id":2,"name":"四条","multiple":25},
+  {"id":3,"name":"葫芦","multiple":9},
+  {"id":4,"name":"同花","multiple":6},
+  {"id":5,"name":"顺子","multiple":4},
+  {"id":6,"name":"三条","multiple":3},
+  {"id":7,"name":"两对","multiple":2},
+  {"id":8,"name":"5条","multiple":250},
+  {"id":9,"name":"一对","multiple":1}
+]

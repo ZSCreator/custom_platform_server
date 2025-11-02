@@ -1,0 +1,35 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const mocha_1 = require("mocha");
+const assert = require("assert");
+const lotteryUtil_1 = require("../../../../app/servers/Crash/lib/util/lotteryUtil");
+(0, mocha_1.describe)('Crash开奖方法测试', () => {
+    const lotteryUtil = new lotteryUtil_1.LotteryUtil();
+    (0, mocha_1.before)(async () => {
+    });
+    (0, mocha_1.after)(function () {
+    });
+    (0, mocha_1.it)('开奖结果', () => {
+        for (let i = 0; i < 10000; i++) {
+            lotteryUtil.lottery();
+            const result = lotteryUtil.getResult();
+            assert.ok(result >= 0);
+            assert.ok(result <= 450);
+        }
+    });
+    (0, mocha_1.it)('开奖时间', () => {
+        for (let i = 0; i < 100000; i++) {
+            lotteryUtil.lottery();
+            const time = lotteryUtil.getFlyTime();
+            assert.ok(time >= 0);
+            assert.ok(time <= 100 * 1000);
+        }
+    });
+    (0, mocha_1.it)('计算倍数', () => {
+        let odds = (0, lotteryUtil_1.calculateOdds)(99000);
+        assert.ok(odds > 400 && odds < 450);
+        odds = (0, lotteryUtil_1.calculateOdds)(500);
+        assert.ok(odds > 0 && odds < 1.063);
+    });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG90dGVyeVV0aWwudGVzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3Rlc3QvdW5pdC9zZXJ2ZXJzL0NyYXNoL2xvdHRlcnlVdGlsLnRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpQ0FBa0Q7QUFDbEQsaUNBQWlDO0FBQ2pDLG9GQUE4RjtBQUU5RixJQUFBLGdCQUFRLEVBQUMsYUFBYSxFQUFFLEdBQUcsRUFBRTtJQUN6QixNQUFNLFdBQVcsR0FBRyxJQUFJLHlCQUFXLEVBQUUsQ0FBQztJQUV0QyxJQUFBLGNBQU0sRUFBQyxLQUFLLElBQUksRUFBRTtJQUtsQixDQUFDLENBQUMsQ0FBQTtJQUVGLElBQUEsYUFBSyxFQUFDO0lBRU4sQ0FBQyxDQUFDLENBQUM7SUFFSCxJQUFBLFVBQUUsRUFBQyxNQUFNLEVBQUUsR0FBRyxFQUFFO1FBQ1osS0FBSyxJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLEtBQUssRUFBRSxDQUFDLEVBQUUsRUFBRTtZQUM1QixXQUFXLENBQUMsT0FBTyxFQUFFLENBQUM7WUFDdEIsTUFBTSxNQUFNLEdBQUcsV0FBVyxDQUFDLFNBQVMsRUFBRSxDQUFDO1lBRXZDLE1BQU0sQ0FBQyxFQUFFLENBQUMsTUFBTSxJQUFJLENBQUMsQ0FBQyxDQUFDO1lBQ3ZCLE1BQU0sQ0FBQyxFQUFFLENBQUMsTUFBTSxJQUFJLEdBQUcsQ0FBQyxDQUFDO1NBQzVCO0lBQ0wsQ0FBQyxDQUFDLENBQUM7SUFFSCxJQUFBLFVBQUUsRUFBQyxNQUFNLEVBQUUsR0FBRyxFQUFFO1FBQ1osS0FBSyxJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLE1BQU0sRUFBRSxDQUFDLEVBQUUsRUFBRTtZQUM3QixXQUFXLENBQUMsT0FBTyxFQUFFLENBQUM7WUFDdEIsTUFBTSxJQUFJLEdBQUcsV0FBVyxDQUFDLFVBQVUsRUFBRSxDQUFDO1lBRXRDLE1BQU0sQ0FBQyxFQUFFLENBQUMsSUFBSSxJQUFJLENBQUMsQ0FBQyxDQUFDO1lBQ3JCLE1BQU0sQ0FBQyxFQUFFLENBQUMsSUFBSSxJQUFJLEdBQUcsR0FBRyxJQUFJLENBQUMsQ0FBQztTQUNqQztJQUNMLENBQUMsQ0FBQyxDQUFDO0lBRUgsSUFBQSxVQUFFLEVBQUMsTUFBTSxFQUFFLEdBQUcsRUFBRTtRQUNaLElBQUksSUFBSSxHQUFHLElBQUEsMkJBQWEsRUFBQyxLQUFLLENBQUMsQ0FBQztRQUNoQyxNQUFNLENBQUMsRUFBRSxDQUFDLElBQUksR0FBRyxHQUFHLElBQUksSUFBSSxHQUFHLEdBQUcsQ0FBQyxDQUFDO1FBQ3BDLElBQUksR0FBRyxJQUFBLDJCQUFhLEVBQUMsR0FBRyxDQUFDLENBQUM7UUFDMUIsTUFBTSxDQUFDLEVBQUUsQ0FBQyxJQUFJLEdBQUcsQ0FBQyxJQUFJLElBQUksR0FBRyxLQUFLLENBQUMsQ0FBQztJQUN4QyxDQUFDLENBQUMsQ0FBQztBQUNQLENBQUMsQ0FBQyxDQUFBIn0=

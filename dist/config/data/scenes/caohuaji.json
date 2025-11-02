@@ -1,0 +1,11 @@
+[
+  {
+    "nid": "41",
+    "id": 0,
+    "name": "五星宏辉",
+    "entryCond": 500,
+    "lowBet": 100,
+    "capBet": 1000000,
+    "allinMaxNum": 100
+  }
+]

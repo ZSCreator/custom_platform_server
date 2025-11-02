@@ -1,0 +1,1075 @@
+[2022-08-06T17:04:25.452] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-06T17:04:25.848] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-06T17:04:26.717] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-06T17:11:51.776] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-06T17:11:51.840] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-06T17:11:51.928] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-06T17:20:50.130] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-06T17:20:50.336] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-06T17:20:50.837] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-08T14:38:44.459] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-08T14:38:45.109] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-08T14:38:45.613] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-08T15:35:31.897] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-08T15:35:31.951] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-08T15:35:32.010] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-09T11:51:21.601] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T11:51:21.831] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T11:51:21.987] [ERROR] pinus-admin - server "slots777-server-1" "slots777" register master failed:{"code":-1,"msg":"server auth failed,check config `adminServer`."}Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at MqttClient.<anonymous> (D:\backService\node_modules\pinus-admin\lib\monitor\monitorAgent.ts:88:24)
+    at MqttClient.emit (node:events:526:28)
+    at Connection.<anonymous> (D:\backService\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:104:18)
+    at Connection.emit (node:events:526:28)
+    at Connection.emitPacket (D:\backService\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (node:events:526:28)
+    at addChunk (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\backService\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\backService\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (node:events:526:28)
+    at emitReadable_ (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+[2022-08-09T11:51:21.993] [ERROR] pinus-admin - mqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at Connection.<anonymous> (D:\backService\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:123:20)
+    at Connection.emit (node:events:526:28)
+    at Connection.emitPacket (D:\backService\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (node:events:526:28)
+    at addChunk (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\backService\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\backService\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (node:events:526:28)
+    at emitReadable_ (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+    at readableAddChunk (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at DestroyableTransform.Readable.push (D:\backService\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[2022-08-09T11:52:13.759] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T11:52:13.801] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T11:52:13.863] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-09T12:45:42.086] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T12:45:42.154] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T12:45:42.257] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-09T13:08:42.502] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T13:08:42.599] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T13:08:42.724] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-09T13:10:29.530] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T13:10:29.772] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T13:10:29.915] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-09T13:22:00.301] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T13:22:00.442] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T13:22:01.082] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-09T13:56:16.211] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T13:56:16.310] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T13:56:16.429] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-09T16:16:01.204] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-09T16:16:01.303] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-09T16:16:01.417] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T13:45:32.403] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T13:45:32.770] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T13:45:32.928] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T13:52:04.133] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T13:52:04.206] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T13:52:04.313] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T13:54:28.678] [WARN] logger - 游戏解锁功能:gold415,uid36001238,sidconnector-server-1
+[2022-08-10T13:54:28.835] [ERROR] logger - 游戏: 1 | 场: 0 | 房间: 001 | 玩家: 36001238记录更新出错:QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'PlayerUnlockGameData.createTime' in 'field list'
+    at QueryFailedError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new QueryFailedError (D:\backService\src\error\QueryFailedError.ts:9:9)
+    at Query.<anonymous> (D:\backService\src\driver\mysql\MysqlQueryRunner.ts:196:37)
+    at Query.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\backService\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (D:\backService\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (D:\backService\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\backService\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\backService\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at RecordGeneralManager.sendToDB (D:\backService\app\common\dao\RecordGeneralManager.ts:845:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at RoomStandAlone.settlement (D:\backService\app\servers\slots777\lib\Room.ts:120:41)
+    at MainHandler.start (D:\backService\app\servers\slots777\handler\mainHandler.ts:110:13)
+[2022-08-10T13:54:28.849] [ERROR] logger - (node:23936) PromiseRejectionHandledWarning: Promise rejection was handled asynchronously (rejection id: 1)
+(Use `node --trace-warnings ...` to show where the warning was created)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at writeOut (node:internal/process/warning:50:3)
+    at process.onWarning (node:internal/process/warning:112:3)
+    at process.emit (node:events:526:28)
+    at doEmitWarning (node:internal/process/warning:77:11)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2022-08-10T13:56:04.291] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T13:56:04.395] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T13:56:04.548] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T13:57:56.628] [WARN] logger - 游戏解锁功能:gold999964,uid90502413,sidconnector-server-1
+[2022-08-10T14:00:12.273] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T14:00:12.465] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T14:00:12.582] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T14:00:38.698] [WARN] logger - 游戏解锁功能:gold999961,uid90502413,sidconnector-server-1
+[2022-08-10T14:00:38.718] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:01:26.032] [WARN] logger - 游戏解锁功能:gold999952,uid90502413,sidconnector-server-1
+[2022-08-10T14:01:26.047] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:01:26.107] [ERROR] logger - QueryFailedError: ER_DATA_TOO_LONG: Data too long for column 'unlockGames' at row 1
+    at QueryFailedError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new QueryFailedError (D:\backService\src\error\QueryFailedError.ts:9:9)
+    at Query.<anonymous> (D:\backService\src\driver\mysql\MysqlQueryRunner.ts:196:37)
+    at Query.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\backService\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (D:\backService\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (D:\backService\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\backService\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\backService\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at PlayerUnlockGameDataMysqlDao.updateOne (D:\backService\app\common\dao\mysql\PlayerUnlockGameData.mysql.dao.ts:63:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-08-10T14:01:47.096] [WARN] logger - 游戏解锁功能:gold999943,uid90502413,sidconnector-server-1
+[2022-08-10T14:01:47.103] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:01:47.109] [ERROR] logger - QueryFailedError: ER_DATA_TOO_LONG: Data too long for column 'unlockGames' at row 1
+    at QueryFailedError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new QueryFailedError (D:\backService\src\error\QueryFailedError.ts:9:9)
+    at Query.<anonymous> (D:\backService\src\driver\mysql\MysqlQueryRunner.ts:196:37)
+    at Query.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\backService\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (D:\backService\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (D:\backService\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\backService\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\backService\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\backService\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at PlayerUnlockGameDataMysqlDao.updateOne (D:\backService\app\common\dao\mysql\PlayerUnlockGameData.mysql.dao.ts:63:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-08-10T14:05:27.645] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T14:05:27.816] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T14:05:28.730] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T14:07:12.498] [WARN] logger - 游戏解锁功能:gold999934,uid90502413,sidconnector-server-1
+[2022-08-10T14:07:12.514] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:09:30.525] [WARN] logger - 游戏解锁功能:gold999925,uid90502413,sidconnector-server-1
+[2022-08-10T14:09:30.546] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:09:49.294] [WARN] logger - 游戏解锁功能:gold3970,uid36001238,sidconnector-server-1
+[2022-08-10T14:09:49.303] [WARN] logger - nidList...... [
+  '10', '12', '1',
+  '52', '8',  '20',
+  '42', '14', '59',
+  '22', '40'
+]
+[2022-08-10T14:10:04.889] [WARN] logger - 游戏解锁功能:gold3970,uid36001238,sidconnector-server-1
+[2022-08-10T14:10:04.912] [WARN] logger - nidList...... [
+  '10', '12', '1',
+  '52', '8',  '20',
+  '42', '14', '59',
+  '22', '40'
+]
+[2022-08-10T14:12:19.238] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T14:12:19.363] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T14:12:19.938] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T14:12:52.751] [WARN] logger - 游戏解锁功能:gold3790,uid36001238,sidconnector-server-1
+[2022-08-10T14:12:52.797] [WARN] logger - list..... [
+  '10', '12', '1',
+  '52', '8',  '20',
+  '42', '14', '59',
+  '22', '40'
+]
+[2022-08-10T14:12:52.801] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '52', name: '水果机', entryCond: 1000 },
+  { nid: '8', name: '百家乐', entryCond: 2000 },
+  { nid: '20', name: '红黑大战', entryCond: 2000 },
+  { nid: '42', name: '龙虎斗', entryCond: 2000 },
+  { nid: '14', name: '奔驰宝马', entryCond: 2000 },
+  { nid: '59', name: 'crash', entryCond: 2000 },
+  { nid: '22', name: '21点', entryCond: 600 },
+  { nid: '40', name: '德州扑克', entryCond: 1000 }
+]
+[2022-08-10T14:12:52.810] [WARN] logger - nidList..... [
+  '10', '12', '1',
+  '52', '8',  '20',
+  '42', '14', '59',
+  '22', '40'
+]
+[2022-08-10T14:12:52.816] [WARN] logger - nidList...... [
+  '10', '12', '1',
+  '52', '8',  '20',
+  '42', '14', '59',
+  '22', '40'
+]
+[2022-08-10T14:14:05.492] [WARN] logger - 游戏解锁功能:gold999921,uid90502413,sidconnector-server-1
+[2022-08-10T14:14:05.532] [WARN] logger - list..... [
+  '10', '12', '1',  '52', '8',
+  '20', '42', '14', '43', '59',
+  '22', '40', '16', '10', '12',
+  '1',  '52', '8',  '20', '42',
+  '14', '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:14:05.535] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '52', name: '水果机', entryCond: 1000 },
+  { nid: '8', name: '百家乐', entryCond: 2000 },
+  { nid: '20', name: '红黑大战', entryCond: 2000 },
+  { nid: '42', name: '龙虎斗', entryCond: 2000 },
+  { nid: '14', name: '奔驰宝马', entryCond: 2000 },
+  { nid: '43', name: '骰宝', entryCond: 5000 },
+  { nid: '59', name: 'crash', entryCond: 2000 },
+  { nid: '22', name: '21点', entryCond: 600 },
+  { nid: '40', name: '德州扑克', entryCond: 1000 },
+  { nid: '16', name: '印度三张牌', entryCond: 5000 }
+]
+[2022-08-10T14:14:05.541] [WARN] logger - nidList..... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:14:05.545] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:16:15.560] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T14:16:15.681] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T14:16:15.780] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T14:21:08.405] [WARN] logger - 游戏解锁功能:gold999917,uid90502413,sidconnector-server-1
+[2022-08-10T14:21:08.422] [WARN] logger - list..... [
+  '10', '12', '1',  '52', '8',  '20',
+  '42', '14', '43', '59', '22', '40',
+  '16', '10', '12', '1',  '52', '8',
+  '20', '42', '14', '43', '59', '22',
+  '40', '16', '10', '12', '1',  '52',
+  '8',  '20', '42', '14', '43', '59',
+  '22', '40', '16'
+]
+[2022-08-10T14:21:08.427] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '52', name: '水果机', entryCond: 1000 },
+  { nid: '8', name: '百家乐', entryCond: 2000 },
+  { nid: '20', name: '红黑大战', entryCond: 2000 },
+  { nid: '42', name: '龙虎斗', entryCond: 2000 },
+  { nid: '14', name: '奔驰宝马', entryCond: 2000 },
+  { nid: '43', name: '骰宝', entryCond: 5000 },
+  { nid: '59', name: 'crash', entryCond: 2000 },
+  { nid: '22', name: '21点', entryCond: 600 },
+  { nid: '40', name: '德州扑克', entryCond: 1000 },
+  { nid: '16', name: '印度三张牌', entryCond: 5000 }
+]
+[2022-08-10T14:21:08.434] [WARN] logger - nidList...... []
+[2022-08-10T14:21:42.178] [WARN] logger - 游戏解锁功能:gold3610,uid36001238,sidconnector-server-1
+[2022-08-10T14:21:42.183] [WARN] logger - list..... [
+  '10', '12', '1',
+  '52', '8',  '20',
+  '42', '14', '59',
+  '22', '40'
+]
+[2022-08-10T14:21:42.185] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '52', name: '水果机', entryCond: 1000 },
+  { nid: '8', name: '百家乐', entryCond: 2000 },
+  { nid: '20', name: '红黑大战', entryCond: 2000 },
+  { nid: '42', name: '龙虎斗', entryCond: 2000 },
+  { nid: '14', name: '奔驰宝马', entryCond: 2000 },
+  { nid: '59', name: 'crash', entryCond: 2000 },
+  { nid: '22', name: '21点', entryCond: 600 },
+  { nid: '40', name: '德州扑克', entryCond: 1000 }
+]
+[2022-08-10T14:21:42.192] [WARN] logger - nidList...... []
+[2022-08-10T14:22:51.639] [WARN] logger - 游戏解锁功能:gold999911,uid90502413,sidconnector-server-1
+[2022-08-10T14:22:51.646] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:23:54.752] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-10T14:23:54.903] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-10T14:23:55.609] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-10T14:24:57.489] [WARN] logger - 游戏解锁功能:gold999902,uid90502413,sidconnector-server-1
+[2022-08-10T14:24:57.499] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:29:03.487] [WARN] logger - 游戏解锁功能:gold978693,uid90502413,sidconnector-server-1
+[2022-08-10T14:29:03.493] [WARN] logger - list..... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:29:03.495] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '52', name: '水果机', entryCond: 1000 },
+  { nid: '8', name: '百家乐', entryCond: 2000 },
+  { nid: '20', name: '红黑大战', entryCond: 2000 },
+  { nid: '42', name: '龙虎斗', entryCond: 2000 },
+  { nid: '14', name: '奔驰宝马', entryCond: 2000 },
+  { nid: '43', name: '骰宝', entryCond: 5000 },
+  { nid: '59', name: 'crash', entryCond: 2000 },
+  { nid: '22', name: '21点', entryCond: 600 },
+  { nid: '40', name: '德州扑克', entryCond: 1000 },
+  { nid: '16', name: '印度三张牌', entryCond: 5000 }
+]
+[2022-08-10T14:29:03.503] [WARN] logger - nidList...... []
+[2022-08-10T14:29:38.909] [WARN] logger - 游戏解锁功能:gold978690,uid90502413,sidconnector-server-1
+[2022-08-10T14:29:38.915] [WARN] logger - nidList...... [
+  '10', '12', '1',  '52',
+  '8',  '20', '42', '14',
+  '43', '59', '22', '40',
+  '16'
+]
+[2022-08-10T14:35:34.625] [WARN] logger - 游戏解锁功能:gold810,uid03456054,sidconnector-server-1
+[2022-08-10T14:35:34.632] [WARN] logger - nidList...... [ '10', '12', '1', '22' ]
+[2022-08-10T14:37:24.156] [WARN] logger - 游戏解锁功能:gold720,uid03456054,sidconnector-server-1
+[2022-08-10T14:37:24.161] [WARN] logger - list..... [ '10', '12', '1', '22' ]
+[2022-08-10T14:37:24.162] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '22', name: '21点', entryCond: 600 }
+]
+[2022-08-10T14:37:24.163] [WARN] logger - nidList...... []
+[2022-08-10T14:37:41.051] [WARN] logger - 游戏解锁功能:gold630,uid03456054,sidconnector-server-1
+[2022-08-10T14:37:41.059] [WARN] logger - list..... [ '10', '12', '1', '22' ]
+[2022-08-10T14:37:41.061] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 },
+  { nid: '22', name: '21点', entryCond: 600 }
+]
+[2022-08-10T14:37:41.063] [WARN] logger - nidList...... []
+[2022-08-10T14:37:46.258] [WARN] logger - 游戏解锁功能:gold540,uid03456054,sidconnector-server-1
+[2022-08-10T14:37:46.284] [WARN] logger - list..... [ '10', '12', '1', '22' ]
+[2022-08-10T14:37:46.286] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 }
+]
+[2022-08-10T14:37:46.288] [WARN] logger - nidList...... []
+[2022-08-10T14:37:52.743] [WARN] logger - 游戏解锁功能:gold350,uid03456054,sidconnector-server-1
+[2022-08-10T14:37:52.749] [WARN] logger - list..... [ '10', '12', '1', '22' ]
+[2022-08-10T14:37:52.751] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 }
+]
+[2022-08-10T14:37:52.752] [WARN] logger - nidList...... []
+[2022-08-10T14:38:02.636] [WARN] logger - 游戏解锁功能:gold550,uid03456054,sidconnector-server-1
+[2022-08-10T14:38:02.642] [WARN] logger - list..... [ '10', '12', '1', '22' ]
+[2022-08-10T14:38:02.643] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 }
+]
+[2022-08-10T14:38:02.645] [WARN] logger - nidList...... []
+[2022-08-10T14:38:12.025] [WARN] logger - 游戏解锁功能:gold350,uid03456054,sidconnector-server-1
+[2022-08-10T14:38:12.036] [WARN] logger - list..... [ '10', '12', '1', '22' ]
+[2022-08-10T14:38:12.037] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 }
+]
+[2022-08-10T14:38:12.041] [WARN] logger - nidList...... []
+[2022-08-10T14:38:21.553] [WARN] logger - 游戏解锁功能:gold100,uid03456054,sidconnector-server-1
+[2022-08-10T14:38:21.561] [WARN] logger - list..... [ '10', '12', '1', '22' ]
+[2022-08-10T14:38:21.562] [WARN] logger - gameList..... [
+  { nid: '10', name: '寻宝奇航', entryCond: 100 },
+  { nid: '12', name: '埃及夺宝', entryCond: 100 },
+  { nid: '1', name: '幸运777', entryCond: 100 }
+]
+[2022-08-10T14:38:21.565] [WARN] logger - nidList...... []
+[2022-08-12T15:15:32.851] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-12T15:15:32.963] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-12T15:15:33.274] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-12T15:48:53.429] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-12T15:48:53.471] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-12T15:48:53.549] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-12T16:40:02.077] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-12T16:40:02.166] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-12T16:40:02.298] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-13T12:44:48.564] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-13T12:44:50.077] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-13T12:44:50.648] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-13T15:19:38.644] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-13T15:19:38.810] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-13T15:19:39.018] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-13T15:28:08.298] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-13T15:28:08.574] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-13T15:28:09.196] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-13T15:43:06.199] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-13T15:43:06.337] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-13T15:43:07.031] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-14T12:30:55.797] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-14T12:30:56.409] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-14T12:30:56.843] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-14T12:34:34.960] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-14T12:34:35.124] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-14T12:34:35.270] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-14T14:14:23.212] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-14T14:14:23.606] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-14T14:14:24.369] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-14T14:50:40.886] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-14T14:50:41.040] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-14T14:50:41.811] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-14T19:23:36.980] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-14T19:23:37.215] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-14T19:23:37.476] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-15T17:43:23.793] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-15T17:43:25.075] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-15T17:43:25.590] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-15T17:45:06.277] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-15T17:45:06.570] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-15T17:45:07.363] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-25T22:22:32.747] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-25T22:22:32.911] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-25T22:22:33.049] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-25T22:24:56.653] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-25T22:24:56.960] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-25T22:24:57.773] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-25T22:26:00.346] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-25T22:26:00.512] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-25T22:26:01.049] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-25T22:35:45.887] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-25T22:35:46.104] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-25T22:35:46.757] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-25T22:37:12.850] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-25T22:37:12.928] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-25T22:37:13.009] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-25T22:38:34.277] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-25T22:38:34.357] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-25T22:38:34.450] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-31T10:39:59.632] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-31T10:39:59.776] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-31T10:39:59.853] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-31T10:42:27.754] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-31T10:42:27.829] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-31T10:42:27.896] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-31T10:49:36.790] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-31T10:49:36.869] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-31T10:49:36.965] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-31T13:02:35.721] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-31T13:02:36.068] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-31T13:02:36.202] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-31T13:45:36.768] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-31T13:45:36.923] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-31T13:45:37.049] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-08-31T14:12:35.968] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-08-31T14:12:36.090] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-08-31T14:12:36.947] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-01T00:00:30.484] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-01T00:00:30.718] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-01T00:00:30.867] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-01T00:04:22.591] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-01T00:04:22.682] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-01T00:04:23.205] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-01T00:15:17.696] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-01T00:15:17.750] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-01T00:15:17.817] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-01T11:59:20.283] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-01T11:59:20.347] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-01T11:59:20.437] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-01T12:01:38.853] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-01T12:01:38.981] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-01T12:01:39.450] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-01T12:03:18.976] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-01T12:03:19.090] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-01T12:03:19.219] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-02T23:25:35.561] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-02T23:25:35.587] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-02T23:25:36.601] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)
+[2022-09-02T23:26:16.842] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-02T23:26:16.952] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-02T23:26:17.074] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-02T23:31:41.754] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-02T23:31:41.910] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-02T23:31:42.479] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T16:30:06.565] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T16:30:06.992] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T16:30:07.768] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T16:39:26.387] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T16:39:26.463] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T16:39:26.574] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T16:47:52.120] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T16:47:52.623] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T16:47:54.299] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T17:46:53.928] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T17:46:54.024] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T17:46:54.608] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T17:54:57.750] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T17:54:57.963] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T17:54:58.220] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T17:57:47.097] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T17:57:47.364] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T17:57:47.746] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T18:02:15.944] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T18:02:16.387] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T18:02:17.458] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T18:46:26.947] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T18:46:27.222] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T18:46:27.397] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-08T18:58:17.562] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-09-08T18:58:17.989] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-08T18:58:19.425] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-09-09T11:22:04.396] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:04.405] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-09T11:22:04.852] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)
+[2022-09-09T11:22:33.119] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:22:33.136] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-09T11:22:33.154] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)
+[2022-09-09T11:23:05.650] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 出错: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\backService\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\backService\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\backService\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\backService\src\driver\mysql\MysqlDriver.ts:1025:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (D:\backService\src\driver\mysql\MysqlDriver.ts:1022:16)
+    at MysqlDriver.<anonymous> (D:\backService\src\driver\mysql\MysqlDriver.ts:369:36)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+    at Object.next (D:\backService\node_modules\tslib\tslib.js:125:57)
+    at D:\backService\node_modules\tslib\tslib.js:118:75
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backService\node_modules\tslib\tslib.js:114:16)
+    at MysqlDriver.connect (D:\backService\node_modules\typeorm\driver\mysql\MysqlDriver.js:286:38)
+    at Connection.<anonymous> (D:\backService\src\connection\Connection.ts:181:27)
+    at step (D:\backService\node_modules\tslib\tslib.js:144:27)
+[2022-09-09T11:23:05.661] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-09-09T11:23:05.669] [ERROR] logger - 插入游戏配置信息出错:ConnectionNotFoundError: Connection "default" was not found.
+    at ConnectionNotFoundError.TypeORMError [as constructor] (D:\backService\src\error\TypeORMError.ts:7:9)
+    at new ConnectionNotFoundError (D:\backService\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (D:\backService\src\connection\ConnectionManager.ts:42:19)
+    at getConnection (D:\backService\src\globals.ts:103:35)
+    at DBConnection.getConnection (D:\backService\app\common\dao\mysql\lib\connectionManager.ts:40:33)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:46:54)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\backService\node_modules\pinus-logger\lib\logger.ts:76:34)
+    at GameMysqlDao.insertOne (D:\backService\app\common\dao\mysql\Game.mysql.dao.ts:60:25)
+    at GameManager.insertOne (D:\backService\app\common\dao\daoManager\Game.manager.ts:59:30)
+    at SlotsGameManager._initSystemGame (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:146:32)
+    at SlotsGameManager.init (D:\backService\app\common\pojo\baseClass\BaseGameManager.ts:92:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Lifecycle.beforeStartup (D:\backService\app\servers\slots777\lifecycle.ts:24:9)
+[2022-10-15T11:40:42.442] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-10-15T11:40:42.655] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-10-15T11:40:42.801] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-10-15T11:46:47.031] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-10-15T11:46:47.111] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-10-15T11:46:47.251] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-10-15T11:49:38.569] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-10-15T11:49:38.952] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-10-15T11:49:40.040] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-10-15T11:56:29.381] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-10-15T11:56:29.648] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-10-15T11:56:30.246] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-10-15T12:33:08.675] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-10-15T12:33:08.971] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-10-15T12:33:09.134] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-05T12:06:36.321] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-05T12:06:36.702] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-05T12:06:37.304] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T15:01:48.044] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T15:01:48.590] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T15:01:49.173] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T15:21:24.084] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T15:21:24.229] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T15:21:24.342] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T15:27:16.995] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T15:27:17.228] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T15:27:17.820] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T15:35:46.104] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T15:35:46.216] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T15:35:46.304] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T16:02:52.730] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T16:02:52.812] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T16:02:52.932] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T16:03:58.574] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T16:03:58.664] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T16:03:58.774] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T16:05:46.362] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T16:05:46.519] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T16:05:46.626] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-23T16:19:36.031] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-23T16:19:36.103] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-23T16:19:36.213] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-24T12:10:41.007] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-24T12:10:41.476] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-24T12:10:42.108] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-24T12:56:53.567] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-24T12:56:53.769] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-24T12:56:54.397] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2022-12-24T13:01:10.701] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2022-12-24T13:01:10.794] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2022-12-24T13:01:10.899] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-11T11:21:06.230] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-11T11:21:06.644] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-11T11:21:06.836] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-13T15:26:49.404] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-13T15:26:49.466] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-13T15:26:49.570] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-13T15:29:02.030] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-13T15:29:02.373] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-13T15:29:02.905] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-13T15:34:28.837] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-13T15:34:28.901] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-13T15:34:28.992] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-18T11:07:12.907] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-18T11:07:13.152] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-18T11:07:13.511] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-18T11:12:21.023] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-18T11:12:21.118] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-18T11:12:21.208] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-28T11:56:02.659] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-28T11:56:03.001] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-28T11:56:03.630] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-28T12:00:39.902] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-28T12:00:40.050] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-28T12:00:40.659] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-28T12:02:30.180] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-28T12:02:30.256] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-28T12:02:30.340] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-28T12:06:46.742] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-28T12:06:46.829] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-28T12:06:46.936] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-29T12:12:38.831] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-29T12:12:38.889] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-29T12:12:38.964] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-29T15:21:51.137] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-29T15:21:51.351] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-29T15:21:51.587] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-29T16:06:03.181] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-29T16:06:03.488] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-29T16:06:03.679] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-29T16:08:50.722] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-29T16:08:50.862] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-29T16:08:51.076] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-29T17:00:36.616] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-29T17:00:36.992] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-29T17:00:37.220] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-30T15:35:50.919] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-30T15:35:51.380] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-30T15:35:51.526] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-30T16:29:31.933] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-30T16:29:32.106] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-30T16:29:32.345] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-30T16:36:38.879] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-30T16:36:39.217] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-30T16:36:39.954] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-30T17:02:04.769] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-30T17:02:04.898] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-30T17:02:05.572] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-30T18:04:37.721] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-30T18:04:37.851] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-30T18:04:37.974] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-30T18:31:49.706] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-30T18:31:50.235] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-30T18:31:50.862] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-31T10:23:43.972] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-31T10:23:44.010] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-31T10:23:44.071] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-31T13:19:32.676] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-31T13:19:32.957] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-31T13:19:33.174] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-31T13:25:42.080] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-31T13:25:42.167] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-31T13:25:42.630] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-01-31T13:40:39.174] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-01-31T13:40:39.440] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-01-31T13:40:40.767] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-06T13:47:58.108] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-06T13:47:58.851] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-06T13:47:59.030] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-06T13:48:35.548] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-06T13:48:35.694] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-06T13:48:35.867] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-06T13:58:18.793] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-06T13:58:18.892] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-06T13:58:18.999] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-06T14:07:21.242] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-06T14:07:21.350] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-06T14:07:21.456] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-06T14:32:24.400] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-06T14:32:24.575] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-06T14:32:24.707] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-06T14:35:33.629] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-06T14:35:33.750] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-06T14:35:34.248] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T13:13:33.730] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T13:13:34.161] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T13:13:34.319] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T13:39:42.399] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T13:39:42.535] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T13:39:42.658] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T13:49:41.719] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T13:49:41.799] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T13:49:41.903] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T13:53:12.297] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T13:53:12.436] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T13:53:12.544] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T14:03:03.953] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T14:03:04.168] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T14:03:04.289] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T14:05:17.894] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T14:05:18.240] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T14:05:18.433] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T14:11:07.896] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T14:11:08.123] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T14:11:09.003] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T14:16:23.451] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T14:16:23.557] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T14:16:23.671] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T14:35:31.791] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T14:35:32.078] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T14:35:33.123] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T14:36:17.233] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T14:36:17.498] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T14:36:17.625] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-10T14:38:33.339] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-10T14:38:33.467] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-10T14:38:33.584] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-11T18:35:07.798] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-11T18:35:08.359] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-11T18:35:08.644] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-11T19:00:19.560] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-11T19:00:19.668] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-11T19:00:20.370] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-11T19:03:52.569] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-11T19:03:52.821] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-11T19:03:53.435] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-11T19:06:04.324] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-11T19:06:04.545] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-11T19:06:05.320] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-02-11T19:15:25.401] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-02-11T19:15:25.476] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-02-11T19:15:25.563] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-08T15:26:54.035] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-08T15:26:54.413] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-08T15:26:54.599] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-08T15:28:08.877] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-08T15:28:08.973] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-08T15:28:09.490] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-20T23:09:48.325] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-20T23:09:48.745] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-20T23:09:49.091] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-22T12:30:00.581] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-22T12:30:01.165] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-22T12:30:01.349] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-22T12:32:12.490] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-22T12:32:12.735] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-22T12:32:13.462] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-22T13:26:39.724] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-22T13:26:39.775] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-22T13:26:39.834] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-23T13:31:25.868] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-23T13:31:26.230] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-23T13:31:26.558] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-23T15:36:10.691] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-23T15:36:10.781] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-23T15:36:10.887] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-23T15:39:02.745] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-23T15:39:02.852] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-23T15:39:03.037] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-23T17:22:50.260] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-23T17:22:50.434] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-23T17:22:51.041] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-23T17:28:23.999] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-23T17:28:24.085] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-23T17:28:24.687] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-23T17:30:21.834] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-23T17:30:21.936] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-23T17:30:22.410] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-24T11:23:53.374] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-24T11:23:53.695] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-24T11:23:53.824] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T01:51:52.250] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T01:51:52.291] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T01:51:52.360] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T02:08:04.329] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T02:08:04.417] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T02:08:05.014] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T02:25:18.836] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T02:25:18.904] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T02:25:18.976] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T02:27:04.407] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T02:27:04.465] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T02:27:04.873] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T15:17:28.961] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T15:17:29.032] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T15:17:29.127] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T15:24:45.638] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T15:24:46.034] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T15:24:46.532] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T15:30:29.726] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T15:30:29.881] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T15:30:29.990] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T15:35:34.412] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T15:35:34.463] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T15:35:34.534] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T15:48:32.106] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T15:48:32.351] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T15:48:32.960] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T17:18:04.960] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T17:18:05.106] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T17:18:05.253] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-27T17:55:59.398] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-27T17:55:59.651] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-27T17:56:00.527] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-28T13:40:39.784] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-28T13:40:40.310] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-28T13:40:40.760] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-28T13:43:56.409] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-28T13:43:56.534] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-28T13:43:56.656] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-28T17:14:47.362] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-28T17:14:47.493] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-28T17:14:47.642] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-03-28T17:18:11.861] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-03-28T17:18:11.948] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-03-28T17:18:12.062] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-09T12:09:56.730] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-09T12:09:56.787] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-09T12:09:56.883] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-09T12:25:45.562] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-09T12:25:45.635] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-09T12:25:45.714] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-11T17:21:49.256] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-11T17:21:49.403] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-11T17:21:49.583] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-11T17:29:43.217] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-11T17:29:43.492] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-11T17:29:43.604] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-11T17:31:51.909] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-11T17:31:52.030] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-11T17:31:52.133] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-11T17:37:44.700] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-11T17:37:44.781] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-11T17:37:44.860] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-11T17:49:06.274] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-11T17:49:06.361] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-11T17:49:06.468] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-11T17:50:38.988] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-11T17:50:39.299] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-11T17:50:39.437] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-11T17:55:18.455] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-11T17:55:18.581] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-11T17:55:18.749] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-13T14:55:04.474] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-13T14:55:05.202] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-13T14:55:05.380] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-13T14:59:22.374] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-13T14:59:22.499] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-13T14:59:22.591] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-04-13T15:02:28.060] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-04-13T15:02:28.177] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-04-13T15:02:28.285] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T14:17:43.268] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T14:17:44.049] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T14:17:44.177] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T14:23:19.926] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T14:23:20.023] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T14:23:20.133] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T14:24:51.581] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T14:24:51.820] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T14:24:52.627] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T15:13:12.655] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T15:13:12.762] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T15:13:12.996] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T15:45:38.020] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T15:45:38.264] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T15:45:38.402] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T15:50:28.138] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T15:50:28.271] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T15:50:28.390] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T15:52:53.544] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T15:52:53.809] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T15:52:54.727] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-02T15:56:24.992] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-02T15:56:25.119] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-02T15:56:25.216] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-25T11:52:52.488] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-25T11:52:52.723] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-25T11:52:53.264] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-25T12:23:38.545] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-25T12:23:38.687] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-25T12:23:39.184] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-25T12:33:09.468] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-25T12:33:09.534] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-25T12:33:10.213] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-25T12:38:07.134] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-25T12:38:07.255] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-25T12:38:07.786] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-29T11:44:09.119] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-29T11:44:11.547] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-29T11:44:13.764] [WARN] logger - slots777-server-1 slots777 配服务器启动之后
+[2023-05-30T11:38:34.806] [WARN] logger - mysql | 服务 slots777-server-1 | 创建连接池 | 成功
+[2023-05-30T11:38:34.995] [WARN] logger - 重置当前服务器人数 slots777-server-1
+[2023-05-30T11:38:35.107] [WARN] logger - slots777-server-1 slots777 配服务器启动之后

@@ -1,0 +1,29 @@
+[{
+        "nid": "84",
+        "id": 0,
+        "name": "初级场",
+        "lowBet": 100,
+        "entryCond": 8000
+    },
+    {
+        "nid": "84",
+        "id": 1,
+        "name": "中级场",
+        "lowBet": 200,
+        "entryCond": 16000
+    },
+    {
+        "nid": "84",
+        "id": 2,
+        "name": "高级场",
+        "lowBet": 300,
+        "entryCond": 24000
+    },
+    {
+        "nid": "84",
+        "id": 3,
+        "name": "至尊场",
+        "lowBet": 400,
+        "entryCond": 32000
+    }
+]
