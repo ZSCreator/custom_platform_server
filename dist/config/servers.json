@@ -14,7 +14,7 @@
         "id": "connector-server-1",
         "host": "127.0.0.1",
         "port": 3250,
-        "clientHost": "server.2aa2.vip/ws",
+        "clientHost": "https://server.2aa2.vip/ws",
         "clientPort": 3200,
         "frontend": true,
         "auto-restart": true,
