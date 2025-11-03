@@ -11,7 +11,7 @@ const Logger = getLogger('server_out', __filename);
  * 1.若无多台 connector，均经同一台 connector；
  * 2.若有多台 connector，第一台供真实玩家使用，其他的供机器人使用
  * */
-export async function dispatchConnectorByStatistics(uid : string ,serverType: string = 'connector' , isRobot: boolean = false,) {
+export async function dispatchConnectorByStatistics(uid: string, serverType: string = 'connector', isRobot: boolean = false,) {
     const servers = pinus.app.getServersByType(serverType);
     if (!servers || !servers.length) {
         return;
@@ -52,7 +52,8 @@ function getHostAndPort(connector: any, playerRobot = true) {
     if (!connector) {
         return;
     }
-    const hostAndPort: { host: string, port: number } = { host: connector.clientHost, port: connector.clientPort };
+    // const hostAndPort: { host: string, port: number } = { host: connector.clientHost, port: connector.clientPort };
+    const hostAndPort: { host: string, port: number | undefined } = { host: connector.clientHost, port: undefined };
     // 不是机器人
     if (playerRobot) {
         hostAndPort.host = connector.localHost || connector.clientHost;
