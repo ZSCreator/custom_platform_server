@@ -34,7 +34,7 @@ class qznnRoom extends SystemRoom_1.SystemRoom {
         this.theCards = [];
         this.zipResult = '';
         this.Logger = (0, pinus_logger_1.getLogger)('server_out', __filename);
-        this.players = new Array(4).fill(null);
+        this.players = new Array(6).fill(null);
         this.zhuangInfo = null;
         this.lowBet = opts.lowBet;
         this.entryCond = opts.entryCond;

@@ -300,7 +300,7 @@
     "whetherToShowScene": true,
     "whetherToShowRoom": false,
     "whetherToShowGamingInfo": false,
-    "roomUserLimit": 4,
+    "roomUserLimit": 6,
     "opened": true,
     "roomCount": 5
   },

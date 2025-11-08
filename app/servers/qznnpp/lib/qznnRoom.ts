@@ -63,7 +63,7 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
     Logger = getLogger('server_out', __filename);
     constructor(opts: any) {
         super(opts);
-        this.players = new Array(4).fill(null);// 玩家列表
+        this.players = new Array(6).fill(null);// 玩家列表
 
         this.zhuangInfo = null;// 庄信息
         this.lowBet = opts.lowBet;//最低下注
