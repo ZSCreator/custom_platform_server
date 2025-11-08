@@ -18,7 +18,7 @@ const Logger = getLogger('server_out', __filename);
 
 
 /**等待准备时间 */
-const WAIT_TIME = 3000;
+const WAIT_TIME = 2000;
 /**发话时间 */
 const FAHUA_TIME = 14000;
 

@@ -16,7 +16,7 @@ import utils = require('../../../utils/index');
 import GoldenFlowerConst = require('./GoldenFlowerConst');
 import roomManager, { GRoomManger } from '../lib/GoldenFlowerMgr';
 /**等待准备时间 */
-const WAIT_TIME = 5000;
+const WAIT_TIME = 2000;
 /**发话时间 */
 const FAHUA_TIME = 15000;
 /**看牌重置发话时间 */

@@ -14,7 +14,7 @@ const MessageService = require("../../../services/MessageService");
 const utils = require("../../../utils/index");
 const GoldenFlowerConst = require("./GoldenFlowerConst");
 const GoldenFlowerMgr_1 = require("../lib/GoldenFlowerMgr");
-const WAIT_TIME = 5000;
+const WAIT_TIME = 2000;
 const FAHUA_TIME = 15000;
 const KANPAI_TIME = 8000;
 class jhRoom extends SystemRoom_1.SystemRoom {

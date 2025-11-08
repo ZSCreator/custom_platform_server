@@ -15,7 +15,7 @@ const dzpipeiConst = require("./DZpipeiConst");
 const MessageService = require("../../../services/MessageService");
 const dzRoomMgr_1 = require("../lib/dzRoomMgr");
 const Logger = (0, pinus_logger_1.getLogger)('server_out', __filename);
-const WAIT_TIME = 3000;
+const WAIT_TIME = 2000;
 const FAHUA_TIME = 14000;
 class dzRoom extends SystemRoom_1.SystemRoom {
     constructor(opts) {
