@@ -41,8 +41,9 @@ export class mainHandler {
             if (err) {
                 return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
             }
+
+            /**玩家状态为NONE 通知其他玩家有人加入房间 */
             if (playerInfo.status === 'NONE') {
-                playerInfo.status = `WAIT`;
                 // 通知其他玩家有人加入房间(不是掉线玩家进入游戏才调用)
                 roomInfo.channelIsPlayer('ZJH_onEntry', {
                     roomId: roomInfo.roomId,
@@ -56,6 +57,7 @@ export class mainHandler {
             if (roomInfo.status == `NONE` || roomInfo.status == `INWAIT`) {
                 roomInfo.wait(playerInfo);
             }
+
             //返回给客户端
             const opts = {
                 code: 200,
@@ -409,6 +411,7 @@ export class mainHandler {
             return { code: 500, msg: error };
         }
     }
+
     /**测试用 */
     async test(msg: { cards1: number[], cards2: number[] }, session: BackendSession) {
         try {
@@ -425,6 +428,29 @@ export class mainHandler {
         } catch (error) {
             this.logger.error(`GoldenFlower.mainHandler.getInning: ${error}`);
             return { code: 500, msg: error };
+        }
+    }
+
+    /**
+   * 玩家准备
+   *@route GoldenFlower.mainHandler.ready
+   */
+    async ready({ option }: { option: boolean }, session: BackendSession) {
+        const { uid, roomId, sceneId, language } = sessionService.sessionInfo(session);
+        const { err, playerInfo, roomInfo } = check(sceneId, roomId, uid);
+        try {
+            if (err) {
+                this.logger.warn(`GoldenFlower.mainHandler.ready==>err:${err}`);
+                return { code: 501, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_2003) };
+            }
+
+            // 玩家准备
+            roomInfo.ready(playerInfo, option);
+
+            return { code: 200 };
+        } catch (error) {
+            this.logger.warn('GoldenFlower.mainHandler.ready==>', error);
+            return { code: 500, msg: langsrv.getlanguage(language, langsrv.Net_Message.id_1214) };
         }
     }
 }

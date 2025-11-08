@@ -9,12 +9,27 @@ import * as GoldenFlower_logic from './GoldenFlower_logic';
 import MessageService = require('../../../services/MessageService');
 import jhRoom from './jhRoom'
 import createPlayerRecordService, { RecordGeneralManager } from '../../../common/dao/RecordGeneralManager';
+
+/**玩家状态 */
+export enum PlayerStatus {
+    NONE = 'NONE',
+    WAIT = 'WAIT',
+    GAME = 'GAME',
+    READY = 'READY'
+}
+
+/**操作状态 */
+export enum PlayerState {
+    PS_NONE = 'PS_NONE',
+    PS_OPER = 'PS_OPER',
+}
+
 /**一个玩家 */
 export default class jhPlayer extends PlayerInfo {
     seat: number;
-    status: 'NONE' | 'WAIT' | 'GAME' | 'READY' = 'NONE';
+    status: PlayerStatus = PlayerStatus.NONE;
     /**操作状态 */
-    state: "PS_NONE" | "PS_OPER" = "PS_NONE"
+    state: PlayerState = PlayerState.PS_NONE;
     /**手牌 */
     cards: number[] = null;
     /**牌型 */
@@ -57,7 +72,7 @@ export default class jhPlayer extends PlayerInfo {
 
     /**初始游戏信息 */
     initGame(roomInfo: jhRoom, cards: number[], cardType: number, betNum: number) {
-        this.status = 'GAME';
+        this.setStatus(PlayerStatus.GAME);
         this.cards = cards;
         this.cards.sort((a, b) => {
             if (a % 13 === 0) return 0;
@@ -183,8 +198,8 @@ export default class jhPlayer extends PlayerInfo {
         if (roomInfo.curr_doing_seat == this.seat && this.status == "GAME") {
             flage = true;
         }
-        this.status = 'WAIT';
-        this.state = "PS_NONE";
+        this.setStatus(PlayerStatus.WAIT);
+        this.setState(PlayerState.PS_NONE);
         this.settlement(roomInfo);
         this.holdStatus = 2;// 标记弃牌
         roomInfo.record_history.oper.push({ uid: this.uid, oper_type: "fold", update_time: utils.cDate(), msg: "" });
@@ -226,7 +241,7 @@ export default class jhPlayer extends PlayerInfo {
     handler_cingl(roomInfo: jhRoom, betNum: number) {
         // 先关闭定时
         clearTimeout(roomInfo.Oper_timeout);
-        this.state = "PS_NONE";
+        this.setState(PlayerState.PS_NONE);
         this.totalBet += betNum;
         this.gold -= betNum;
         roomInfo.addSumBet(this, betNum, "cingl");
@@ -251,7 +266,7 @@ export default class jhPlayer extends PlayerInfo {
     handler_filling(roomInfo: jhRoom, betNum: number, num: number) {
         // 先关闭定时
         clearTimeout(roomInfo.Oper_timeout);
-        this.state = "PS_NONE";
+        this.setState(PlayerState.PS_NONE);
         this.totalBet += betNum;
         this.gold -= betNum;
         // 提升下注额度
@@ -273,7 +288,7 @@ export default class jhPlayer extends PlayerInfo {
     /**孤注一掷 */
     async handler_Allfighting(roomInfo: jhRoom) {
         clearTimeout(roomInfo.Oper_timeout);
-        this.state = "PS_NONE";
+        this.setState(PlayerState.PS_NONE);
         let curr_bet = this.gold;
         this.totalBet += curr_bet;
         this.gold -= curr_bet;
@@ -301,7 +316,7 @@ export default class jhPlayer extends PlayerInfo {
         });
         if (!flag) {
             // 先将失败者 弃牌
-            this.status = 'WAIT';
+            this.setStatus(PlayerStatus.WAIT);
             this.holdStatus = 3;// 标记比牌失败
             // 如果是庄要让给上一个玩家
             (roomInfo.zhuang_seat == this.seat) && roomInfo.resetZhuang();
@@ -319,7 +334,7 @@ export default class jhPlayer extends PlayerInfo {
                     // roomInfo.currSumBet -= diff;
                     roomInfo.addSumBet(pl, -diff, "allin");
                 }
-                pl.status = 'WAIT';
+                pl.setStatus(PlayerStatus.WAIT);
                 pl.holdStatus = 3;// 标记比牌失败
                 //添加实况记录
                 pl.settlement(roomInfo);
@@ -329,5 +344,15 @@ export default class jhPlayer extends PlayerInfo {
         await utils.delay(1500);
         roomInfo.checkHasNextPlayer(this.seat);
         return flag;
+    }
+
+    /**设置玩家状态 */
+    setStatus(status: PlayerStatus) {
+        this.status = status;
+    }
+
+    /**设置玩家操作状态 */
+    setState(state: PlayerState) {
+        this.state = state;
     }
 }

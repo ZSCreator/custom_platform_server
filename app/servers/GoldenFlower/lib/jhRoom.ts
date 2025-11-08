@@ -2,7 +2,7 @@
 
 import { pinus } from 'pinus';
 import * as GoldenFlower_logic from './GoldenFlower_logic';
-import jhPlayer from './jhPlayer';
+import jhPlayer, { PlayerStatus, PlayerState } from './jhPlayer';
 import { SystemRoom } from '../../../common/pojo/entity/SystemRoom';
 import { getLogger } from "pinus-logger";
 import ControlImpl from "./ControlImpl";
@@ -131,7 +131,7 @@ export default class jhRoom extends SystemRoom<jhPlayer> {
         this._players = this.players.slice();
         // 添加到消息通道
         this.addMessage(dbplayer);
-        this.wait();
+        // this.wait();
         //踢掉离线玩家
         return true;
     }
@@ -180,7 +180,8 @@ export default class jhRoom extends SystemRoom<jhPlayer> {
     // 等待玩家准备
     wait(playerInfo?: jhPlayer) {
         if (this.status != 'INWAIT') return;
-        // 如果只剩一个人的时候或者没有人了 就直接关闭房间
+
+        // 如果只有一个人 或者没有人继续等待
         if (this.players.filter(pl => pl).length <= 1) {
             this.channelIsPlayer('ZJH_onWait', { waitTime: 0 });
             return;
@@ -191,20 +192,42 @@ export default class jhRoom extends SystemRoom<jhPlayer> {
         clearTimeout(this.waitTimer);
         this.waitTimer = setTimeout(() => {
             // 人数超过2个就强行开始
-            const list = this.players.filter(pl => pl);
+            const list = this.players.filter(pl => pl && pl.status == PlayerStatus.WAIT);
             if (list.length >= 2) {
                 this.handler_start(list);
-            } else {// 否则就关闭房间 因为当玩家进来的时候会再次检查
-                this.channelIsPlayer('ZJH_onWait', { waitTime: 0 });// 通知还在的人不要准备了 等待其他人来
+            } else {// 否则就通知前端准备了 等待其他人来
+                this.channelIsPlayer('ZJH_onWait', { waitTime: 0 });
             }
         }, WAIT_TIME);
+    }
+
+    /** 
+     * 玩家准备
+     */
+    ready(playerInfo: jhPlayer, option: boolean) {
+        if (option) {
+            playerInfo.setStatus(PlayerStatus.WAIT);
+        } else {
+            playerInfo.setStatus(PlayerStatus.NONE);
+        }
+
+        // 通知其他人玩家准备
+        this.channelIsPlayer('ZJH_onReady', {
+            seat: playerInfo.seat,
+            uid: playerInfo.uid,
+            status: playerInfo.status,
+        });
+
+        if (option) {
+            this.wait(playerInfo);
+        }
     }
 
     /**发牌 */
     protected async handler_start(list: jhPlayer[]) {
         this.status = 'INGAME';
         this.gamePlayers = list;
-        this.gamePlayers.forEach(pl => pl.status = 'GAME');
+        this.gamePlayers.forEach(pl => pl.setStatus(PlayerStatus.GAME));
         this._players = this.players.slice();
 
         this.startTime = Date.now();
@@ -247,7 +270,7 @@ export default class jhRoom extends SystemRoom<jhPlayer> {
     protected set_next_doing_seat(doing: number) {
         const playerInfo = this._players[doing];
         this.curr_doing_seat = doing;
-        playerInfo.state = "PS_OPER";
+        playerInfo.setState(PlayerState.PS_OPER);
 
         // this.record_history.oper.push({ uid: playerInfo.uid, oper_type: `${this.roundId}|oper_s`, update_time: utils.cDate(), msg: `${playerInfo.seat}|${this.curr_doing_seat}` });
         // 记录发话时候的时间
@@ -318,7 +341,7 @@ export default class jhRoom extends SystemRoom<jhPlayer> {
         clearTimeout(this.Oper_timeout);
         Launch_pl.totalBet += num;
         Launch_pl.gold -= num;
-        Launch_pl.state = "PS_NONE";
+        Launch_pl.setState(PlayerState.PS_NONE);
         this.addSumBet(Launch_pl, num, "bipai");
         this.record_history.oper.push({ uid: Launch_pl.uid, oper_type: "bipai", update_time: utils.cDate(), msg: { Launch_pl: Launch_pl.uid, accept_pl: accept_pl.uid, num } });
         // 比牌
@@ -327,7 +350,7 @@ export default class jhRoom extends SystemRoom<jhPlayer> {
         // 失败者
         const failer = ret > 0 ? accept_pl : Launch_pl;
         // 先将失败者 弃牌
-        failer.status = 'WAIT';
+        failer.setStatus(PlayerStatus.WAIT);
         failer.holdStatus = 3;// 标记比牌失败
         // 如果是庄要让给上一个玩家
         (this.zhuang_seat == failer.seat) && this.resetZhuang();
