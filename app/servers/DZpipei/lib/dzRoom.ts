@@ -22,6 +22,12 @@ const WAIT_TIME = 2000;
 /**发话时间 */
 const FAHUA_TIME = 14000;
 
+export enum RoomStatus {
+    NONE = 'NONE',
+    INWAIT = 'INWAIT',
+    INGAME = 'INGAME',
+    END = 'END'
+}
 
 
 /**
@@ -32,7 +38,7 @@ const FAHUA_TIME = 14000;
  */
 export default class dzRoom extends SystemRoom<dzPlayer> {
     /**房间状态 */
-    status: 'NONE' | 'INWAIT' | 'INGAME' | 'END' = 'NONE';
+    status: RoomStatus = RoomStatus.NONE;
     isquanxia: boolean = false;
     /**桌面公共牌 递增的*/
     publicCards: number[] = [];
@@ -135,7 +141,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
     Initialization() {
         //踢掉离线玩家
         this.battle_kickNoOnline();
-        this.status = 'INWAIT';// 等待玩家准备
+        this.setStatus(RoomStatus.INWAIT);
         this.default = '';
         this.publicCard = [];
         this.publicCardToSort = [];
@@ -146,8 +152,8 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         this.lastBetNum = 0;// 最后一个下注额度
         this.currWaitTime = 0;
         this.publicCards.length = 0;
-        this.gamePlayers = [];
-        this._players = [];
+        // this.gamePlayers = [];
+        // this._players = [];
         this.record_history = {//一局的历史记录
             lowbet: [],
             blindBet: [],//盲注
@@ -217,7 +223,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
             return;
         }
         this.players[playerInfo.seat] = null;
-        if (this.status == "INWAIT") {
+        if (this.status == RoomStatus.INWAIT) {
             this._players = this.players.slice();
             // 通知其他玩家有人退出
             this.noticeExit(playerInfo.uid, playerInfo.seat, msg);
@@ -227,9 +233,9 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
     }
     /**获取等待状态的时间 */
     getWaitTime() {
-        if (this.status == 'INWAIT')
+        if (this.status == RoomStatus.INWAIT)
             return Math.max(WAIT_TIME - (Date.now() - this.currWaitTime), 0);
-        if (this.status == 'INGAME')
+        if (this.status == RoomStatus.INGAME)
             return Math.max(FAHUA_TIME - (Date.now() - this.lastFahuaTime), 0);
         return 0;
     }
@@ -245,7 +251,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
                 break;
             }
             let pl = this._players[next];
-            if (pl && pl.status == 'GAME' && pl.canUserGold() > 0 && !pl.isFold) {
+            if (pl && pl.status == PlayerStatus.GAME && pl.canUserGold() > 0 && !pl.isFold) {
                 break;
             }
             next++;
@@ -256,7 +262,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
     /**刷新小盲位置 */
     updateMinBlind() {
         const playerInfo = this._players[this.minBlindIdx];
-        if (!playerInfo || playerInfo.status != 'GAME' || playerInfo.isFold || playerInfo.canUserGold() == 0) {
+        if (!playerInfo || playerInfo.status != PlayerStatus.GAME || playerInfo.isFold || playerInfo.canUserGold() == 0) {
             this.minBlindIdx = this.nextIdx(this.minBlindIdx);
         }
     }
@@ -285,7 +291,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
 
     /**等待玩家准备 */
     async wait(playerInfo?: dzPlayer) {
-        if (this.status != 'NONE' && this.status != 'INWAIT') {
+        if (this.status != RoomStatus.NONE && this.status != RoomStatus.INWAIT) {
             return;
         }
         // 如果只剩一个人的时候或者没有人了 就直接关闭房间
@@ -320,7 +326,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
 
     /**发牌 */
     async handler_start(list: dzPlayer[]) {
-        this.status = 'INGAME';
+        this.setStatus(RoomStatus.INGAME);
         this.startTime = Date.now();
         this.gamePlayers = list;
         // 设置玩家状态为游戏状态
@@ -340,7 +346,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         this.partPool();
         this.lastBetNum = 0;
         // 获取庄
-        this.zhuang_seat = this._players.findIndex(pl => pl && pl.status == 'GAME');
+        this.zhuang_seat = this._players.findIndex(pl => pl && pl.status == PlayerStatus.GAME);
 
         /**庄的下一个玩家为小盲 (只有两个玩家的时候 庄就是小盲) */
         this.minBlindIdx = list.length == 2 ? this.zhuang_seat : this.nextIdx(this.zhuang_seat);
@@ -464,7 +470,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
             const publicCards = temp.splice(0, 5 - this.publicCards.length);
             publicCards.push(...this.publicCards);
             total_num++;
-            const list = this._players.filter(pl => pl && !pl.isFold && pl.status == 'GAME');
+            const list = this._players.filter(pl => pl && !pl.isFold && pl.status == PlayerStatus.GAME);
             const aipoke = list.map(c => {
                 return {
                     uid: c.uid,
@@ -524,7 +530,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
 
     /**这里判断大家下注是否全部一样  如果一样就进行下一轮 */
     nextStatus(playerInfo: dzPlayer) {
-        const list = this._players.filter(pl => pl && !pl.isFold && pl.status == 'GAME');
+        const list = this._players.filter(pl => pl && !pl.isFold && pl.status == PlayerStatus.GAME);
         const isPoker = list.every(pl => pl.canDeal(this.lastBetNum));//每个人下注
         // 如果都全下了 那么就直接发完 然后结算
         if (isPoker && list.filter(pl => pl.canUserGold() > 0).length <= 1) {
@@ -608,7 +614,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
 
     /**结算 */
     async settlement() {
-        let list = this._players.filter(pl => pl && pl.status == 'GAME' && !pl.isFold);
+        let list = this._players.filter(pl => pl && pl.status == PlayerStatus.GAME && !pl.isFold);
 
         await utils.delay(1000);
         this.countAlikePoker();//计算玩家大小
@@ -631,7 +637,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
             list: results,
         }
         this.channelIsPlayer('dz_onSettlement', opts);
-        this.status = 'END';
+        this.setStatus(RoomStatus.END);
         if (this._players.some(pl => pl && pl.isOnLine == true)) {
             await utils.delay(30 * 1000);
         }
@@ -821,7 +827,7 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
     /**服务器关闭通知 */
     serverNotice() {
         //如果房间处于关闭中
-        if (this.status == 'NONE') {
+        if (this.status == RoomStatus.NONE) {
             Logger.info(`服务器即将维护，踢掉玩家`);
         }
     }
@@ -876,10 +882,10 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
      * 机器人所需的游戏信息
      */
     stripRobotNeed() {
-        if (this.status !== 'INGAME') {
+        if (this.status !== RoomStatus.INGAME) {
             return [];
         }
-        const inGamePlayers = this._players.filter(m => m && m.status == 'GAME');
+        const inGamePlayers = this._players.filter(m => m && m.status == PlayerStatus.GAME);
         return inGamePlayers.map(m => m && m.stripRobotNeed());
     }
 
@@ -1087,6 +1093,11 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
     getDescSortAllPlayer() {
         return this.descSortAllPlayer;
     };
+
+    /**设置房间状态 */
+    setStatus(status: RoomStatus) {
+        this.status = status;
+    }
 }
 
 
