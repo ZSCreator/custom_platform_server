@@ -1,11 +1,11 @@
 import { Application, BackendSession, pinus } from 'pinus';
-import gutils = require('../../../domain/games/util');
 import qznnMgr from '../lib/qznnMgr';
 import sessionService = require('../../../services/sessionService');
 import { getLogger } from "pinus";
 const qznnErrorLogger = getLogger('server_out', __filename);
 import langsrv = require('../../../services/common/langsrv');
 import qznnConst = require('../lib/qznnConst');
+import { PlayerStatus } from '../lib/qznnPlayer';
 
 export default function (app: Application) {
   return new MainHandler(app);
@@ -30,7 +30,7 @@ export class MainHandler {
       }
 
       if (playerInfo.status === 'NONE') {
-        playerInfo.status = 'WAIT';
+        playerInfo.setStatus(PlayerStatus.WAIT);
         setTimeout(() => {
           roomInfo.channelIsPlayer('qz_onEntry', {
             player: playerInfo.strip(),

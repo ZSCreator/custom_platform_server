@@ -1,5 +1,5 @@
 import { pinus } from 'pinus';
-import qznnPlayer from './qznnPlayer';
+import qznnPlayer, { PlayerStatus } from './qznnPlayer';
 import { SystemRoom } from '../../../common/pojo/entity/SystemRoom';
 import { PersonalControlPlayer } from "../../../services/newControl";
 import ControlImpl from "./ControlImpl";
@@ -26,6 +26,15 @@ enum STATUS {
     AWITTIMER = 5000
 };
 
+export enum RoomStatus {
+    NONE = 'NONE',
+    INWAIT = 'INWAIT',
+    ROBZHUANG = 'ROBZHUANG',
+    READYBET = 'READYBET',
+    LOOK = 'LOOK',
+    SETTLEMENT = 'SETTLEMENT'
+}
+
 /**
  * 牛牛房间
  * @property startTime 回合开始时间
@@ -34,7 +43,7 @@ enum STATUS {
  */
 export default class qznnRoom extends SystemRoom<qznnPlayer> {
     /**ROBZHUANG.抢庄 READYBET.下注 LOOK.查看手牌 SETTLEMENT.结算 */
-    status: 'NONE' | 'INWAIT' | 'ROBZHUANG' | 'READYBET' | 'LOOK' | 'SETTLEMENT' = 'INWAIT';
+    status: RoomStatus = RoomStatus.INWAIT;
     /**抢庄列表 */
     robzhuangs: { uid: string, mul: number }[] = [];
     /**庄信息 */
@@ -90,7 +99,7 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
 
 
         this.updateRoundId();
-        this.status = 'INWAIT';
+        this.setStatus(RoomStatus.INWAIT);
     }
 
     /**添加玩家 */
@@ -141,7 +150,7 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
 
     //开始准备倒计时
     async wait(playerInfo?: qznnPlayer) {
-        if (this.status == 'NONE' || this.status == 'INWAIT') {
+        if (this.status == RoomStatus.NONE || this.status == RoomStatus.INWAIT) {
             // 如果只剩一个人的时候或者没有人了 就直接关闭房间
             if (this.players.filter(pl => pl).length <= 1) {
                 this.channelIsPlayer(`qz_onWait`, { waitTime: 0, roomId: this.roomId });
@@ -161,8 +170,8 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
             clearTimeout(this.waitTimer);
             this.waitTimer = setTimeout(async () => {
                 // 人数超过2个就强行开始
-                const list = this.players.filter(pl => pl);
-                if (list.length == 4) {
+                const list = this.players.filter(pl => pl && pl.status == PlayerStatus.WAIT);
+                if (list.length == 3) {
                     this.handler_start();
                 } else {
                     //再次通知前端准备
@@ -174,9 +183,9 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
 
     /**运行游戏 */
     handler_start() {
-        this.status = 'ROBZHUANG';
+        this.setStatus(RoomStatus.ROBZHUANG);
         this.startTime = Date.now();
-        this.players.forEach(pl => pl && (pl.status = "GAME"));
+        this.players.forEach(pl => pl && (pl.setStatus(PlayerStatus.GAME)));
         this._cur_players = this.players.filter(pl => pl);
         // this.Logger.debug('抢庄牛牛开始运行', this.roomId);
         let lookPlayer = this.players.filter(pl => pl && pl.status != 'GAME').map(pl => {
@@ -200,7 +209,7 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
 
     /**明牌抢庄   发牌 - 抢庄 */
     async handler_robzhuang_fn() {
-        this.status = 'ROBZHUANG';
+        this.setStatus(RoomStatus.ROBZHUANG);
         this.statusTime = Date.now();
         this.robzhuangs = [];
 
@@ -226,7 +235,7 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
 
     /**准备下注   设置庄 - 下注 */
     handler_readybet() {
-        this.status = 'READYBET';
+        this.setStatus(RoomStatus.READYBET);
         this.statusTime = Date.now();
         clearTimeout(this.Oper_timeout);
         this.robzhuangs = this.robzhuangs.sort((a, b) => b.mul - a.mul);
@@ -268,7 +277,7 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
         // 发牌
         await this.controlLogic.runControl();
 
-        this.status = 'LOOK';
+        this.setStatus(RoomStatus.LOOK);
         this.statusTime = Date.now();
         this.channelIsPlayer('qznnpp_note_LOOK', {
             status: this.status,
@@ -293,7 +302,7 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
     /**结算 */
     async handler_settlement() {
         this.endTime = Date.now();
-        this.status = 'SETTLEMENT';
+        this.setStatus(RoomStatus.SETTLEMENT);
         this.statusTime = Date.now();
         clearInterval(this.Oper_timeout);
 
@@ -583,5 +592,9 @@ export default class qznnRoom extends SystemRoom<qznnPlayer> {
         }
         // 剩余的玩家随机发牌
         gamePlayers.sort((a, b) => Math.random() - 0.5).forEach(player => this.setPlayerCards(player, allResult.shift()));
+    }
+
+    setStatus(status: RoomStatus) {
+        this.status = status;
     }
 }

@@ -3,13 +3,22 @@ import utils = require('../../../utils/index');
 import createPlayerRecordService from '../../../common/dao/RecordGeneralManager';
 import qznn_logic = require("./qznn_logic");
 import qznnRoom from "./qznnRoom";
+
+/**玩家状态 */
+export enum PlayerStatus {
+    NONE = 'NONE',
+    WAIT = 'WAIT',
+    READY = 'READY',
+    GAME = 'GAME'
+}
+
 /**
  * 抢庄牛牛 玩家
  */
 export default class qznnPlayer extends PlayerInfo {
     seat: number;
     /**WAIT.等待 READY.准备 GAME.游戏中 */
-    status: 'NONE' | 'WAIT' | 'READY' | 'GAME' = 'NONE';
+    status: PlayerStatus = PlayerStatus.NONE;
     cards: number[] = [];
     /**牌型 count 0表示无牛 cows 3个满足10的*/
     cardType: { count: qznn_logic.CardsType, cows: number[] };
@@ -46,7 +55,7 @@ export default class qznnPlayer extends PlayerInfo {
 
     /**初始 */
     initGame() {
-        this.status = `WAIT`;
+        this.setStatus(PlayerStatus.WAIT);
         this.cards = [];
         this.betNum = 0;
         this.isLiangpai = false;// 是否亮牌
@@ -224,6 +233,11 @@ export default class qznnPlayer extends PlayerInfo {
         if (roomInfo._cur_players.every(m => m.isLiangpai)) {
             roomInfo.handler_settlement();
         }
+    }
+
+    /**设置玩家状态 */
+    setStatus(status: PlayerStatus) {
+        this.status = status;
     }
 }
 
