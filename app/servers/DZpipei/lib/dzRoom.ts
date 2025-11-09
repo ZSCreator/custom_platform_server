@@ -638,9 +638,9 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         }
         this.channelIsPlayer('dz_onSettlement', opts);
         this.setStatus(RoomStatus.END);
-        if (this._players.some(pl => pl && pl.isOnLine == true)) {
-            await utils.delay(30 * 1000);
-        }
+        // if (this._players.some(pl => pl && pl.isOnLine == true)) {
+        //     await utils.delay(30 * 1000);
+        // }
         this.Initialization();
     }
 
@@ -670,12 +670,12 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
             if (!pl) continue;
             // 不在线移除玩家 在线则不移除 因为还在这个场中
             if (!pl.onLine) roomManager.removePlayer(pl);
-            this.exit(pl, false);
-            offLinePlayers.push(pl);
+            // this.exit(pl, false);
+            // offLinePlayers.push(pl);
 
         }
         //更新数据（前端需要切换场景）
-        this.kickingPlayer(pinus.app.getServerId(), offLinePlayers);
+        // this.kickingPlayer(pinus.app.getServerId(), offLinePlayers);
     }
 
     /**通知有玩家离开 */
