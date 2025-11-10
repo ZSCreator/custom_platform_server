@@ -18,7 +18,7 @@ const Logger = getLogger('server_out', __filename);
 
 
 /**等待准备时间 */
-const WAIT_TIME = 2000;
+const WAIT_TIME = 5000;
 /**发话时间 */
 const FAHUA_TIME = 14000;
 
@@ -294,29 +294,21 @@ export default class dzRoom extends SystemRoom<dzPlayer> {
         if (this.status != RoomStatus.NONE && this.status != RoomStatus.INWAIT) {
             return;
         }
-        // 如果只剩一个人的时候或者没有人了 就直接关闭房间
-        // if (this._players.filter(pl => pl && pl.canUserGold() >= this.canCarryGold[0]).length <= 1) {
-        //     this.channelIsPlayer(`dz_onWait`, { waitTime: 0, roomId: this.roomId });
-        //     return;
-        // }
-        // 通知 所有人开始准备
-        // if (Date.now() - this.currWaitTime < WAIT_TIME) {//5s内就不重复通知玩家
-        //     const member = playerInfo && this.channel.getMember(playerInfo.uid);
-        //     if (member) {
-        //         let waitTime = Math.max(WAIT_TIME - (Date.now() - this.currWaitTime), 0);
-        //         MessageService.pushMessageByUids(`dz_onWait`, { waitTime }, member);
-        //     }
-        //     return;
-        // }
+
+        // 如果只有一个人准备则不通知
+        const waitingPlayer = this._players.filter(pl => pl && pl.status == PlayerStatus.WAIT);
+        if (waitingPlayer.length <= 1) {
+            return;
+        }
+
         this.currWaitTime = Date.now();
         this.channelIsPlayer('dz_onWait', { waitTime: WAIT_TIME, roomId: this.roomId });
 
         clearTimeout(this.waitTimeout);
         this.waitTimeout = setTimeout(() => {
             // 人数超过2个就强行开始 且都准备了就强行开始
-            const list = this._players.filter(pl => pl && pl.canUserGold() >= this.canCarryGold[0] && pl.status == PlayerStatus.WAIT);
-            if (list.length >= 2) {
-                this.handler_start(list);
+            if (waitingPlayer.length >= 2) {
+                this.handler_start(waitingPlayer);
             } else {
                 //再次通知前端准备
                 this.channelIsPlayer('dz_onWait', { waitTime: 0, roomId: this.roomId });
