@@ -2,73 +2,61 @@
     {
         "nid": "40",
         "id": 0,
-        "name": "(前注场)0.5/1盲注",
-        "canCarryGold": [2000, 20000],
-        "blindBet": [50, 100],
-        "ante":500,
+        "name": "(前注场)50/100盲注",
+        "canCarryGold": [
+            2000,
+            20000
+        ],
+        "blindBet": [
+            50,
+            100
+        ],
+        "ante": 500,
         "entryCond": 2000
     },
     {
         "nid": "40",
         "id": 1,
-        "name": "(前注场)2/4盲注",
-        "canCarryGold": [8000, 80000],
-        "blindBet": [200, 400],
-        "ante":2000,
+        "name": "(前注场)200/400盲注",
+        "canCarryGold": [
+            8000,
+            80000
+        ],
+        "blindBet": [
+            200,
+            400
+        ],
+        "ante": 2000,
         "entryCond": 8000
     },
     {
         "nid": "40",
         "id": 2,
-        "name": "(前注场)4/8盲注",
-        "canCarryGold": [16000, 160000],
-        "blindBet": [400, 800],
-        "ante":4000,
+        "name": "(前注场)400/800盲注",
+        "canCarryGold": [
+            16000,
+            160000
+        ],
+        "blindBet": [
+            400,
+            800
+        ],
+        "ante": 4000,
         "entryCond": 16000
     },
     {
         "nid": "40",
         "id": 3,
-        "name": "(前注场)10/20盲注",
-        "canCarryGold": [40000, 400000],
-        "blindBet": [1000, 2000],
-        "ante":10000,
+        "name": "(前注场)1000/2000盲注",
+        "canCarryGold": [
+            40000,
+            400000
+        ],
+        "blindBet": [
+            1000,
+            2000
+        ],
+        "ante": 10000,
         "entryCond": 40000
-    },
-    {
-        "nid": "40",
-        "id": 4,
-        "name": "(普通场)0.5/1盲注",
-        "canCarryGold": [1000, 20000],
-        "blindBet": [50, 100],
-        "ante":0,
-        "entryCond": 1000
-    },
-    {
-        "nid": "40",
-        "id": 5,
-        "name": "(普通场)2/4盲注",
-        "canCarryGold": [4000, 80000],
-        "blindBet": [200, 400],
-        "ante":0,
-        "entryCond": 4000
-    },
-    {
-        "nid": "40",
-        "id": 6,
-        "name": "(普通场)4/8盲注",
-        "canCarryGold": [8000, 160000],
-        "blindBet": [400, 800],
-        "ante":0,
-        "entryCond": 8000
-    },
-    {
-        "nid": "40",
-        "id": 7,
-        "name": "(普通场)10/20盲注",
-        "canCarryGold": [20000, 400000],
-        "blindBet": [1000, 2000],
-        "ante":0,
-        "entryCond": 20000
     }
 ]
